@@ -1,0 +1,119 @@
+name: MiCAR register scrape
+
+on:
+  schedule:
+    # Once a day at 08:00 Dutch local time (was hourly). GitHub Actions cron
+    # only understands UTC and has no timezone/DST support at all, so a
+    # single "0 8 * * *" would actually run at 08:00 UTC year-round - that's
+    # 09:00 or 10:00 local depending on the season, not 08:00.
+    #
+    # To land on 08:00 NL time (CET = UTC+1 in winter, CEST = UTC+2 in
+    # summer) regardless of season, this uses TWO schedules, each restricted
+    # to the months where its UTC offset is correct:
+    #   - Nov–Mar (CET, winter): 07:00 UTC = 08:00 CET
+    #   - Apr–Oct (CEST, summer): 06:00 UTC = 08:00 CEST
+    # EU clocks actually change on the last Sunday of March/October, not on
+    # a month boundary, so for the handful of days between that Sunday and
+    # the end of the month, one run lands at 07:00 or 09:00 local instead of
+    # 08:00 - a known, accepted approximation given cron has no other way to
+    # express "local wall-clock time" here.
+    - cron: '0 7 * 11,12,1,2,3 *'
+    - cron: '0 6 * 4,5,6,7,8,9,10 *'
+  workflow_dispatch: {}   # allows manually triggering a run from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: esma-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        id: scrape
+        run: python scraper/fetch_esma.py
+
+      - name: Commit data changes (if any)
+        # Every run rewrites each register's generated_at + meta.json's
+        # last_checked to "now" for freshness, so there's *always* something
+        # to commit here — that's expected and separate from whether ESMA's
+        # actual register content changed (see steps.scrape.outputs.real_changes
+        # below, used to gate the Slack notification).
+        run: |
+          git config user.name "esma-micar-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(data): update MiCAR register snapshot ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            # main may have moved (e.g. someone manually uploaded a file via the
+            # GitHub web UI) between checkout and this push, so rebase onto the
+            # latest remote commit first. Retry a few times in case of a race.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 5
+            done
+          fi
+
+      - name: Notify Slack on new data
+        # Only fires when fetch_esma.py found genuinely new/changed/removed
+        # records (steps.scrape.outputs.real_changes) — not on every run, and
+        # not just because generated_at/last_checked timestamps refreshed.
+        # Requires a SLACK_WEBHOOK_URL repository secret: a Slack Workflow
+        # Builder "From a webhook" trigger URL, with a single text variable
+        # named "message" feeding a "Send a message" step. See README.md for
+        # the one-time setup. Never fails the workflow if the webhook isn't
+        # configured yet or Slack is briefly unreachable.
+        if: steps.scrape.outputs.real_changes != '' && steps.scrape.outputs.real_changes != '0'
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          CHANGE_COUNT: ${{ steps.scrape.outputs.real_changes }}
+          CHANGE_SUMMARY: ${{ steps.scrape.outputs.change_summary }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL secret not set — skipping Slack notification."
+            exit 0
+          fi
+          # Slack Workflow Builder webhooks expect a JSON body matching the
+          # workflow's own input variable names — not the classic Incoming
+          # Webhook {"text": "..."} shape. This assumes a single variable
+          # called "message"; rename the key below if yours differs.
+          #
+          # $summary is NOT wrapped in a ``` code block: Slack renders code
+          # blocks as plain monospace, which would flatten the emoji-led
+          # layout. No *bold*/_italic_ markup and no <url|label> link syntax
+          # either: per Slack's own docs, only text typed directly into a
+          # Workflow Builder step (through Slack's own composer) supports
+          # rich formatting - an inserted *variable*'s value is always
+          # substituted as a literal string, with no mrkdwn interpretation
+          # applied to its content. Confirmed live: both markup styles showed
+          # up as literal characters in the delivered message.
+          #
+          # So the changelog link is deliberately NOT built here at all - the
+          # URL never changes, so it's added ONCE as a button on the "Send a
+          # message" step itself (see README.md's "Slack-meldingen" section),
+          # Workflow Builder's native way to attach a link without needing
+          # mrkdwn interpretation. This "message" variable only ever carries
+          # the dynamic emoji + summary lines.
+          PAYLOAD=$(jq -n \
+            --arg count "$CHANGE_COUNT" \
+            --arg summary "$CHANGE_SUMMARY" \
+            '{message: ("📋 MiCAR-register bijgewerkt — " + $count + " wijziging(en)\n\n" + $summary)}')
+          curl -sf -X POST -H 'Content-type: application/json' --data "$PAYLOAD" "$SLACK_WEBHOOK_URL"
