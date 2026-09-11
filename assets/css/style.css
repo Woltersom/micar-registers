@@ -1,0 +1,507 @@
+:root {
+  /* Tells the browser both schemes are supported, so native chrome (scrollbars,
+     the page's default background before CSS paints, form-control chrome) picks
+     the right one immediately instead of always defaulting to light. */
+  color-scheme: light dark;
+
+  --color-primary: #2330da;
+  --color-primary-dark: #0d2845;
+  --color-primary-light: #0086ff;
+  --color-primary-lighter: #e5f2ff;
+  --color-space-blue: #0d2845;
+
+  --color-success: #2bc080; --color-success-lighter: #e7fbf4;
+  --color-warning: #ffa800; --color-warning-lighter: #fff1d7; --color-warning-ink: #8a5a00;
+  --color-error: #ff3c25; --color-error-lighter: #ffece8;
+
+  --grey-700: #19202a; --grey-600: #37404d; --grey-500: #627185;
+  --grey-400: #92a8ba; --grey-300: #d0dbe5; --grey-100: #f6f9fc; --white: #ffffff;
+
+  --radius-sm: 4px; --radius-lg: 8px; --radius-2xl: 16px; --radius-pill: 1000px;
+  --shadow-small: 0 2px 4px 0 rgba(9,10,12,.04);
+  --shadow-medium: 0 4px 28px 0 rgba(9,10,12,.09);
+
+  --bg: #f6f9fc;
+  --surface: #ffffff;
+  --surface-2: #e5f2ff;
+  --text: #19202a;
+  --text-muted: #627185;
+  --border: #d0dbe5;
+
+  /* Brand-blue tints used for hover/focus feedback (nav link hover, search/filter
+     focus rings) - kept as variables (rather than the raw rgba() values inline)
+     so dark mode can bump their opacity for visibility against dark surfaces. */
+  --focus-ring: rgba(35,48,218,.12);
+  --nav-hover-tint: rgba(35,48,218,.08);
+
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* Dark mode - driven by a data-theme="light"/"dark" attribute on <html>, not a
+   plain @media query, so it can be a user-controlled toggle rather than being
+   locked to the OS setting. The actual light-vs-dark resolution (device
+   preference by default, saved override once the user picks one) happens in
+   JS - see the no-flash inline snippet in each page's <head> (sets the
+   attribute before first paint) and renderThemeToggle()/applyTheme() in
+   app.js (the toggle itself, and reacting live if the OS setting changes
+   while "systeem/auto" is active). This file only needs the final outcome. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-primary: #6d8cff;
+  --color-primary-dark: #dbe6ff;
+  --color-primary-light: #4fb3ff;
+  --color-primary-lighter: #16264a;
+  --color-space-blue: #eef4fa;
+
+  --color-success: #34d399; --color-success-lighter: #123626;
+  --color-warning: #ffb84d; --color-warning-lighter: #3a2a08; --color-warning-ink: #ffd699;
+  --color-error: #ff7a68; --color-error-lighter: #3a1712;
+
+  --grey-700: #eef4fa; --grey-600: #c3d2e0; --grey-500: #93a8bd;
+  --grey-400: #7d93a8; --grey-300: #3a526b; --grey-100: #16263b; --white: #f2f6fa;
+
+  --shadow-small: 0 2px 4px 0 rgba(0,0,0,.24);
+  --shadow-medium: 0 4px 28px 0 rgba(0,0,0,.45);
+
+  --bg: #0b1f33;
+  --surface: #122a44;
+  --surface-2: #1a3a5c;
+  --text: #eef4fa;
+  --text-muted: #93a8bd;
+  --border: #24435f;
+
+  --focus-ring: rgba(109,140,255,.28);
+  --nav-hover-tint: rgba(109,140,255,.16);
+}
+
+/* Explicit "light" choice needs no var overrides (the base :root above already
+   holds the light values) - just tells the browser to render native form
+   controls/scrollbars light too, even if the OS itself is set to dark. */
+:root[data-theme="light"] { color-scheme: light; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3 { color: var(--text); line-height: 1.25; margin: 0 0 8px; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
+
+/* register.html only (all 5 register types share this one template, so this
+   applies uniformly to CASPs/ART/EMT/Whitepapers/Non-compliant alike - see
+   the "wrap wrap--register" class on register.html's own .wrap div). Wider
+   than the default 1180px because a 7-column register table (CASPs/ART/EMT's
+   widest: name, LEI, country, supervisor, a 4th data column, an icon/count
+   column, status) doesn't fit at 1180px without .table-wrap's horizontal
+   scrollbar kicking in.
+   The earlier 1400px value still left a horizontal scrollbar on wide windows:
+   it was sized off the table's own ~1360px content width but forgot that
+   max-width applies to .wrap's border-box, and .wrap has 24px of padding on
+   each side (see the base .wrap rule above) plus .table-wrap's 1px border on
+   each side - so only ~1400-48-2 = 1350px was actually left for the table,
+   ~10px short of what CASPs (measured live as the widest register, 1360px of
+   real column content at time of writing) needs. 1500px leaves the table
+   ~90px of headroom inside .wrap's padded content box, comfortably covering
+   both that shortfall and future columns/longer values. Still centered via
+   the same margin: 0 auto as the base .wrap. */
+.wrap--register { max-width: 1500px; }
+
+/* Top nav */
+.topnav {
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.topnav__inner {
+  max-width: 1180px; margin: 0 auto; padding: 16px 24px;
+  display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+}
+.topnav__brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--color-space-blue); font-size: 1.125rem; }
+.topnav__brand svg { height: 22px; width: auto; }
+.topnav__links { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+.topnav__links a {
+  color: var(--grey-600); font-weight: 600; font-size: .9375rem;
+  padding: 8px 10px; border-radius: var(--radius-pill); text-decoration: none;
+}
+.topnav__links a:hover { background: var(--nav-hover-tint); }
+.topnav__links a.active { background: var(--color-primary); color: #fff; }
+
+/* Groups the NL/EN and ☀️/🌙 toggles so they always move together at the far
+   right of the nav, instead of being able to wrap apart independently (which
+   used to strand one of them alone on its own line). Side by side - language
+   toggle to the left of the theme toggle - whenever there's room; below
+   header-controls-stacked-breakpoint further down, they stack instead. */
+.header-controls { display: flex; align-items: center; gap: 6px; flex: none; }
+
+/* NL/EN language toggle, top right of the nav */
+.lang-toggle {
+  display: inline-flex; align-items: center; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-pill); padding: 3px; gap: 2px; flex: none;
+}
+.lang-toggle__btn {
+  font-family: inherit; font-size: .75rem; font-weight: 700; letter-spacing: .02em; cursor: pointer;
+  border: none; background: none; color: var(--text-muted); border-radius: var(--radius-pill);
+  padding: 5px 11px; transition: background .15s ease, color .15s ease;
+}
+.lang-toggle__btn:hover { color: var(--text); }
+.lang-toggle__btn.is-active { background: var(--color-primary); color: #fff; }
+
+/* ☀️/🌙 theme toggle: a single round icon button (not a segmented pill like
+   .lang-toggle) - it always shows the current theme's icon, and a click just
+   flips to the other one. See renderThemeToggle() in app.js. */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; flex: none; padding: 0;
+  font-family: inherit; font-size: 1rem; line-height: 1; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 50%;
+  transition: background .15s ease, opacity .15s ease, transform .1s ease;
+}
+.theme-toggle:hover { background: var(--color-primary-lighter); }
+.theme-toggle:active { transform: scale(.92); }
+
+/* Below the nav's own max-width (1180px - see .topnav__inner), the language
+   and theme toggles no longer reliably fit on the same row as the nav links
+   without crowding/wrapping oddly - stack them instead, in the same order
+   (language above theme). The language pill stretches to the column's full
+   width; the theme button is a fixed-size circle, so it's just centered
+   instead - stretching it would turn the circle into an oval. */
+@media (max-width: 1180px) {
+  .header-controls { flex-direction: column; align-items: center; gap: 6px; width: 100%; max-width: 220px; }
+  .header-controls .lang-toggle { display: flex; width: 100%; justify-content: center; }
+}
+
+/* Page header */
+.page-header { margin-bottom: 28px; }
+.page-header h1 { font-size: 1.75rem; font-weight: 700; }
+.page-header p { color: var(--text-muted); margin: 4px 0 0; max-width: 70ch; }
+
+/* Cards / grid */
+.grid { display: grid; gap: 16px; }
+.grid--6 { grid-template-columns: repeat(6, 1fr); }
+.grid--5 { grid-template-columns: repeat(5, 1fr); }
+.grid--3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 960px) { .grid--6 { grid-template-columns: repeat(3, 1fr); } .grid--5 { grid-template-columns: repeat(2, 1fr); } .grid--3 { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-2xl); padding: 20px;
+}
+.kpi__val { font-size: 1.75rem; font-weight: 700; color: var(--color-primary); }
+.kpi__label { color: var(--text-muted); font-size: .8125rem; margin-top: 4px; }
+.kpi a { display:block; }
+
+/* Toolbar (search + filters) */
+.toolbar {
+  display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-2xl);
+  padding: 16px 20px; margin-bottom: 12px;
+}
+.toolbar input[type="search"] {
+  font-family: inherit; font-size: .9375rem; color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius-pill);
+  padding: 10px 16px; background: var(--surface-2); flex: 1; min-width: 220px;
+  transition: border-color .15s ease, background .15s ease;
+}
+.toolbar input[type="search"]:focus {
+  outline: none; border-color: var(--color-primary); background: var(--surface);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+.toolbar__count { margin-left: auto; font-size: .8125rem; color: var(--text-muted); white-space: nowrap; }
+.btn {
+  font-family: inherit; font-weight: 600; font-size: .875rem; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: var(--radius-pill); padding: 9px 18px;
+  transition: background .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--surface-2); border-color: var(--color-primary); }
+.btn--primary { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }
+.btn--primary:hover { background: #1a24b0; }
+
+/* Per-column filter row, rendered as a second <tr> inside the table header.
+   Every column gets a compact control here: a text input by default, or a
+   select / chip-popover for columns that declare one — styled to match the
+   rest of the site (pill shapes, brand-blue focus/active states) rather than
+   plain browser form controls. */
+table.data thead tr.col-filter-row th.col-filter-cell {
+  background: var(--surface); padding: 8px 10px 10px; cursor: default;
+  position: relative; vertical-align: top;
+}
+
+.col-filter-input {
+  width: 100%; box-sizing: border-box; font-family: inherit; font-size: .8125rem; font-weight: 500;
+  color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-pill);
+  padding: 7px 14px; background: var(--surface-2);
+  transition: border-color .15s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.col-filter-input::placeholder { color: var(--grey-400); }
+.col-filter-input:hover { border-color: var(--color-primary-light); }
+.col-filter-input:focus {
+  outline: none; border-color: var(--color-primary); background: var(--surface);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* Reset-all-filters toolbar button — same shape as .btn, brand-blue text so
+   it reads as a "clear" action rather than a primary one. */
+.btn--reset { color: var(--color-primary); border-color: var(--color-primary-lighter); background: var(--color-primary-lighter); }
+.btn--reset:hover { background: var(--color-primary-light); border-color: var(--color-primary-light); color: #fff; }
+
+/* Custom single-select dropdown for Land / Toezichthouder / Status / Type
+   instelling filters. A native <select> can only show plain text per option,
+   so it can't carry a flag, an authority glyph, or a status colour the way
+   the table cells themselves do — this popover list can. */
+.col-filter-dropdown { position: relative; }
+.col-filter-dropdown__btn {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+  font-family: inherit; font-size: .8125rem; font-weight: 600; color: var(--text-muted); cursor: pointer;
+  border: 1px solid var(--border); border-radius: var(--radius-pill); background: var(--surface-2);
+  padding: 7px 10px 7px 12px; transition: border-color .15s ease, background-color .15s ease, color .15s ease;
+}
+.col-filter-dropdown__btn:hover { border-color: var(--color-primary-light); color: var(--text); }
+.col-filter-dropdown__btn.has-selection { background: var(--color-primary-lighter); border-color: var(--color-primary-light); color: var(--color-primary); }
+.col-filter-dropdown__current {
+  display: inline-flex; align-items: center; gap: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.col-filter-dropdown__chevron { width: 12px; height: 12px; flex: none; }
+
+/* position: fixed with JS-computed top/left (see positionFloatingPanel() in
+   app.js), not position: absolute anchored to .col-filter-dropdown - the
+   panel is appended straight to <body> when built, specifically so it is
+   never subject to .table-wrap's overflow-x: auto (which - per the CSS
+   Overflow spec - forces overflow-y to compute as "auto" too, silently
+   clipping an absolutely-positioned child once a filter narrows the table
+   down to too few rows to contain the open panel). */
+.col-filter-dropdown__list {
+  display: none; position: fixed; z-index: 30;
+  min-width: 210px; max-width: 280px; max-height: 260px; overflow-y: auto;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium); padding: 6px;
+}
+.col-filter-dropdown__list.open { display: block; }
+.col-filter-dropdown__option {
+  display: flex; align-items: center; gap: 8px; font-size: .875rem; color: var(--text);
+  padding: 8px 10px; border-radius: var(--radius-sm); cursor: pointer; white-space: nowrap;
+}
+.col-filter-dropdown__option:hover { background: var(--surface-2); }
+.col-filter-dropdown__option.is-selected { background: var(--color-primary-lighter); color: var(--color-primary); font-weight: 600; }
+.col-filter-dropdown__check { width: 14px; height: 14px; margin-left: auto; flex: none; visibility: hidden; }
+.col-filter-dropdown__option.is-selected .col-filter-dropdown__check { visibility: visible; }
+
+/* Search box pinned to the top of a dropdown popover (Land / Toezichthouder
+   have too many options to scan by eye — typing "nede" narrows to Nederland). */
+.col-filter-dropdown__search {
+  display: block; width: 100%; box-sizing: border-box; margin-bottom: 6px;
+  font-family: inherit; font-size: .8125rem; color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius-pill);
+  padding: 6px 12px; background: var(--surface-2);
+}
+.col-filter-dropdown__search:focus {
+  outline: none; border-color: var(--color-primary); background: var(--surface);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* Icons shown inside dropdown option rows (and the button once selected) */
+.dropdown-icon--flag { font-size: 1.05em; line-height: 1; }
+.status-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.status-dot--active { background: var(--color-success); }
+.status-dot--withdrawn { background: var(--grey-400); }
+.status-dot--unknown { background: var(--grey-300); }
+
+/* Chip-popover column filter (used where a column can have multiple values
+   selected at once, OR-combined — e.g. CASP Diensten). A native <select>
+   can't express "any of these N", and there are too many options (10 MiCAR
+   services) to lay out flat inside a table header cell, hence the popover. */
+.col-filter-chips { position: relative; }
+.col-filter-chips__btn {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+  font-family: inherit; font-size: .8125rem; font-weight: 600; color: var(--text-muted); cursor: pointer;
+  border: 1px solid var(--border); border-radius: var(--radius-pill); background: var(--surface-2);
+  padding: 7px 12px; transition: border-color .15s ease, background-color .15s ease, color .15s ease;
+}
+.col-filter-chips__btn:hover { border-color: var(--color-primary-light); color: var(--text); }
+.col-filter-chips__btn.has-selection { background: var(--color-primary-lighter); border-color: var(--color-primary-light); color: var(--color-primary); }
+.col-filter-chips__count {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 18px; height: 18px;
+  padding: 0 5px; border-radius: var(--radius-pill); background: var(--color-primary); color: #fff;
+  font-size: .6875rem; font-weight: 700; line-height: 1;
+}
+
+/* position: fixed + JS-computed top/left, appended to <body> - same reasoning
+   as .col-filter-dropdown__list above. */
+.chip-popover {
+  display: none; flex-wrap: wrap; gap: 6px; position: fixed; z-index: 30;
+  width: max-content; max-width: 280px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-medium); padding: 10px;
+}
+.chip-popover.open { display: flex; }
+.chip-popover__clear {
+  flex-basis: 100%; text-align: left; font-family: inherit; font-size: .75rem; font-weight: 600;
+  color: var(--color-primary); background: none; border: none; cursor: pointer; padding: 0 0 6px; margin: 0;
+}
+.chip-popover__clear:hover { text-decoration: underline; }
+.chip-popover__btn {
+  display: inline-flex; align-items: center; gap: 6px; font-family: inherit; font-size: .8125rem; font-weight: 600;
+  color: var(--text-muted); cursor: pointer; background: var(--surface-2); border: 1px solid transparent;
+  border-radius: var(--radius-pill); padding: 6px 12px 6px 8px; white-space: nowrap;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.chip-popover__btn svg { width: 14px; height: 14px; flex: none; }
+.chip-popover__btn:hover { border-color: var(--color-primary-light); color: var(--text); }
+.chip-popover__btn.is-active { background: var(--color-primary); color: #fff; }
+.chip-popover__btn.is-active svg { color: #fff; }
+
+/* Page-size segmented control (10 / 25 / 50) — same visual pattern as the
+   NL/EN lang-toggle in the top nav, so the toolbar reads as one family. */
+.page-size-toggle {
+  display: inline-flex; align-items: center; background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: var(--radius-pill); padding: 3px; gap: 2px; flex: none;
+}
+.page-size-toggle__label { font-size: .75rem; color: var(--text-muted); font-weight: 600; padding: 0 8px 0 10px; white-space: nowrap; }
+.page-size-toggle__btn {
+  font-family: inherit; font-size: .8125rem; font-weight: 700; cursor: pointer;
+  border: none; background: none; color: var(--text-muted); border-radius: var(--radius-pill);
+  padding: 6px 13px; transition: background .15s ease, color .15s ease;
+}
+.page-size-toggle__btn:hover { color: var(--text); }
+.page-size-toggle__btn.is-active { background: var(--color-primary); color: #fff; }
+
+/* Pager below the table */
+.pagination-bar {
+  display: flex; align-items: center; justify-content: center; gap: 16px;
+  padding: 16px 0 0;
+}
+.pagination-bar__info { font-size: .8125rem; color: var(--text-muted); white-space: nowrap; }
+.pagination-bar__btn:disabled { opacity: .4; cursor: default; pointer-events: none; }
+
+/* Table */
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-2xl); }
+table.data { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+table.data th, table.data td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+table.data td.wrap-cell { white-space: normal; max-width: 320px; overflow-wrap: break-word; }
+table.data th { font-weight: 600; color: var(--text); background: var(--surface-2); position: sticky; top: 0; cursor: pointer; user-select: none; }
+table.data th .arrow { color: var(--text-muted); font-size: .75rem; margin-left: 4px; }
+table.data tbody tr:hover { background: var(--surface-2); cursor: pointer; }
+table.data tr:last-child td { border-bottom: none; }
+/* Higher selector specificity than "table.data td"'s white-space: nowrap
+   above (which otherwise wins regardless of source order) - needed so long
+   empty-state text (e.g. the "to the moon"/"wen lambo" easter eggs) actually
+   wraps instead of overflowing the table in one unbroken line. */
+table.data tr.empty-row td { text-align: center; color: var(--text-muted); padding: 32px; white-space: normal; }
+
+/* Compact "ellipsis" cells — long text truncates with "…", full text on hover */
+.cell-ellipsis {
+  display: inline-block; max-width: 220px; overflow: hidden; text-overflow: ellipsis;
+  white-space: nowrap; vertical-align: bottom;
+}
+
+/* Flag + country code cell */
+.flag-cell { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; }
+.flag-cell__emoji { font-size: 1.05em; line-height: 1; }
+
+/* Service icons (CASPs) — fixed 10-slot row, dim = not offered, brand-blue = offered */
+.service-icons { display: inline-flex; gap: 4px; }
+.service-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 24px; height: 24px; border-radius: var(--radius-sm);
+  background: var(--surface-2); color: var(--grey-400);
+}
+.service-icon svg { width: 14px; height: 14px; }
+.service-icon.is-active { background: var(--color-primary-lighter); color: var(--color-primary); }
+
+/* Same icon glyphs, larger, inside the detail panel's service list */
+.subitems svg { width: 16px; height: 16px; color: var(--color-primary); vertical-align: -3px; margin-right: 6px; flex: none; }
+.detail-service-desc { color: var(--text-muted); }
+
+/* Badges */
+.badge { display: inline-flex; align-items: center; gap: 6px; font-size: .75rem; font-weight: 600;
+  padding: 4px 12px; border-radius: var(--radius-pill); background: var(--color-primary-lighter); color: var(--color-primary); white-space: nowrap; }
+.badge--success { background: var(--color-success-lighter); color: var(--color-success); }
+.badge--warning { background: var(--color-warning-lighter); color: var(--color-warning-ink); }
+.badge--error { background: var(--color-error-lighter); color: var(--color-error); }
+.badge--neutral { background: var(--border); color: var(--text-muted); }
+
+/* Detail panel (overlay) */
+.overlay { position: fixed; inset: 0; background: rgba(13,40,69,.45); display: none; align-items: flex-start; justify-content: center; padding: 48px 16px; z-index: 100; overflow-y: auto; }
+.overlay.open { display: flex; }
+.detail {
+  background: var(--surface); border-radius: var(--radius-2xl); box-shadow: var(--shadow-medium);
+  max-width: 640px; width: 100%; padding: 28px; position: relative;
+}
+.detail__close { position: absolute; top: 16px; right: 16px; background: none; border: none; cursor: pointer; color: var(--text-muted); font-size: 1.25rem; line-height: 1; padding: 4px; }
+.detail h2 { font-size: 1.25rem; margin-bottom: 4px; }
+.detail__meta { color: var(--text-muted); font-size: .8125rem; margin-bottom: 20px; }
+.detail dl { display: grid; grid-template-columns: 160px 1fr; gap: 8px 16px; margin: 0 0 20px; font-size: .9375rem; }
+.detail dt { color: var(--text-muted); }
+.detail dd { margin: 0; word-break: break-word; }
+.detail .subitems { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.detail .subitems li { background: var(--surface-2); border-radius: var(--radius-lg); padding: 10px 14px; font-size: .875rem; }
+
+/* Changelog */
+.changelog-list { display: flex; flex-direction: column; gap: 8px; }
+.changelog-item { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 12px 16px; font-size: .9375rem; }
+.changelog-item time { margin-left: auto; color: var(--text-muted); font-size: .8125rem; white-space: nowrap; }
+.changelog-item .register-tag { color: var(--text-muted); font-size: .8125rem; }
+
+/* Added/changed/removed rows are clickable to open the same detail overlay a
+   register-table row would (see buildChangelogItem() in app.js) - same hover
+   affordance as a register table row (table.data tbody tr:hover above). */
+.changelog-item.is-clickable { cursor: pointer; }
+.changelog-item.is-clickable:hover { background: var(--surface-2); }
+
+/* "What changed" callout shown above a changed record's regular fields in
+   the detail overlay, when opened from the changelog (see openDetail()'s
+   optional changeLines argument in app.js) - warning-tinted so it visually
+   reads as "the delta," distinct from the rest of the (unstyled) fields. */
+.detail-change-summary {
+  background: var(--color-warning-lighter); border: 1px solid var(--color-warning);
+  border-radius: var(--radius-lg); padding: 14px 16px; margin-bottom: 20px;
+}
+.detail-change-summary h3 { margin: 0 0 8px; font-size: .9375rem; color: var(--color-warning-ink); }
+.detail-change-summary ul { margin: 0; padding-left: 18px; font-size: .875rem; color: var(--color-warning-ink); }
+.detail-change-summary li { padding: 2px 0; }
+
+/* Footer */
+.site-footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: .8125rem; display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between; }
+
+.filter-note { font-size: .75rem; color: var(--text-muted); }
+
+/* Easter eggs — Konami code (logo coin-spin + ₿ fireworks shooting up from
+   the bottom of the screen) and typing "satoshi" anywhere (a toast with the
+   Bitcoin genesis block's headline). See "Easter eggs" in assets/js/app.js. */
+.topnav__brand svg.coin-spin { animation: coin-spin-anim .9s ease-in-out; }
+@keyframes coin-spin-anim {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(360deg) scale(1.25); }
+  100% { transform: rotate(720deg) scale(1); }
+}
+
+.btc-firework-layer { position: fixed; inset: 0; pointer-events: none; z-index: 9999; overflow: hidden; }
+.btc-firework-piece {
+  position: absolute; bottom: -40px; color: var(--color-primary); font-weight: 700;
+  animation-name: btc-firework-launch; animation-timing-function: cubic-bezier(.15, .6, .4, 1); animation-fill-mode: forwards;
+}
+@keyframes btc-firework-launch {
+  0% { transform: translateY(0) rotate(0deg) scale(.7); opacity: 1; }
+  15% { opacity: 1; }
+  100% { transform: translateY(-115vh) rotate(360deg) scale(1.15); opacity: 0; }
+}
+
+.easter-toast {
+  position: fixed; right: 20px; bottom: 20px; z-index: 9999; max-width: 340px;
+  background: var(--surface); border: 1px solid var(--color-primary-light); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium); padding: 14px 18px; font-size: .8125rem; color: var(--text); line-height: 1.5;
+  opacity: 0; transform: translateY(12px); transition: opacity .3s ease, transform .3s ease;
+}
+.easter-toast.is-visible { opacity: 1; transform: translateY(0); }

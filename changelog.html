@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+// Resolves and applies the light/dark theme before the stylesheet paints, so
+// the page never flashes the "wrong" theme while assets/js/app.js (which
+// re-derives the same value - see resolveTheme()/applyTheme() there, the
+// source of truth for this logic) is still loading. Every fresh visit starts
+// from the OS/browser's prefers-color-scheme setting; esma-tracker-theme in
+// sessionStorage (set via the ☀️/🌙 toggle in the topnav) overrides it for
+// the rest of this browsing session only - not remembered across visits.
+(function () {
+  try {
+    var stored = sessionStorage.getItem("esma-tracker-theme");
+    var dark = stored === "dark" || (stored !== "light" && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    var theme = dark ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.style.colorScheme = theme;
+  } catch (e) { /* sessionStorage/matchMedia unavailable - CSS default (light) applies */ }
+})();
+</script>
+<title data-i18n="brand.title">Wijzigingen — MiCAR Register Tracker</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav__inner">
+    <span class="topnav__brand">
+      <svg viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg"><path d="M33.2853 7.85441L35.4567 0H29.1595L27.8568 4.8861C26.6987 4.46114 25.4683 4.1789 24.2399 3.9661L25.3237 0H19.0264L18.0131 3.82144C12.5852 4.52864 7.59069 7.28865 4.26255 11.6051C-2.68702 20.4503 -0.950287 33.1875 8.0977 39.9805L5.92629 47.8323H12.1538L13.4565 42.9501C14.6146 43.3744 15.8456 43.6573 17.0734 43.8701L15.987 47.8323H22.2112L23.2969 44.0115C28.7255 43.3063 33.7233 40.5469 37.0494 36.2304C44.07 27.3139 42.3326 14.648 33.2853 7.85441ZM20.6915 28.6589C19.718 28.659 18.7662 28.3769 17.9567 27.8482C17.1472 27.3195 16.5162 26.568 16.1435 25.6887C15.7709 24.8094 15.6733 23.8418 15.8632 22.9083C16.053 21.9748 16.5217 21.1173 17.2101 20.4443C17.8985 19.7712 18.7755 19.3128 19.7303 19.1271C20.6852 18.9414 21.6749 19.0366 22.5743 19.4008C23.4738 19.765 24.2425 20.3818 24.7834 21.1732C25.3243 21.9645 25.613 22.895 25.613 23.8467C25.613 26.536 23.4416 28.6589 20.6915 28.6589Z" fill="#2330da"></path></svg>
+      <span data-i18n="brand.title">MiCAR Register Tracker</span>
+    </span>
+    <div class="topnav__links">
+      <a href="index.html" data-nav="dashboard" data-i18n="nav.dashboard">Dashboard</a>
+      <a href="register.html?type=casps" data-nav="casps" data-i18n="nav.casps">CASPs</a>
+      <a href="register.html?type=art" data-nav="art" data-i18n="nav.art">ART</a>
+      <a href="register.html?type=emt" data-nav="emt" data-i18n="nav.emt">EMT</a>
+      <a href="register.html?type=whitepapers" data-nav="whitepapers" data-i18n="nav.whitepapers">Whitepapers</a>
+      <a href="register.html?type=non_compliant" data-nav="non_compliant" data-i18n="nav.non_compliant">Non-compliant</a>
+      <a href="changelog.html" data-nav="changelog" data-i18n="nav.changelog">Wijzigingen</a>
+    </div>
+    <div class="header-controls">
+      <div id="lang-toggle-slot"></div>
+      <div id="theme-toggle-slot"></div>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="page-header">
+    <h1 data-i18n="changelogPage.title">Wijzigingsgeschiedenis</h1>
+  </div>
+
+  <div class="toolbar" id="changelog-toolbar">
+    <span class="toolbar__count" id="changelog-count"></span>
+  </div>
+
+  <div id="changelog-list" class="changelog-list"></div>
+
+  <footer class="site-footer">
+    <span id="footer-checked" data-i18n="footer.lastCheckedLoading">Laatst gecontroleerd: laden…</span>
+    <span><span data-i18n="footer.sourcePrefix">Bron: </span><a href="https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica" target="_blank" rel="noopener" data-i18n="footer.sourceLinkText">ESMA Interim MiCA Register</a><span data-i18n="footer.sourceAnd"> en </span><a href="https://www.afm.nl/en/sector/registers/vergunningenregisters/cryptopartijen" target="_blank" rel="noopener" data-i18n="footer.sourceLinkTextAfm">AFM Cryptoregister</a></span>
+  </footer>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+applyStaticTranslations();
+renderThemeToggle(document.getElementById("theme-toggle-slot"));
+renderLangToggle(document.getElementById("lang-toggle-slot"));
+highlightNav("changelog");
+
+const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
+
+(async function init() {
+  const toolbar = document.getElementById("changelog-toolbar");
+  const listEl = document.getElementById("changelog-list");
+  const countEl = document.getElementById("changelog-count");
+  const footerChecked = document.getElementById("footer-checked");
+
+  let meta = {};
+  try { meta = await fetchJSON("data/meta.json"); } catch (e) { /* ignore */ }
+  footerChecked.textContent = meta.last_checked
+    ? t("footer.lastChecked", formatTimestamp(meta.last_checked))
+    : t("footer.neverCheckedShort");
+
+  let changelog = [];
+  try { changelog = await fetchJSON("data/history/changelog.json"); } catch (e) { /* none yet */ }
+
+  // Always the last 7 days — no fixed-count cap. ESMA itself only refreshes
+  // weekly, so a rolling week is the natural "what's new" window. Ordered
+  // newest run first, then by importance within a run (CASPs - especially
+  // brand-new ones - then EMT/ART/Whitepapers/Non-compliant); see
+  // sortChangelogForDisplay() in app.js.
+  const cutoff = Date.now() - SEVEN_DAYS_MS;
+  changelog = sortChangelogForDisplay(changelog.filter((c) => new Date(c.timestamp).getTime() >= cutoff));
+
+  let registerFilter = null;
+  let typeFilter = null;
+
+  const registerDropdown = buildDropdownFilter({
+    label: t("changelogPage.filterRegisterLabel"),
+    options: Object.keys(REGISTERS),
+    getValue: (key) => key,
+    getLabel: (key) => REGISTERS[key].shortLabel,
+    onChange: (value) => { registerFilter = value; render(); },
+  });
+  const typeDropdown = buildDropdownFilter({
+    label: t("changelogPage.filterTypeLabel"),
+    options: ["added", "changed", "removed"],
+    getValue: (v) => v,
+    getLabel: (v) => changelogTypeLabel(v),
+    searchable: false,
+    onChange: (value) => { typeFilter = value; render(); },
+  });
+  toolbar.insertBefore(registerDropdown.el, countEl);
+  toolbar.insertBefore(typeDropdown.el, countEl);
+
+  function render() {
+    const filtered = changelog.filter((c) =>
+      (!registerFilter || c.register === registerFilter) &&
+      (!typeFilter || c.type === typeFilter)
+    );
+    countEl.textContent = t("changelogPage.count", filtered.length);
+
+    listEl.innerHTML = "";
+    if (!filtered.length) {
+      listEl.innerHTML = `<p class="filter-note">${escapeHtml(t("changelogPage.emptyFiltered"))}</p>`;
+      return;
+    }
+    for (const c of filtered) {
+      listEl.appendChild(buildChangelogItem(c));
+    }
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
