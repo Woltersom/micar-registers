@@ -110,7 +110,7 @@ Eenmalige setup:
    New repository secret**, naam `SLACK_WEBHOOK_URL`.
 4. Voeg de link naar de changelog toe als een **knop** op diezelfde "Send a message"-stap
    (**Add a button** → Button label "Wijzigingsgeschiedenis", Behaviour "Open link", URL
-   `https://novarwo.github.io/micar-registers/changelog.html`) — niet via de `message`-variabele.
+   `https://woltersom.github.io/micar-registers/changelog.html`) — niet via de `message`-variabele.
    Slack past mrkdwn (bold/italic/`<url|label>`-links) namelijk alleen toe op tekst die je zelf
    rechtstreeks in Workflow Builder typt of instelt, nooit op de inhoud van een ingevoegde
    variabele (die wordt altijd letterlijk, ongeïnterpreteerd geplakt — vandaar dat die opmaak
