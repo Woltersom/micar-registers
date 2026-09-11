@@ -86,19 +86,17 @@ eerstvolgende geplande check.
 De workflow post een Slack-bericht zodra een run een échte wijziging vindt (nieuw/gewijzigd/
 verwijderd record in één van de 5 registers) — niet bij elke run, want elke run herschrijft
 `generated_at`/`last_checked` sowieso (zie `steps.scrape.outputs.real_changes` in
-`scrape.yml`). Elke regel is één gewijzigde partij: een 🆕/✏️/❌-icoon voor het type, de naam,
-het register tussen haakjes, en — bij een wijziging — een korte omschrijving van wát er precies
-veranderde (bv. welke dienst is toegevoegd, welke landen erbij).
+`scrape.yml`).
 
-`summarize_change_detail()` in `fetch_esma.py` bouwt die omschrijving en voegt daarbij alle
-gewijzigde aspecten van één partij samen tot één regel, in plaats van een aparte regel per
-dienst/land (dat maakte de melding rommelig als bv. één CASP in één keer 7 diensten in
-hetzelfde land erbij kreeg). Drie caps houden een enkele partij-regel behapbaar: meer dan 4
-diensten in dezelfde groep wordt een aantal ("7 diensten ..." i.p.v. alle namen), meer dan 6
-landen in één lijst wordt de eerste 6 plus een "+N andere"-rest, en meer dan 3 losse gewijzigde
-aspecten op één partij wordt de eerste 3 plus een "+N andere wijziging(en)"-rest. Net als de
-bestaande `MAX_SUMMARY_LINES`-afkap (max. 20 partij-regels per melding) gaat er hierbij geen
-data verloren — de volledige lijst blijft altijd zichtbaar op de changelog-pagina zelf.
+Het bericht toont per register een telling in plaats van een regel per gewijzigde partij: een
+🆕/✏️/❌-icoon, het aantal, en het register (bv. "🆕 3 nieuwe CASPs" / "✏️ 1 gewijzigde
+EMT-uitgever"). De registers verschijnen altijd in dezelfde volgorde — CASPs, EMT, ART,
+Whitepapers, Non-compliant — en alleen wat van toepassing is wordt genoemd: een register zonder
+activiteit die run krijgt geen regel, en binnen een register komt eerst het aantal nieuwe, dan
+gewijzigde, dan verwijderde entiteiten (ook alleen als dat aantal > 0 is). Welke specifieke
+partij het precies betreft, en wat er bij een wijziging precies veranderde, staat niet meer in
+het bericht zelf — dat is één klik verderop via de "Changelog"-knop op het bericht (zie stap 4
+hieronder) of de changelog-pagina van de site zelf.
 
 Eenmalige setup:
 
@@ -110,7 +108,7 @@ Eenmalige setup:
    New repository secret**, naam `SLACK_WEBHOOK_URL`.
 4. Voeg de link naar de changelog toe als een **knop** op diezelfde "Send a message"-stap
    (**Add a button** → Button label "Wijzigingsgeschiedenis", Behaviour "Open link", URL
-   `https://woltersom.github.io/micar-registers/changelog.html`) — niet via de `message`-variabele.
+   `https://novarwo.github.io/micar-registers/changelog.html`) — niet via de `message`-variabele.
    Slack past mrkdwn (bold/italic/`<url|label>`-links) namelijk alleen toe op tekst die je zelf
    rechtstreeks in Workflow Builder typt of instelt, nooit op de inhoud van een ingevoegde
    variabele (die wordt altijd letterlijk, ongeïnterpreteerd geplakt — vandaar dat die opmaak
