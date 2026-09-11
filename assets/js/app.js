@@ -141,10 +141,12 @@ function changelogItemHtml(c) {
 }
 
 // [registerRank, isNewCaspRank] - lower sorts first. Mirrors
-// REGISTER_PRIORITY/_change_priority_key in scraper/fetch_esma.py, which
-// ranks the Slack notification's summary the same way: CASPs first (newly
-// added ones floated above every other CASP change too), then EMT, ART,
-// Whitepapers, Non-compliant last.
+// REGISTER_PRIORITY in scraper/fetch_esma.py, which ranks the Slack
+// notification's per-register count summary in this same order (CASPs, EMT,
+// ART, Whitepapers, Non-compliant last) - this changelog page still lists
+// individual entities though, with a brand-new CASP floated above every
+// other CASP change too, which the Slack summary no longer needs (it shows
+// per-register counts, not individual entities).
 function changelogPriorityKey(c) {
   const registerRank = REGISTERS[c.register]?.priority ?? 99;
   const isNewCasp = c.register === "casps" && c.type === "added" ? 0 : 1;
