@@ -806,23 +806,6 @@ def load_previous(register: str) -> dict[str, dict]:
     return {rec["id"]: rec for rec in data.get("records", [])}
 
 
-# Dutch short labels for the 10 MiCAR CASP services (Art. 3(1)(16), letters
-# a-j) - mirrors assets/js/i18n.js's `services.<code>.label` (nl). Kept as a
-# small duplicate here rather than shared with the front-end, since this
-# script has no JS runtime available; if the i18n labels change, update both.
-SERVICE_LABELS_NL = {
-    "a": "Bewaring",
-    "b": "Handelsplatform",
-    "c": "Wisselen — fiat",
-    "d": "Wisselen — crypto",
-    "e": "Orderuitvoering",
-    "f": "Plaatsing",
-    "g": "Orderdoorgifte",
-    "h": "Advies",
-    "i": "Vermogensbeheer",
-    "j": "Overdracht",
-}
-
 # Mirrors extractServiceCode() in assets/js/app.js: ESMA rows normally lead
 # each service with its MiCAR letter code ("a. providing custody..."), but
 # some real-world rows omit the letter - fall back to matching the official
@@ -883,15 +866,14 @@ def describe_service_changes(old_services: list[dict] | None, new_services: list
     offered in both snapshots - countries added/removed.
 
     This used to return pre-formatted Dutch sentences directly, which baked a
-    fixed language into data/history/changelog.json - fine for the (always
-    Dutch) Slack notification, but wrong once the *website* displays the same
-    "what changed" text: a visitor with the EN toggle selected would still see
-    Dutch service names like "Wisselen — fiat" inside an otherwise-English
-    detail panel. Returning small {kind, code, ...} dicts instead lets each
-    consumer render its own language: format_change_line_nl() below expands
-    them to the Dutch sentences for Slack, and describeChangeLine() in
-    assets/js/app.js expands them via the site's own t() for the viewer's
-    current language."""
+    fixed language into data/history/changelog.json - wrong once the website
+    displays the same "what changed" text: a visitor with the EN toggle
+    selected would still see Dutch service names like "Wisselen — fiat" inside
+    an otherwise-English detail panel. Returning small {kind, code, ...} dicts
+    instead lets describeChangeLine() in assets/js/app.js expand them via the
+    site's own t() for the viewer's current language. (The Slack notification
+    itself no longer renders per-entity detail at all - see run()'s
+    github_output block - so there's now only the one consumer.)"""
     old_idx = _index_services_by_code(old_services)
     new_idx = _index_services_by_code(new_services)
     lines: list[dict] = []
@@ -909,118 +891,6 @@ def describe_service_changes(old_services: list[dict] | None, new_services: list
     return lines
 
 
-def format_change_line_nl(line: dict | str) -> str:
-    """Renders one describe_record_change() item as the Dutch sentence it used
-    to be, for the (always-Dutch) Slack notification. Generic field-diff
-    strings (e.g. "status: active -> withdrawn") pass through unchanged;
-    structured dicts get expanded - service-change ones via SERVICE_LABELS_NL,
-    "field_changed" via its own field name."""
-    if isinstance(line, str):
-        return line
-    kind = line["kind"]
-    if kind == "field_changed":
-        return f"{line['field'].replace('_', ' ')} gewijzigd"
-    if kind == "no_meaningful_change":
-        # See describe_record_change()'s docstring - the record's raw data
-        # changed shape but nothing effectively changed, so there's no
-        # code/countries to look up below.
-        return "alleen technische opschoning in brondata, geen inhoudelijke wijziging"
-    label = SERVICE_LABELS_NL.get(line["code"], line["code"])
-    if kind == "service_added":
-        return f"{label} toegevoegd aan dienstverlening"
-    if kind == "service_removed":
-        return f"{label} niet langer aangeboden"
-    if kind == "service_countries_added":
-        return f"{label} nu ook aangeboden in: {', '.join(line['countries'])}"
-    if kind == "service_countries_removed":
-        return f"{label} niet langer aangeboden in: {', '.join(line['countries'])}"
-    return label
-
-
-def _format_countries(countries: tuple[str, ...], max_named: int) -> str:
-    """Spells out a country list up to `max_named` codes, then folds the rest
-    into a "+N andere" remainder - without this, a service gaining EU-passport
-    coverage in, say, 20 countries at once would print all 20 codes on a
-    single Slack line, exactly the kind of clutter this whole redesign is
-    meant to avoid."""
-    if len(countries) <= max_named:
-        return ", ".join(countries)
-    shown = countries[:max_named]
-    return f"{', '.join(shown)} +{len(countries) - max_named} andere"
-
-
-def summarize_change_detail(detail: list[dict | str]) -> str:
-    """Combines every detail item for a single changed record into ONE Slack
-    line, instead of the old one-line-per-item behaviour that made a record
-    with many detail items (e.g. a CASP adding 7 services in the same new
-    country) repeat its own name on 7 separate, near-identical lines.
-
-    Service-change dicts that share the same kind and country list are
-    grouped into a single segment (e.g. "Bewaring, Wisselen — fiat nu ook
-    aangeboden in: DK" instead of two separate lines), and three independent
-    caps keep any one record from blowing up the whole message:
-    - MAX_SERVICES_NAMED: past this many services in one group, name the
-      count instead of every service ("7 diensten ..." instead of listing
-      all 7).
-    - MAX_COUNTRIES_NAMED: past this many countries in one list, name the
-      first few plus a "+N andere" remainder (see _format_countries()).
-    - MAX_SEGMENTS: past this many distinct aspects changed on one record
-      (mixing service changes with generic field diffs, say), name the first
-      few plus a "+N andere wijziging(en)" remainder.
-
-    Generic field-diff strings (e.g. "status: actief → ingetrokken") pass
-    through as their own segment, appended after the grouped service
-    segments - see describe_record_change(). "field_changed" dicts (a list/
-    dict-valued field like "whitepapers" that changed shape - too complex to
-    diff into a readable sentence) render the same way via
-    format_change_line_nl(), since - unlike the service kinds - there's
-    nothing to group them by (no code/countries in common)."""
-    MAX_SERVICES_NAMED = 4
-    MAX_COUNTRIES_NAMED = 6
-    MAX_SEGMENTS = 3
-
-    groups: dict[tuple, list[str]] = {}
-    group_order: list[tuple] = []
-    strings: list[str] = []
-
-    for item in detail:
-        if isinstance(item, str):
-            strings.append(item)
-            continue
-        if item["kind"] in ("field_changed", "no_meaningful_change"):
-            # Both render via format_change_line_nl() and neither has a
-            # "code"/"countries" pair to group by, unlike the service-change
-            # kinds handled below.
-            strings.append(format_change_line_nl(item))
-            continue
-        key = (item["kind"], tuple(item.get("countries", [])))
-        if key not in groups:
-            groups[key] = []
-            group_order.append(key)
-        groups[key].append(SERVICE_LABELS_NL.get(item["code"], item["code"]))
-
-    segments: list[str] = []
-    for kind, countries in group_order:
-        labels = groups[(kind, countries)]
-        name_part = f"{len(labels)} diensten" if len(labels) > MAX_SERVICES_NAMED else ", ".join(labels)
-        if kind == "service_added":
-            segments.append(f"{name_part} toegevoegd aan dienstverlening")
-        elif kind == "service_removed":
-            segments.append(f"{name_part} niet langer aangeboden")
-        elif kind == "service_countries_added":
-            segments.append(f"{name_part} nu ook aangeboden in: {_format_countries(countries, MAX_COUNTRIES_NAMED)}")
-        elif kind == "service_countries_removed":
-            segments.append(f"{name_part} niet langer aangeboden in: {_format_countries(countries, MAX_COUNTRIES_NAMED)}")
-        else:
-            segments.append(name_part)
-    segments.extend(strings)
-
-    if len(segments) > MAX_SEGMENTS:
-        segments = segments[:MAX_SEGMENTS] + [f"+{len(segments) - MAX_SEGMENTS} andere wijziging(en)"]
-
-    return "; ".join(segments)
-
-
 def _fmt_value(v) -> str:
     if v is None or v == "":
         return "onbekend"
@@ -1032,8 +902,11 @@ def describe_record_change(old: dict, new: dict) -> list[dict | str]:
     record - services get the structured (language-neutral) treatment above;
     a plain scalar field ("field: oud -> nieuw") is a language-invariant
     string, since it's just the raw field name plus raw values (fine to pass
-    through unchanged in both Slack and the website, on either language - see
-    format_change_line_nl() and describeChangeLine() in assets/js/app.js).
+    through unchanged on the website in either language - see
+    describeChangeLine() in assets/js/app.js). This is stored in
+    data/history/changelog.json for the site's own "Wat is gewijzigd" popup;
+    the Slack notification itself only shows aggregate per-register counts
+    (see run()'s github_output block), not this per-field detail.
 
     A list/dict-valued field (e.g. a register's "whitepapers" list) is too
     complex to diff into a readable "oud -> nieuw" string, so it gets a
@@ -1094,33 +967,39 @@ def _comparable(rec: dict) -> dict:
     return {k: v for k, v in rec.items() if k != "source"}
 
 
-# User-requested importance ranking for the Slack notification's line-by-line
-# summary: CASPs matter most (a brand-new CASP most of all - it's floated
-# above every other CASP change too, not just other registers), then EMT,
-# ART, Whitepapers, and Non-compliant last. This only reorders how the Slack
-# summary is written - data/history/changelog.json itself still gets each
-# run's changes appended in plain per-register order; the site applies the
-# equivalent ranking when *displaying* the changelog instead (see
-# changelogPriorityKey()/sortChangelogForDisplay() in assets/js/app.js).
+# User-requested importance ranking: CASPs matter most, then EMT, ART,
+# Whitepapers, and Non-compliant last. Used both by the site (see
+# changelogPriorityKey()/sortChangelogForDisplay() in assets/js/app.js, which
+# lists individual changelog entries in this order) and by the Slack
+# notification's per-register count summary below (run()'s github_output
+# block) - data/history/changelog.json itself still gets each run's changes
+# appended in plain per-register order; this only controls *display* order.
 REGISTER_PRIORITY = {"casps": 0, "emt": 1, "art": 2, "whitepapers": 3, "non_compliant": 4}
 
-# Short display labels for the Slack summary (see run()'s github_output block
-# below) - mirrors the site's nav.* labels closely enough for a one-word
-# register tag, but isn't shared with i18n.js since Slack messages are always
-# Dutch regardless of a visitor's site language preference.
-REGISTER_LABELS_NL = {
+# Singular/plural Dutch labels for the Slack notification's per-register count
+# summary (see run()'s github_output block below) - e.g. "3 nieuwe CASPs" vs
+# "1 nieuwe CASP". Mirrors the site's nav.*/shortLabel wording closely enough
+# to stay recognisable, but isn't shared with i18n.js since Slack messages are
+# always Dutch regardless of a visitor's site language preference.
+REGISTER_LABEL_SINGULAR_NL = {
+    "casps": "CASP",
+    "emt": "EMT-uitgever",
+    "art": "ART-uitgever",
+    "whitepapers": "whitepaper",
+    "non_compliant": "non-compliant entiteit",
+}
+REGISTER_LABEL_PLURAL_NL = {
     "casps": "CASPs",
-    "emt": "EMT",
-    "art": "ART",
-    "whitepapers": "Whitepapers",
-    "non_compliant": "Non-compliant",
+    "emt": "EMT-uitgevers",
+    "art": "ART-uitgevers",
+    "whitepapers": "whitepapers",
+    "non_compliant": "non-compliant entiteiten",
 }
 
-
-def _change_priority_key(c: dict) -> tuple:
-    register_rank = REGISTER_PRIORITY.get(c["register"], 99)
-    is_new_casp = 0 if (c["register"] == "casps" and c["type"] == "added") else 1
-    return (register_rank, is_new_casp)
+# The adjective doesn't inflect by count in Dutch ("1 nieuwe CASP" / "3 nieuwe
+# CASPs" - only the noun changes), so this is a flat type -> word mapping,
+# unlike the register labels above.
+CHANGE_TYPE_ADJECTIVE_NL = {"added": "nieuwe", "changed": "gewijzigde", "removed": "verwijderde"}
 
 
 # Once a record is removed, data/<register>.json no longer has it - there's
@@ -1259,36 +1138,43 @@ def run(fetcher: Callable[[str], list[dict]] = fetch_csv) -> int:
     # Every run rewrites each register's `generated_at` to "now", so a git
     # diff on data/ is never empty even when ESMA's actual content didn't
     # change - that's just freshness bookkeeping, not "new data". Expose the
-    # real, record-level change count (and a human-readable per-entity
-    # breakdown: which party, which register, added/changed/removed) as a
-    # GitHub Actions step output, so the workflow can both gate its Slack
-    # notification on genuinely new results instead of every successful run,
-    # and say *what* changed rather than just how many.
+    # real, record-level change count (and a per-register new/changed/removed
+    # breakdown) as a GitHub Actions step output, so the workflow can both
+    # gate its Slack notification on genuinely new results instead of every
+    # successful run, and say *what kind* of change happened per register.
+    #
+    # This used to be one line per changed *entity* (name + a description of
+    # what changed), capped at 20 lines with a "+N andere wijziging(en)"
+    # remainder - a single busy scrape (e.g. the very first run, which floods
+    # the changelog with an "added" entry for every existing record) could
+    # otherwise produce dozens of near-identical lines. User-requested
+    # redesign: show per-register COUNTS instead - "🆕 3 nieuwe CASPs" rather
+    # than 3 separate named lines - so the message stays short and scannable
+    # regardless of how many records changed. Which specific entities changed,
+    # and what changed on them, is still one click away via the "Changelog"
+    # button on the Slack message (see README.md's "Slack-meldingen" section)
+    # or the site's own changelog page - it's just no longer duplicated inline
+    # here. Since at most 3 lines (added/changed/removed) per register across
+    # 5 registers, this is inherently short - no truncation needed.
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
-        # Emoji type-indicator instead of a text label ("toegevoegd"/
-        # "gewijzigd"/"verwijderd") - faster to scan a list of these than a
-        # column of words, and it means the entity name can lead the line
-        # instead of being buried after "register: ".
         TYPE_EMOJI = {"added": "🆕", "changed": "✏️", "removed": "❌"}
-        MAX_SUMMARY_LINES = 20
-        detail_lines = []
-        for c in sorted(all_changes, key=_change_priority_key):
-            emoji = TYPE_EMOJI.get(c["type"], "•")
-            register_label = REGISTER_LABELS_NL.get(c["register"], c["register"])
-            name = c.get("name") or c["id"]
-            # One line per changed *record*, not per changed aspect -
-            # summarize_change_detail() folds every item in c["detail"] (e.g.
-            # 7 services all gaining the same new country) into a single
-            # combined, capped segment string, instead of the old behaviour
-            # of repeating the entity's own name once per detail item.
-            if c["type"] == "changed" and c.get("detail"):
-                detail_lines.append(f"{emoji} {name} ({register_label}) — {summarize_change_detail(c['detail'])}")
-            else:
-                detail_lines.append(f"{emoji} {name} ({register_label})")
-        summary_lines = detail_lines[:MAX_SUMMARY_LINES]
-        if len(detail_lines) > MAX_SUMMARY_LINES:
-            summary_lines.append(f"... en {len(detail_lines) - MAX_SUMMARY_LINES} andere wijziging(en)")
+        counts = {register: {"added": 0, "changed": 0, "removed": 0} for register in REGISTER_PRIORITY}
+        for c in all_changes:
+            counts[c["register"]][c["type"]] += 1
+
+        summary_lines = []
+        for register in sorted(REGISTER_PRIORITY, key=REGISTER_PRIORITY.get):
+            for change_type in ("added", "changed", "removed"):
+                n = counts[register][change_type]
+                if n == 0:
+                    # Only mention what's applicable - a register with zero
+                    # activity this run (e.g. ART, still empty in practice)
+                    # gets no lines at all, not "0 nieuwe ART-uitgevers".
+                    continue
+                label = REGISTER_LABEL_SINGULAR_NL[register] if n == 1 else REGISTER_LABEL_PLURAL_NL[register]
+                summary_lines.append(f"{TYPE_EMOJI[change_type]} {n} {CHANGE_TYPE_ADJECTIVE_NL[change_type]} {label}")
+
         with open(github_output, "a", encoding="utf-8") as f:
             f.write(f"real_changes={len(all_changes)}\n")
             f.write("change_summary<<EOF\n")
