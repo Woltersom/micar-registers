@@ -1,1 +1,838 @@
-{"register": "emt", "generated_at": null, "records": []}
+{
+  "register": "emt",
+  "generated_at": "2026-09-11T09:53:38+00:00",
+  "records": [
+    {
+      "id": "0673627ac8c1d954",
+      "competent_authority": "Czech National Bank (CNB)",
+      "home_member_state": "CZ",
+      "name": "Payment Corporation SE",
+      "lei": "315700IJDQF91J9C8B68",
+      "head_office_country": "CZ",
+      "commercial_name": "Stable Labs",
+      "address": "Krizikova 710/30, Karlin, 18600 Prague 8, Czech Republic",
+      "website": "https://stablelabs.co/",
+      "authorisation_date": "26/04/2017",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://stablelabs.co/whitepaper0.pdf",
+          "start_date": "17/05/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "EMT is issued under the limited network exception. It is not offered to the general public, but is used solely within a clearly defined, functionally limited ecosystem.",
+          "last_update": "30/10/2025"
+        },
+        {
+          "url": "https://stablelabs.co/whitepaper.pdf",
+          "start_date": "20/09/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "EMT is issued under the limited network exception. It is not offered to the general public, but is used solely within a clearly defined, functionally limited ecosystem.",
+          "last_update": "30/10/2025"
+        },
+        {
+          "url": "https://stablelabs.co/whitepaper1.pdf",
+          "start_date": "16/10/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "EMT is issued under the limited network exception. It is not offered to the general public, but is used solely within a clearly defined, functionally limited ecosystem.",
+          "last_update": "30/10/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "YES",
+      "exemption_48_5": "YES"
+    },
+    {
+      "id": "f95d165e6ed77ad1",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "AllUnity GmbH",
+      "lei": "3912007G8L8CD3HFIV26",
+      "head_office_country": "DE",
+      "commercial_name": "AllUnity GmbH",
+      "address": "Sandweg 94, 60316 Frankfurt am Main",
+      "website": "https://allunity.com/",
+      "authorisation_date": "20/06/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "20/06/2025",
+          "dti": "8F9FV1RW0 | 4T8Q7PXDR | 72FFN7360 | R21VFQH41 | DP8LJM6WW",
+          "dti_ffg": null,
+          "comments": "EURAU",
+          "last_update": "13/02/2026"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "19/01/2026",
+          "dti": "VP84J2JSS | D1PFLVZDZ",
+          "dti_ffg": null,
+          "comments": "CHFAU",
+          "last_update": "23/02/2026"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "06/05/2026",
+          "dti": "HTKFL04WZ | 6TR5F3KKF | X10CDHLZQ | 7BN8BLGZH | VTFCC12GK",
+          "dti_ffg": null,
+          "comments": "SEKAU",
+          "last_update": null
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "09/06/2026",
+          "dti": "VP84J2JSS | D1PFLVZDZ | 35PTC5Z63 | GCN4ZMN5R | PGBKBZRH2 | 5Z0LL4J7S",
+          "dti_ffg": null,
+          "comments": "CHFAU, V1.2",
+          "last_update": "11/06/2026"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "09/06/2026",
+          "dti": "25XRLGD08 | Q9MZ20BGM | S19Z4M49R| 67JKQ4MKT | 3RH5FHFMR | 95139NRZ1",
+          "dti_ffg": null,
+          "comments": "USDAU, V.1.0",
+          "last_update": "04/09/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "042de2e83dd5e8af",
+      "competent_authority": "Finanstilsynet",
+      "home_member_state": "DK",
+      "name": "Eurodollar ApS",
+      "lei": "8945001XWFMRUTCAK575",
+      "head_office_country": "DK",
+      "commercial_name": "Eurodollar",
+      "address": "Gammel Kongevej 120, 1. tv, KØBENHAVN ,DK",
+      "website": "www.eurodollar.fi",
+      "authorisation_date": "17/02/2025",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "EMT_NO_WP",
+          "start_date": "10/04/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": null
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "509ff1b742ca06c1",
+      "competent_authority": "Finanssivalvonta (FIN-FSA)",
+      "home_member_state": "FI",
+      "name": "Paxos Issuance Europe Oy",
+      "lei": "743700KYSSTKZYGEUF50",
+      "head_office_country": "FI",
+      "commercial_name": "Paxos EU",
+      "address": "Meritullinkatu 1 B 00170 HELSINKI",
+      "website": "https://www.paxos.com/eu",
+      "authorisation_date": "23/11/2022",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.membrane.fi/whitepapers/EUROe.html",
+          "start_date": "29/06/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "04/07/2025"
+        },
+        {
+          "url": "https://www.membrane.fi/whitepapers/eUSD.html",
+          "start_date": "29/06/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "04/07/2025"
+        },
+        {
+          "url": "https://www.paxos.com/terms-and-conditions/usdg-eu-whitepaper",
+          "start_date": "19/12/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "Added the functionality to use USDG on X layer blockchain",
+          "last_update": "09/12/2025"
+        },
+        {
+          "url": "https://www.paxos.com/white-paper",
+          "start_date": "09/06/2025",
+          "dti": "2VT5W3GH7",
+          "dti_ffg": "R9MZCNWS4",
+          "comments": "machine-readable version made available",
+          "last_update": "28/04/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "1030d6e051422b84",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "Circle Internet Financial Europe SAS",
+      "lei": "969500OYUDADGZKCR583",
+      "head_office_country": "FR",
+      "commercial_name": null,
+      "address": "4 Rue de Marivaux 75002 Paris",
+      "website": "https://www.circle.com/fr/",
+      "authorisation_date": "01/07/2024",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.circle.com/fr/legal/mica-eurc-whitepaper",
+          "start_date": "01/07/2024",
+          "dti": "FJM594L0V|T1J8XQBSD|FJM594L0V|FZQ4WZNHC|FMXXP963M",
+          "dti_ffg": "13XTMPZT3",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provision and other MiCA compliant WP",
+          "last_update": "24/12/2025"
+        },
+        {
+          "url": "https://www.circle.com/fr/legal/mica-usdc-whitepaper",
+          "start_date": "01/07/2024",
+          "dti": "M8G59S1ZR|6BGZTT6GF|4ZSZS1F4F|45J6XJX7H|CP6817N4B|2ZTG3NNVB|VXJX1WW6V|CK9PW1MFH|P7H2X1B9H|XTS66R22W|GN9M0Z238|R3SV04GX9|RWPZZPR7C|S28NDWCSX|W2PQJJCPM|7NZRGQZ87|898NNTPZJ|N064ZKXDM|J2TPM5RFQ|LS71LQK3L|RN81GQLBH|5R3XFPZSM|MKC04VFBQ|DWBBXD2F1|TSLS4S9R8|FXZLG37L6|T6TQ8GN7L|56V43DKZ3|QQKDMF6N9|SKXZGD4J8|54VFN74B3|T9F5C3ZCC|GGMLHMDVQ|6TNZQDKZK|DWCZ3239L|9F3G4V14R",
+          "dti_ffg": "TJWK5QTRK",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
+          "last_update": "10/07/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "9f28b41e36b82f63",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "Société Générale - Forge",
+      "lei": "969500FX8K40ZDW4F377",
+      "head_office_country": "FR",
+      "commercial_name": null,
+      "address": "17 Cours Valmy 92800 Puteaux",
+      "website": "https://www.sgforge.com/",
+      "authorisation_date": "01/07/2024",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.sgforge.com/wp-content/uploads/2025/10/EURCV-WP-Ethereum-Solana_XRPL_Stellar_2025.10.14.pdf",
+          "start_date": "01/07/2024",
+          "dti": "HF8RCHVWW|3NG1PDSJM|LTJP3BH2R|24QFRJ6Q9",
+          "dti_ffg": "9W5C49FJV",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
+          "last_update": "14/10/2025"
+        },
+        {
+          "url": "https://www.sgforge.com/wp-content/uploads/2025/08/SG-Forge-USDCV-White-Paper_V2.0_Ethereum_Solana_11082025.pdf",
+          "start_date": "16/07/2024",
+          "dti": "9XDHG5RZQ|8TF1FZX7H",
+          "dti_ffg": "LD6JM2JN2",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
+          "last_update": "11/08/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "dfa8f909649a1bc2",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "SALVUS",
+      "lei": "969500SGAEBRXYUAJ739",
+      "head_office_country": "FR",
+      "commercial_name": null,
+      "address": "9 Rue du Quatre Septembre, 75002 PARIS",
+      "website": "https://schuman.io",
+      "authorisation_date": "22/11/2024",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://schuman.io/wp-content/uploads/EUROP-White-Paper.pdf",
+          "start_date": "22/11/2024",
+          "dti": "KR4DF4ZJ2|BNTTMH9HK",
+          "dti_ffg": "2BKLSP3D6",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
+          "last_update": "23/03/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "6166c80671391c61",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "Oddo BHF SCA",
+      "lei": "9695002I9DJHZ3449O66",
+      "head_office_country": "FR",
+      "commercial_name": "Oddo BHF",
+      "address": "12 boulevard de la Madeleine  75009 PARIS",
+      "website": "https://www.oddo-bhf.com/fr/",
+      "authorisation_date": "26/06/2007",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.oddo-bhf.com/eurod-stablecoin/",
+          "start_date": "15/10/2025",
+          "dti": "H1LDKQR5B",
+          "dti_ffg": "WJV6THJ2D",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item,  in accordance with MiCA/ESMA ITS provisions and other MiCA compliant WP",
+          "last_update": "27/01/2026"
+        }
+      ],
+      "institution_type": "Credit Institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "f460ce58ed4ff633",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "HEURO SAS",
+      "lei": "984500DB91E5A48E7F26",
+      "head_office_country": "FR",
+      "commercial_name": "OuiTrust",
+      "address": "1 rue de la bourse, 75002 Paris - France",
+      "website": "https://www.heuro.com/home",
+      "authorisation_date": "02/12/2021",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.heuro.com/about",
+          "start_date": "26/02/2026",
+          "dti": "4ZTHF0N0H|DP1R488SF",
+          "dti_ffg": "TFGXFRD1J",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item,  in accordance with MiCA/ESMA ITS provisions and other MiCA compliant WP",
+          "last_update": "02/03/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "9354cc1893fa3859",
+      "competent_authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "home_member_state": "FR",
+      "name": "CACEIS BANK SA",
+      "lei": "96950023SCR9X9F3L662",
+      "head_office_country": "FR",
+      "commercial_name": "CACEIS BANK",
+      "address": "89-91 rue Gabriel Peri 92120 Montrouge",
+      "website": "https://www.caceis.com/fr/",
+      "authorisation_date": "19/05/1979",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://stable-xt.io",
+          "start_date": "30/06/2026",
+          "dti": "2GPH3VZ45",
+          "dti_ffg": "JTSXN8VGH",
+          "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item,  in accordance with MiCA/ESMA ITS provisions and other MiCA compliant WP",
+          "last_update": "30/06/2026"
+        }
+      ],
+      "institution_type": "Credit institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "29a141bb1f393b91",
+      "competent_authority": "Central Bank of Iceland",
+      "home_member_state": "IS",
+      "name": "Monerium ehf",
+      "lei": "2549003QDNZWASSSCY31",
+      "head_office_country": "IS",
+      "commercial_name": "Monerium",
+      "address": "Bjargargotu 1",
+      "website": "https://monerium.com/",
+      "authorisation_date": "25/09/2019",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://monerium.com/assets/whitepapers/eure/EURe-WP-static.xhtml",
+          "start_date": "09/01/2026",
+          "dti": "81PTSP744|JVM0S87GB||3P9X6K6P2|S45L7172C|ZHKQJ78VZ|6KL7TK20G|5LN265K07",
+          "dti_ffg": "N7B1L2FBK",
+          "comments": null,
+          "last_update": "09/01/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "d91314072a83caec",
+      "competent_authority": "Bank of Lithuania (LSC)",
+      "home_member_state": "LT",
+      "name": "UAB BLUE EMI LT",
+      "lei": "254900XFMACGD0L7AI73",
+      "head_office_country": "LT",
+      "commercial_name": "BLUE EMI LT",
+      "address": "Žalgirio str. 92, LT-09303, Vilnius, Republic of Lithuania",
+      "website": "https://blueemi.com/",
+      "authorisation_date": "11/10/2022",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://blueemi.com/policies/emt-white-paper/",
+          "start_date": "01/08/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "No comments",
+          "last_update": "18/04/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "ee2606d5860df799",
+      "competent_authority": "Bank of Lithuania",
+      "home_member_state": "LT",
+      "name": "Newrails, UAB",
+      "lei": "875500AX7AO0XVYSQD64",
+      "head_office_country": "LT",
+      "commercial_name": "Newrails",
+      "address": "Kauno str. 16-305, LT 03212. Vilnius",
+      "website": "https://www.newrails.xyz",
+      "authorisation_date": "04/06/2020",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.newrails.xyz/docs/newrails-whitepaper-eurw.xhtml",
+          "start_date": "26/01/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "No comments",
+          "last_update": "13/01/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "18945f48c018bc55",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "home_member_state": "LU",
+      "name": "Banking Circle S.A.",
+      "lei": "213800W1NGBLERUS6M39",
+      "head_office_country": "LU",
+      "commercial_name": "Banking Circle",
+      "address": "2 Boulevard de la Foire, L-1528 Luxembourg",
+      "website": "https://www.bankingcircle.com/",
+      "authorisation_date": "29/10/2019",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.eurite.com/download-whitepaper/",
+          "start_date": "28/08/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": null
+        }
+      ],
+      "institution_type": "Credit institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "fc30d58c6ef83ccd",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "home_member_state": "LU",
+      "name": "AIEU Services Limited S.A.",
+      "lei": "254900VUR90QF0G3T387",
+      "head_office_country": "LU",
+      "commercial_name": "AIEU Services Limited S.A.",
+      "address": "9, rue du Laboratoire, L-1911 Luxembourg, Grand Duchy of Luxembourg",
+      "website": "https://www.bettrsettlementtoken.com",
+      "authorisation_date": "21/12/2018",
+      "withdrawal_date": "n/a",
+      "status": "withdrawn",
+      "whitepapers": [
+        {
+          "url": "https://www.bettrsettlementtoken.com/policy",
+          "start_date": "22/10/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "18/12/2025"
+        },
+        {
+          "url": "https://www.bettrsettlementtoken.com/policy",
+          "start_date": "22/09/2026",
+          "dti": "n/a",
+          "dti_ffg": "n/a",
+          "comments": null,
+          "last_update": "28/08/2026"
+        },
+        {
+          "url": "https://www.bettrsettlementtoken.com/policy",
+          "start_date": "22/09/2026",
+          "dti": "n/a",
+          "dti_ffg": "n/a",
+          "comments": null,
+          "last_update": "28/08/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "30a01f8fc9cdb70b",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "home_member_state": "LU",
+      "name": "Bridge Building S.A.",
+      "lei": "254900MVWQXMF77YZP65",
+      "head_office_country": "LU",
+      "commercial_name": "Bridge Building S.A.",
+      "address": "33, Boulevard Prince Henri, 1724 Luxembourg, Grand Duchy of Luxembourg",
+      "website": "www.bridge.xyz",
+      "authorisation_date": "23/07/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://bridge.xyz/transparency/EURR",
+          "start_date": "23/07/2026",
+          "dti": "TD3BGWM5Z (Ethereum)\n\tLP00X1Q54 (Arbitrum)\n\t9J1RXQWBK (Polygon)\n\tGR77N4VQN (Solana)\n\tR79DN2VHD (Avalanche)\n\t8KV3CMVM5 (Optimism)\n\tKHWWMMF9T (TON)\nH81G32M97 (Injective)",
+          "dti_ffg": "4ZD0FM2VG",
+          "comments": "N/A",
+          "last_update": "29/07/2026"
+        }
+      ],
+      "institution_type": "N/A",
+      "exemption_48_4": "N/A",
+      "exemption_48_5": "N/A"
+    },
+    {
+      "id": "5100b7e850bd7656",
+      "competent_authority": "Latvijas Banka",
+      "home_member_state": "LV",
+      "name": "SIA GR8 PAY",
+      "lei": "6488GKH17O8XT1326F66",
+      "head_office_country": "LV",
+      "commercial_name": "GR8.money",
+      "address": "Latvia, Malduguņu iela 2, Mārupe, Mārupes nov., LV-2167",
+      "website": "https://gr8.money/",
+      "authorisation_date": "10/12/2025",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://gr8.money/eur.pa/wp",
+          "start_date": "21/04/2026",
+          "dti": "5X779H3M3",
+          "dti_ffg": "9JDH8QBV2",
+          "comments": null,
+          "last_update": "21/03/2026"
+        },
+        {
+          "url": "https://gr8.money/usd.pa/wp",
+          "start_date": "21/04/2026",
+          "dti": "PJM1C1PM6",
+          "dti_ffg": "FFBSF3LWN",
+          "comments": null,
+          "last_update": "21/03/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "9c19046e0c1c1103",
+      "competent_authority": "Malta Financial Services Authority",
+      "home_member_state": "MT",
+      "name": "StablR Ltd",
+      "lei": "984500AA0OCA9CE0D796",
+      "head_office_country": "MT",
+      "commercial_name": "StablR Ltd",
+      "address": "Level 1, BusinessLabs, Dun Karm Street, Birkirkara, Malta",
+      "website": "https://www.stablr.com/",
+      "authorisation_date": "21/06/2024",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.stablr.com/whitepapers",
+          "start_date": "14/11/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "03/12/2025"
+        },
+        {
+          "url": "https://www.stablr.com/whitepapers",
+          "start_date": "14/11/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "03/12/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "9e5a6241f7784b58",
+      "competent_authority": "Malta Financial Services Authority",
+      "home_member_state": "MT",
+      "name": "Stable mint Ltd",
+      "lei": "984500A64C0EA64BC554",
+      "head_office_country": "MT",
+      "commercial_name": "Stable mint",
+      "address": "Trident Park notabile gardens no 2 level 3, Central business district, Birkirkara, Malta",
+      "website": "https://www.stablemint.io/",
+      "authorisation_date": "05/08/2024",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://stablemintpublicdocs.blob.core.windows.net/docs/StableMint_Whitepaper_EUR.html",
+          "start_date": "08/08/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "24/03/2025"
+        },
+        {
+          "url": "https://stablemintpublicdocs.blob.core.windows.net/docs/StableMint_Whitepaper_USD.html",
+          "start_date": "27/11/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "24/03/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "2b96c94a46defa9a",
+      "competent_authority": "De Nederlandsche Bank (DNB)",
+      "home_member_state": "NL",
+      "name": "Fiat Republic Netherlands",
+      "lei": "724500GVWT7QULV8CR59",
+      "head_office_country": null,
+      "commercial_name": "Fiat Republic",
+      "address": "Strawinskylaan 4117 - room 05-116 - 1077 ZX - Amsterdam",
+      "website": "https://fiatrepublic.com/",
+      "authorisation_date": "29/11/2021",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "start_date": "02/12/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "ENEUR white paper",
+          "last_update": "02/10/2024"
+        },
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "start_date": "02/12/2024",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "ENGBP white paper",
+          "last_update": "02/10/2024"
+        },
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "start_date": "24/03/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "ENUSD white paper",
+          "last_update": "24/03/2025"
+        }
+      ],
+      "institution_type": "Electronic money Institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "3aa01ec113d5c65b",
+      "competent_authority": "De Nederlandsche Bank (DNB)",
+      "home_member_state": "NL",
+      "name": "Quantoz Payments B.V",
+      "lei": "7245008P1HPUPVM7XL94",
+      "head_office_country": null,
+      "commercial_name": "Quantoz Payments",
+      "address": "Europalaan 100 - 3526 KS Utrecht",
+      "website": "https://quantoz.com",
+      "authorisation_date": "13/10/2023",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "24/03/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "EURQ white paper",
+          "last_update": "24/03/2025"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "24/03/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "USDQ white paper",
+          "last_update": "24/03/2025"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "01/08/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "EURD EMT white paper",
+          "last_update": "22/08/2025"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "07/04/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "PLNQ white paper",
+          "last_update": "06/03/2026"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "07/04/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "GBPQ white paper",
+          "last_update": "06/03/2026"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "start_date": "15/04/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "RONQ white paper",
+          "last_update": "15/04/2026"
+        }
+      ],
+      "institution_type": "Electronic money Institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "7aebbf897ec20791",
+      "competent_authority": "Polish Financial Supervision Authority (KNF)",
+      "home_member_state": "PL",
+      "name": "StaBillon sp. z o.o.",
+      "lei": "2594008EL5UN8RIA8P23",
+      "head_office_country": "PL",
+      "commercial_name": "StaBillon",
+      "address": "Atlas Tower Aleje Jerozolimskie 123A, 02-017 Warszawa -  Poland",
+      "website": "https://stabillon.com",
+      "authorisation_date": "23/04/2019",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "EMT_NO_WP",
+          "start_date": "30/10/2025",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "08/09/2025"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "8d2449fa2ceddf37",
+      "competent_authority": "Banco de Portugal (BdP)",
+      "home_member_state": "PT",
+      "name": "BISON BANK, S.A.",
+      "lei": "549300V4H4USWZUCE073",
+      "head_office_country": "PT",
+      "commercial_name": "BISON BANK, S.A.",
+      "address": "Rua Barata Salgueiro, 33, Piso 0, 1250-042 Lisboa",
+      "website": "https://bisonbank.com/",
+      "authorisation_date": "11/02/2014",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
+          "start_date": "12/03/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "12/03/2026"
+        }
+      ],
+      "institution_type": "Credit institution",
+      "exemption_48_4": "No",
+      "exemption_48_5": "No"
+    },
+    {
+      "id": "ea0a1bdb24e748b9",
+      "competent_authority": "Bank of Slovenia",
+      "home_member_state": "SI",
+      "name": "DINARO company for electronic money issuing and payment services Ltd.",
+      "lei": "48510062OP64BYKPNO22",
+      "head_office_country": "SI",
+      "commercial_name": "Dinaro",
+      "address": "Bravničarjeva ulica 13, 1000 Ljubljana, Slovenia",
+      "website": "www.dinaro.si",
+      "authorisation_date": "02/11/2021",
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://dinaro.si/mica-eurgh-whitepaper",
+          "start_date": "01/09/2026",
+          "dti": "M5ZR1C4B3",
+          "dti_ffg": "2682FMR4J",
+          "comments": null,
+          "last_update": "07/08/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": null,
+      "exemption_48_5": null
+    }
+  ]
+}

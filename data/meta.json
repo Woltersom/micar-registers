@@ -1,1 +1,11 @@
-{}
+{
+  "last_checked": "2026-09-11T09:53:38+00:00",
+  "record_counts": {
+    "whitepapers": 624,
+    "art": 0,
+    "emt": 24,
+    "casps": 344,
+    "non_compliant": 165
+  },
+  "last_change_at": "2026-09-11T09:53:38+00:00"
+}
