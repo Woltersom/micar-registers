@@ -1,6 +1,6 @@
 {
   "register": "emt",
-  "generated_at": "2026-09-16T06:20:37+00:00",
+  "generated_at": "2026-09-17T06:20:38+00:00",
   "records": [
     {
       "id": "0673627ac8c1d954",
@@ -98,6 +98,14 @@
           "dti_ffg": null,
           "comments": "USDAU, V.1.0",
           "last_update": "04/09/2026"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "start_date": "06/05/2026",
+          "dti": "JPJHD47F4 | X10CDHLZQ | HTKFL04WZ | 6TR5F3KKF | 7BN8BLGZH | VTFCC12GK",
+          "dti_ffg": null,
+          "comments": "SEKAU, V.1.1",
+          "last_update": "14/09/2026"
         }
       ],
       "institution_type": "Electronic money institution",
@@ -794,6 +802,14 @@
       "withdrawal_date": null,
       "status": "active",
       "whitepapers": [
+        {
+          "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-EUB-White-Paper_20260312-1.pdf",
+          "start_date": "12/03/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "12/03/2026"
+        },
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
           "start_date": "12/03/2026",

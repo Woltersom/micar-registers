@@ -8097,5 +8097,560 @@
     "id": "31243c81b366db78",
     "name": "LWEX",
     "timestamp": "2026-09-11T09:53:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "a4583cff721a1f16",
+    "name": "Alphamind OÜ",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "3ca79f2897fcbbb4",
+    "name": "Playnance OÜ",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "e6ab3c3ba9ebd6f8",
+    "name": "Standard Technologies Pte. Ltd.",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "bc10ea0aa71a27f8",
+    "name": "Puple AI Inc.",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "68e44b1693814b3f",
+    "name": "LN Technology (TIV) Limited",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "1bbc3e38328b5771",
+    "name": "BLOCKv Foundation, to be renamed Dual Foundation",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ac8d0fc8a989e577",
+    "name": "Bitstamp Europe S.A.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "50b1d4777bff8120",
+    "name": "Fuse Crypto Limited",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "26e56cfe45611aeb",
+    "name": "Nillion Association",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "aa15626db19817e0",
+    "name": "Elliot Technologies, Inc",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "f95d165e6ed77ad1",
+    "name": "AllUnity GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "8d2449fa2ceddf37",
+    "name": "BISON BANK, S.A.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "8bcfffe68c1ac7b3",
+    "name": "FF Digital EOOD",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "da39cf7a14b6dfb9",
+    "name": "EUWAX AG",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "d5b223adcc1a4866",
+    "name": "Deutsche WertpapierService Bank AG",
+    "detail": [
+      {
+        "kind": "service_removed",
+        "code": "c"
+      },
+      {
+        "kind": "service_removed",
+        "code": "d"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a1333bf847b2d5b2",
+    "name": "DLT Securities GmbH",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "f",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "cca6968ea9233df1",
+    "name": "Volksbank Olpe-Wenden-Drolshagen eG",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "b46251eb22bdcf05",
+    "name": "Deutsche Bank Aktiengesellschaft",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "e6db7e312ce725ac",
+    "name": "Raiffeisenbank Goldener Steig-Dreisessel eG",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "208e7bbfa5098ee4",
+    "name": "Vereinigte VR Bank eG",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "46de2aae2ef1d1cf",
+    "name": "Vereinigte Volksbank Raiffeisenbank eG, Reinheim",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "629991d4fe70bffd",
+    "name": "Januar ApS",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "CZ",
+          "DE",
+          "HU",
+          "SE"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "CZ",
+          "DE",
+          "HU",
+          "SE"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "CZ",
+          "DE",
+          "HU",
+          "SE"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a3fd7add68fb25b7",
+    "name": "SOCIETE GENERALE - FORGE",
+    "detail": [
+      {
+        "kind": "service_removed",
+        "code": "e"
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff9d6840d2e984c5",
+    "name": "LEONOD SARL",
+    "detail": [
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "HU"
+        ]
+      },
+      "commercial name: BULL BITCOIN → LEONOD"
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "1c409b077e680754",
+    "name": "FLOWDESK EUROPE SAS",
+    "detail": [
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "BE",
+          "IE",
+          "IT"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "BE",
+          "IE",
+          "IT"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "d",
+        "countries": [
+          "BE",
+          "IE",
+          "IT"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "BE",
+          "IE",
+          "IT"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "BE",
+          "IE",
+          "IT"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "46b9520dc2735d54",
+    "name": "APLO SAS",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "a9d01e05b67008ae",
+    "name": "Bank Bit",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "0239d2ea375f4f7f",
+    "name": "Bithf Pro",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "4345bd9bf58daf21",
+    "name": "Dxago",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "b14a7d1ff2c7d6fe",
+    "name": "Global Dynamic Trade",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "eada2b57765b27a9",
+    "name": "ZeriaFunding",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "7fb513dacd46bcb5",
+    "name": "Aurum Foundation",
+    "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "892bba736be3e018",
+    "name": "White Mint Financial Company s.r.o.",
+    "timestamp": "2026-09-17T06:20:38+00:00"
   }
 ]

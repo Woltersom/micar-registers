@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-09-16T06:20:37+00:00",
+  "generated_at": "2026-09-17T06:20:38+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -5244,6 +5244,108 @@
           "dti_ffg": null,
           "comments": "https://www.fi.ee/et/hoiatusteated/bb-trade-estonia-ou",
           "last_update": "16/02/2026"
+        }
+      ]
+    },
+    {
+      "id": "a4583cff721a1f16",
+      "competent_authority": "Estonian Financial Supervision Authority (EFSA)",
+      "home_member_state": "EE",
+      "name": "Alphamind OÜ",
+      "lei": "64884V6CJU6LV1J25394",
+      "head_office_country": "EE",
+      "whitepapers": [
+        {
+          "url": "https://alphamind.xyz",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DK",
+            "DE",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "10/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "3ca79f2897fcbbb4",
+      "competent_authority": "Estonian Financial Supervision Authority (EFSA)",
+      "home_member_state": "EE",
+      "name": "Playnance OÜ",
+      "lei": "984500HEJ2A8BF504835",
+      "head_office_country": "EE",
+      "whitepapers": [
+        {
+          "url": "https://www.playnance.com/Annex%202.%20Whitepaper%20Draft.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": null,
+          "dti_ffg": "J14L11WZK",
+          "comments": null,
+          "last_update": "10/09/2026"
         }
       ]
     },
@@ -13265,6 +13367,88 @@
       ]
     },
     {
+      "id": "e6ab3c3ba9ebd6f8",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Standard Technologies Pte. Ltd.",
+      "lei": "9845000CB1JE49011C26",
+      "head_office_country": "SG",
+      "whitepapers": [
+        {
+          "url": "awe.micarwhitepapers.eu",
+          "casp_name": "Payward Global Solutions LTD",
+          "casp_lei": null,
+          "offer_countries": [
+            "9845003D98SCC2851458"
+          ],
+          "dti": "B9DMCJKDP",
+          "dti_ffg": "L305TXRS8",
+          "comments": null,
+          "last_update": "11/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "bc10ea0aa71a27f8",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Puple AI Inc.",
+      "lei": "98450007890470F53F23",
+      "head_office_country": "PA",
+      "whitepapers": [
+        {
+          "url": "https://memecore.com/micar-whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "DTDRV72TC",
+          "dti_ffg": "6KC5M8HPV",
+          "comments": null,
+          "last_update": "11/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "68e44b1693814b3f",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "LN Technology (TIV) Limited",
+      "lei": "254900NF20CQKJR3Z895",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://cdn.prod.website-files.com/67ea875e6d5ae597a69440a1/6a58d844e9e059c09c086474_KAIO_MiCA_WhitePaper_4_21_2026.pdf",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "JCCGKDCN4",
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "11/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "1bbc3e38328b5771",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "BLOCKv Foundation, to be renamed Dual Foundation",
+      "lei": "5067002444K4ZYWL2S06",
+      "head_office_country": "CH",
+      "whitepapers": [
+        {
+          "url": "www.dual.org/mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "LJK83Q94Z",
+          "dti_ffg": "9HG2Z1W50",
+          "comments": null,
+          "last_update": "11/09/2026"
+        }
+      ]
+    },
+    {
       "id": "1d468e8800be3896",
       "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "home_member_state": "IT",
@@ -15842,6 +16026,88 @@
           "dti_ffg": "L7XQXLN44",
           "comments": "Note that the publication date for the white paper is 10/07/2026 at which point this record will be updated with the link.",
           "last_update": "12/06/2026"
+        },
+        {
+          "url": "https://assets.bitstamp.net/docs/whitepaper/PONS_2026_08_31.xhtml",
+          "casp_name": "Bitstamp Europe S.A.",
+          "casp_lei": "549300XIBGTJ0PLIEO72",
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "HW5V1GSQ7",
+          "dti_ffg": "F5V1Z6TC2",
+          "comments": "Note that the publication date for the white paper is 29/09/2026 at which point this record will be updated with the link.",
+          "last_update": "11/09/2026"
+        },
+        {
+          "url": "https://assets.bitstamp.net/docs/whitepaper/BILL_2026_09_03.xhtml",
+          "casp_name": "Bitstamp Europe S.A.",
+          "casp_lei": "549300XIBGTJ0PLIEO72",
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "KX72D65KT",
+          "dti_ffg": "TD9BTNFZ2",
+          "comments": "Note that the publication date for the white paper is 02/10/2026 at which point this record will be updated with the link.",
+          "last_update": "11/09/2026"
         }
       ]
     },
@@ -16038,8 +16304,8 @@
           ],
           "dti": "HQ3X8PQD4",
           "dti_ffg": "4TGWJFFJ5",
-          "comments": "Note that the publication date for the modified white paper is 24.02.2026 at which point this record will be updated with the link.  \n•\tTechnical Alignment for ESMA Register: To update the \"Type of Submission\" (Item F.5) to \"MODI\" and ensure all mandatory fields (including the FFG DTI) are updated for integration into the ESMA interim register.\n•\tOperational Timeline Update: To update the intended starting date of admission to trading to 24 February 2026, aligning with the mandatory 7-working-day notification period.\n•\tUpdate on Trading Platform: To formally specify Bitstamp Europe S.A. as the first trading platform where admission to trading is being sought.",
-          "last_update": "18/02/2026"
+          "comments": "Note that the publication date for the modified white paper is 24.02.2026 at which point this record will be updated with the link.  \n•\tTechnical Alignment for ESMA Register: To update the \"Type of Submission\" (Item F.5) to \"MODI\" and ensure all mandatory fields (including the FFG DTI) are updated for integration into the ESMA interim register.\n•\tOperational Timeline Update: To update the intended starting date of admission to trading to 24 February 2026, aligning with the mandatory 7-working-day notification period.\n•\tUpdate on Trading Platform: To formally specify Bitstamp Europe S.A. as the first trading platform where admission to trading is being sought. \n\nThe offerer does not intend to offer the token on an exchange platform anymore.",
+          "last_update": "19/06/2026"
         }
       ]
     },
@@ -16990,6 +17256,26 @@
           "dti_ffg": "6847PC6BH",
           "comments": null,
           "last_update": "15.04.2026"
+        }
+      ]
+    },
+    {
+      "id": "26e56cfe45611aeb",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "Nillion Association",
+      "lei": null,
+      "head_office_country": "CH",
+      "whitepapers": [
+        {
+          "url": "https://nillion.com/legal/mica/whitepaper/",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "Modified",
+          "last_update": "20/07/2026"
         }
       ]
     },
@@ -19180,6 +19466,26 @@
           "dti_ffg": "LL5HTKTB5",
           "comments": null,
           "last_update": "27/08/2026"
+        }
+      ]
+    },
+    {
+      "id": "aa15626db19817e0",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "Elliot Technologies, Inc",
+      "lei": null,
+      "head_office_country": "US",
+      "whitepapers": [
+        {
+          "url": "https://my.okx.com/whitepaper/lighter-lit.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "DSZ0J72T7",
+          "dti_ffg": "W0746TPZW",
+          "comments": null,
+          "last_update": "11/09/2026"
         }
       ]
     },
