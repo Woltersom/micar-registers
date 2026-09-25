@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-09-24T06:20:03+00:00",
+  "generated_at": "2026-09-25T06:19:59+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -1888,7 +1888,33 @@
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
           "last_update": "21/07/2026"
@@ -1896,7 +1922,33 @@
         {
           "service": "c. exchange of crypto-assets for funds",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
           "last_update": "21/07/2026"
@@ -1904,7 +1956,33 @@
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
           "last_update": "21/07/2026"
@@ -1912,7 +1990,33 @@
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
           "last_update": "21/07/2026"
@@ -12173,7 +12277,7 @@
             "DE"
           ],
           "comments": null,
-          "last_update": null
+          "last_update": "15/09/2026"
         }
       ],
       "source": "esma"
@@ -12226,6 +12330,110 @@
           ],
           "comments": null,
           "last_update": "15/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "c682e7ad2f6592d9",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank Göppingen eG",
+      "lei": "529900K1110GFV3VUM61",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank Göppingen eG",
+      "address": "Poststraße 4, 73033 Göppingen",
+      "website": "www.volksbank-goeppingen.de",
+      "platform_website": null,
+      "authorisation_date": "17/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "16/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "87453095d68544ab",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Wiesbadener Volksbank eG",
+      "lei": "5299002PZ7ROI71ZQW56",
+      "head_office_country": "DE",
+      "commercial_name": "Wiesbadener Volksbank eG",
+      "address": "Schillerplatz 4, 65185 Wiesbaden",
+      "website": "www.wvb.de",
+      "platform_website": null,
+      "authorisation_date": "29/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "17/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "6ddef55410f00589",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Raiffeisenbank im Oberland eG",
+      "lei": "529900Q4W1LSVUCO8L66",
+      "head_office_country": "DE",
+      "commercial_name": "Raiffeisenbank im Oberland eG",
+      "address": "Albert-Schäffenacker-Straße 5, 83646 Bad Tölz",
+      "website": "www.oberlandbank.de",
+      "platform_website": null,
+      "authorisation_date": "12/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "18/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "2363b4f76edf3085",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Münchner Bank eG",
+      "lei": "529900VHU3S8ZYAQYZ61",
+      "head_office_country": "DE",
+      "commercial_name": "Münchner Bank eG",
+      "address": "Richard-Strauss-Straße 82, 81679 München",
+      "website": "www.muenchner-bank.de",
+      "platform_website": null,
+      "authorisation_date": "12/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "22/09/2026"
         }
       ],
       "source": "esma"
@@ -18533,6 +18741,410 @@
           ],
           "comments": null,
           "last_update": "28/07/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "a19f2ab5d2412442",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "home_member_state": "FR",
+      "name": "REGULAR FINANCE SAS",
+      "lei": "969500Y5SNO2WBYDB059",
+      "head_office_country": "FR",
+      "commercial_name": "REGULAR",
+      "address": "41 Rue de la Chaussée d'Antin, 75009 Paris, France",
+      "website": "https://www.regular.eu/",
+      "platform_website": "https://www.regular.eu/",
+      "authorisation_date": "11/09/2028",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/09/2028"
+        },
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/09/2028"
+        },
+        {
+          "service": "h. providing advice on crypto-assets",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/09/2028"
+        },
+        {
+          "service": "i. providing portfolio management on crypto-assets",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/09/2028"
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/09/2028"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "400fb683672f4cc6",
+      "competent_authority": "Hellenic Capital Market Commission (HCMC)",
+      "home_member_state": "GR",
+      "name": "BCASH SOCIETE ANONYME",
+      "lei": null,
+      "head_office_country": "GR",
+      "commercial_name": "BCASH",
+      "address": "84, Dimitrakopoulou str., 11741, Athens, Greece",
+      "website": "www.bcash.eu",
+      "platform_website": null,
+      "authorisation_date": "30/06/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": [
+            "GR"
+          ],
+          "comments": null,
+          "last_update": "01/07/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "bf71b87e14b3c8c6",
+      "competent_authority": "Hellenic Capital Market Commission (HCMC)",
+      "home_member_state": "GR",
+      "name": "XENIOS BLOCKCHAIN GROUP S.A.",
+      "lei": null,
+      "head_office_country": "GR",
+      "commercial_name": "XBG",
+      "address": "XBG, 4Β, 17 Noemvriou str., 15127, Melissia, Greece",
+      "website": "www.xeniosblockchaingroup.com",
+      "platform_website": null,
+      "authorisation_date": "22/07/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "BG",
+            "CY",
+            "DE",
+            "FR",
+            "GR",
+            "IT",
+            "LU",
+            "MT",
+            "RO"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "e957844af0865248",
+      "competent_authority": "Hellenic Capital Market Commission (HCMC)",
+      "home_member_state": "GR",
+      "name": "CAPITAL WALLET GREECE S.A.",
+      "lei": null,
+      "head_office_country": "GR",
+      "commercial_name": "CAPITAL WALLET SA\nCAPITAL WALLET\nCAPITAL WALLET GREECE",
+      "address": "580, Vouliagmenis ave., 16452, Argiroupoli, Greece",
+      "website": "www.capitalwallet.com/eu",
+      "platform_website": null,
+      "authorisation_date": "22/07/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        },
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        },
+        {
+          "service": "d. exchange of crypto-assets for other crypto-assets",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        },
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": [
+            "CY",
+            "DE",
+            "ES",
+            "FR",
+            "GR",
+            "IT"
+          ],
+          "comments": null,
+          "last_update": "23/07/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "88b3f9c338410ae7",
+      "competent_authority": "Bank of Greece",
+      "home_member_state": "GR",
+      "name": "PIRAEUS BANK Société Anonyme (S.A.)",
+      "lei": "213800OYHR1MPQ5VJL60",
+      "head_office_country": "GR",
+      "commercial_name": null,
+      "address": "4, Amerikis Str., 10564 Athens, Greece",
+      "website": "www.piraeusbank.gr/",
+      "platform_website": null,
+      "authorisation_date": "07/08/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "GR"
+          ],
+          "comments": "Together with HCMC",
+          "last_update": "08/08/2026"
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "GR"
+          ],
+          "comments": "Together with HCMC",
+          "last_update": "08/08/2026"
+        },
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "GR"
+          ],
+          "comments": "Together with HCMC",
+          "last_update": "08/08/2026"
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": [
+            "GR"
+          ],
+          "comments": "Together with HCMC",
+          "last_update": "08/08/2026"
         }
       ],
       "source": "esma"
@@ -32236,7 +32848,7 @@
             "EE",
             "EL",
             "ES",
-            "Fi",
+            "FI",
             "FR",
             "HR",
             "HU",
@@ -32273,7 +32885,7 @@
             "EE",
             "EL",
             "ES",
-            "Fi",
+            "FI",
             "FR",
             "HR",
             "HU",
@@ -32318,34 +32930,112 @@
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
             "NL",
+            "AT",
             "BE",
+            "BG",
+            "CY",
+            "CZ",
             "DE",
-            "ES"
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "01/10/2025"
+          "last_update": "29/06/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
           "countries": [
             "NL",
+            "AT",
             "BE",
+            "BG",
+            "CY",
+            "CZ",
             "DE",
-            "ES"
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "01/10/2025"
+          "last_update": "29/06/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
           "countries": [
             "NL",
+            "AT",
             "BE",
+            "BG",
+            "CY",
+            "CZ",
             "DE",
-            "ES"
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "01/10/2025"
+          "last_update": "29/06/2026"
         }
       ],
       "source": "esma"
@@ -32357,9 +33047,9 @@
       "name": "EU Internet Ventures B.V.",
       "lei": "6994000HAL9ODW3IMO22",
       "head_office_country": "NL",
-      "commercial_name": "EU Internet Ventures, EUIV, BNXA",
+      "commercial_name": "EU Internet Ventures, EUIV, BNXA, OSL Pay, WisPay",
       "address": "Piet Heinkade 93B - 1019 GM Amsterdam - The Netherlands",
-      "website": "https://banxa.com",
+      "website": "https://banxa.com\nhttps://www.osl-pay.com/",
       "platform_website": null,
       "authorisation_date": "08/10/2025",
       "withdrawal_date": null,
@@ -32400,7 +33090,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "14/10/2025"
+          "last_update": "17/07/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
@@ -32437,7 +33127,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "14/10/2025"
+          "last_update": "17/07/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -32474,7 +33164,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "14/10/2025"
+          "last_update": "17/07/2026"
         }
       ],
       "source": "esma"
@@ -33146,7 +33836,7 @@
       "lei": "724500BUG93MDFGYQG03",
       "head_office_country": "NL",
       "commercial_name": "Monflo",
-      "address": "Prins Willem-Alexandarlaan 301 - 7311SW - Apeldoorn - The Netherlands",
+      "address": "Prins Willem-Alexandarlaan 301 - 7311SW Apeldoorn - The Netherlands",
       "website": "https://www.monflo.com",
       "platform_website": null,
       "authorisation_date": "04/12/2025",
@@ -33494,7 +34184,7 @@
       "lei": "7245009PUAT6U71IXZ51",
       "head_office_country": "NL",
       "commercial_name": "Change, Change Invest, getchange.com, ChangePro, changeinvest.com, AgenaTrader, agenatrader.com, TradersYard, tradersyard.com",
-      "address": "Westeinde 89 - Noordwijkerhout - 2211XS - The Netherlands",
+      "address": "Westeinde 89 - 2211XS Noordwijkerhout - The Netherlands",
       "website": "https://www.changeinvest.com/",
       "platform_website": null,
       "authorisation_date": "20/04/2026",
@@ -33577,7 +34267,7 @@
       "name": "Webull Securities (Europe) B.V.",
       "lei": "894500CUU8Y0ZBG8DX95",
       "head_office_country": "NL",
-      "commercial_name": "Webull, Webull Europe",
+      "commercial_name": "Webull, Webull Europe, Cashify, RGLTD",
       "address": "Kraijenhoffstraat 137A - 1018RG Amsterdam - The Netherlands",
       "website": "https://www.webull.eu/",
       "platform_website": null,
@@ -33591,7 +34281,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "30/06/2026"
+          "last_update": "21/09/2026"
         },
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
@@ -33599,7 +34289,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "30/06/2026"
+          "last_update": "21/09/2026"
         }
       ],
       "source": "esma"
@@ -33611,7 +34301,7 @@
       "name": "BitPay B.V.",
       "lei": "724500F2THLY5MHEIM78",
       "head_office_country": "NL",
-      "commercial_name": "BitPay B.V., Cashify, RGLTD",
+      "commercial_name": "BitPay B.V.",
       "address": "Keizersgracht 520H -\n1017EK  AMSTERDAM -The Netherlands",
       "website": "https://www.bitpay.com/",
       "platform_website": null,
@@ -33654,7 +34344,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "13/08/2026"
+          "last_update": "21/09/2026"
         }
       ],
       "source": "esma"
@@ -34905,6 +35595,64 @@
           ],
           "comments": null,
           "last_update": "02/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "d59164bab6eaede3",
+      "competent_authority": "Securities Market Agency (ATVP)",
+      "home_member_state": "SI",
+      "name": "ICONOMI EUROPE, borznoposredniška družba, d.o.o.",
+      "lei": "485100CIMEOMSMFT8G48",
+      "head_office_country": "SI",
+      "commercial_name": "Iconomi",
+      "address": "Slovenska cesta 55 1000 Ljubljana Slovenia",
+      "website": "https://www.iconomi.com/",
+      "platform_website": null,
+      "authorisation_date": "06/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "SI"
+          ],
+          "comments": null,
+          "last_update": "21/09/2026"
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "SI"
+          ],
+          "comments": null,
+          "last_update": "21/09/2026"
+        },
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "SI"
+          ],
+          "comments": null,
+          "last_update": "21/09/2026"
+        },
+        {
+          "service": "h. providing advice on crypto-assets",
+          "countries": [
+            "SI"
+          ],
+          "comments": null,
+          "last_update": "21/09/2026"
+        },
+        {
+          "service": "i. providing portfolio management on crypto-assets",
+          "countries": [
+            "SI"
+          ],
+          "comments": null,
+          "last_update": "21/09/2026"
         }
       ],
       "source": "esma"

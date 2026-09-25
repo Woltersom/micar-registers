@@ -8652,5 +8652,548 @@
     "id": "892bba736be3e018",
     "name": "White Mint Financial Company s.r.o.",
     "timestamp": "2026-09-17T06:20:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "465971bbec30b21d",
+    "name": "Nimiq Network Ltd.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f28cd50308c1dec2",
+    "name": "Leondra GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "3ded6cdaa5a3028c",
+    "name": "Resonance Foundation",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "8792ca79757f5e54",
+    "name": "Collector Crypt Foundation",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "0c9d677b8ed680f6",
+    "name": "IO TRADE LAB LIMITED",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "b78199b65135ffd3",
+    "name": "Public Goods Labs Ltd.",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "f2a833dd65d0fc44",
+    "name": "Zama Switzerland AG",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "778a0d4c5afccc84",
+    "name": "Linear Intent Technologies Ltd.",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d6666eadca131fdd",
+    "name": "Fan Token Management AG",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "9e3ce41c8cd96eee",
+    "name": "SB (BVI) Ltd",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "1030d6e051422b84",
+    "name": "Circle Internet Financial Europe SAS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "efcaee8b920668ee",
+    "name": "Altcoins BG EООD",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e6db7e312ce725ac",
+    "name": "Raiffeisenbank Goldener Steig-Dreisessel eG",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "c682e7ad2f6592d9",
+    "name": "Volksbank Göppingen eG",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "87453095d68544ab",
+    "name": "Wiesbadener Volksbank eG",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "6ddef55410f00589",
+    "name": "Raiffeisenbank im Oberland eG",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "2363b4f76edf3085",
+    "name": "Münchner Bank eG",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "a19f2ab5d2412442",
+    "name": "REGULAR FINANCE SAS",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "400fb683672f4cc6",
+    "name": "BCASH SOCIETE ANONYME",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "bf71b87e14b3c8c6",
+    "name": "XENIOS BLOCKCHAIN GROUP S.A.",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "e957844af0865248",
+    "name": "CAPITAL WALLET GREECE S.A.",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "88b3f9c338410ae7",
+    "name": "PIRAEUS BANK Société Anonyme (S.A.)",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e077b6374278a05e",
+    "name": "Fiat Republic Netherlands B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "FI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "Fi"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "FI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "Fi"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "1298c93d38ca2e2c",
+    "name": "BLOX B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "EL",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "EL",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "EL",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9a5775f408658608",
+    "name": "EU Internet Ventures B.V.",
+    "detail": [
+      "commercial name: EU Internet Ventures, EUIV, BNXA → EU Internet Ventures, EUIV, BNXA, OSL Pay, WisPay",
+      "website: https://banxa.com → https://banxa.com\nhttps://www.osl-pay.com/"
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "93e9176b89bd8a02",
+    "name": "Monflo B.V.",
+    "detail": [
+      "address: Prins Willem-Alexandarlaan 301 - 7311SW - Apeldoorn - The Netherlands → Prins Willem-Alexandarlaan 301 - 7311SW Apeldoorn - The Netherlands"
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "282577d519e9730a",
+    "name": "Change Securities B.V.",
+    "detail": [
+      "address: Westeinde 89 - Noordwijkerhout - 2211XS - The Netherlands → Westeinde 89 - 2211XS Noordwijkerhout - The Netherlands"
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b59d66688bf2ceb8",
+    "name": "Webull Securities (Europe) B.V.",
+    "detail": [
+      "commercial name: Webull, Webull Europe → Webull, Webull Europe, Cashify, RGLTD"
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "cc5d2090bae0303b",
+    "name": "BitPay B.V.",
+    "detail": [
+      "commercial name: BitPay B.V., Cashify, RGLTD → BitPay B.V."
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "d59164bab6eaede3",
+    "name": "ICONOMI EUROPE, borznoposredniška družba, d.o.o.",
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "non_compliant",
+    "id": "defce27d1cb76b3f",
+    "name": "Lucrumiagroup",
+    "detail": [
+      "competent authority: Commissione Nazionale per le Societa e la Borsa  (CONSOB) → Commissione Nazionale per le Societa e la Borsa (CONSOB)"
+    ],
+    "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "7cd0c510f3b24472",
+    "name": "Nextrize Invest",
+    "timestamp": "2026-09-25T06:19:59+00:00"
   }
 ]

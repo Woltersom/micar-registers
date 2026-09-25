@@ -1,6 +1,6 @@
 {
   "register": "non_compliant",
-  "generated_at": "2026-09-24T06:20:03+00:00",
+  "generated_at": "2026-09-25T06:19:59+00:00",
   "records": [
     {
       "id": "a9d01e05b67008ae",
@@ -1460,7 +1460,7 @@
     },
     {
       "id": "defce27d1cb76b3f",
-      "competent_authority": "Commissione Nazionale per le Societa e la Borsa  (CONSOB)",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "home_member_state": "IT",
       "name": "Lucrumiagroup",
       "lei": null,
@@ -2381,6 +2381,20 @@
       "decision_date": "22/07/2026",
       "comments": null,
       "last_update": "31/07/2026"
+    },
+    {
+      "id": "7cd0c510f3b24472",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "Nextrize Invest",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://nextrize.org|https://trck-oklomin.info",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "15/09/2026",
+      "comments": null,
+      "last_update": "16/09/2026"
     },
     {
       "id": "e7ab003a0b775925",

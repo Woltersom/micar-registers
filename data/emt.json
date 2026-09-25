@@ -1,6 +1,6 @@
 {
   "register": "emt",
-  "generated_at": "2026-09-24T06:20:03+00:00",
+  "generated_at": "2026-09-25T06:19:59+00:00",
   "records": [
     {
       "id": "0673627ac8c1d954",
@@ -218,7 +218,7 @@
           "dti": "M8G59S1ZR|6BGZTT6GF|4ZSZS1F4F|45J6XJX7H|CP6817N4B|2ZTG3NNVB|VXJX1WW6V|CK9PW1MFH|P7H2X1B9H|XTS66R22W|GN9M0Z238|R3SV04GX9|RWPZZPR7C|S28NDWCSX|W2PQJJCPM|7NZRGQZ87|898NNTPZJ|N064ZKXDM|J2TPM5RFQ|LS71LQK3L|RN81GQLBH|5R3XFPZSM|MKC04VFBQ|DWBBXD2F1|TSLS4S9R8|FXZLG37L6|T6TQ8GN7L|56V43DKZ3|QQKDMF6N9|SKXZGD4J8|54VFN74B3|T9F5C3ZCC|GGMLHMDVQ|6TNZQDKZK|DWCZ3239L|9F3G4V14R",
           "dti_ffg": "TJWK5QTRK",
           "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
-          "last_update": "10/07/2026"
+          "last_update": "15/09/2026"
         }
       ],
       "institution_type": "Electronic money institution",
