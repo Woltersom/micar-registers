@@ -140,17 +140,18 @@ function changelogItemHtml(c) {
   `;
 }
 
-// [registerRank, isNewCaspRank] - lower sorts first. Mirrors
+// [registerRank, typeRank] - lower sorts first. registerRank mirrors
 // REGISTER_PRIORITY in scraper/fetch_esma.py, which ranks the Slack
 // notification's per-register count summary in this same order (CASPs, EMT,
 // ART, Whitepapers, Non-compliant last) - this changelog page still lists
-// individual entities though, with a brand-new CASP floated above every
-// other CASP change too, which the Slack summary no longer needs (it shows
-// per-register counts, not individual entities).
+// individual entities though. Within each register, typeRank floats new
+// entities first, then changed, then removed - applied to every register,
+// not just CASPs (a mix of Nieuw/Gewijzigd in source order otherwise, which
+// is what the per-register typeRank fixes).
 function changelogPriorityKey(c) {
   const registerRank = REGISTERS[c.register]?.priority ?? 99;
-  const isNewCasp = c.register === "casps" && c.type === "added" ? 0 : 1;
-  return [registerRank, isNewCasp];
+  const typeRank = c.type === "added" ? 0 : c.type === "changed" ? 1 : 2;
+  return [registerRank, typeRank];
 }
 
 // Newest run first; within the same run (identical timestamp - every change
@@ -163,9 +164,9 @@ function sortChangelogForDisplay(changelog) {
   return changelog.slice().sort((a, b) => {
     const byTime = new Date(b.timestamp) - new Date(a.timestamp);
     if (byTime !== 0) return byTime;
-    const [aRank, aNew] = changelogPriorityKey(a);
-    const [bRank, bNew] = changelogPriorityKey(b);
-    return aRank !== bRank ? aRank - bRank : aNew - bNew;
+    const [aRank, aType] = changelogPriorityKey(a);
+    const [bRank, bType] = changelogPriorityKey(b);
+    return aRank !== bRank ? aRank - bRank : aType - bType;
   });
 }
 
