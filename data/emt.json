@@ -1,6 +1,6 @@
 {
   "register": "emt",
-  "generated_at": "2026-09-30T06:20:43+00:00",
+  "generated_at": "2026-10-01T06:22:13+00:00",
   "records": [
     {
       "id": "0673627ac8c1d954",
@@ -760,6 +760,33 @@
       "institution_type": "Electronic money Institution",
       "exemption_48_4": "No",
       "exemption_48_5": "No"
+    },
+    {
+      "id": "516426671a34c183",
+      "competent_authority": "De Nederlansche Bank (DNB)",
+      "home_member_state": "NL",
+      "name": "Aplauz NL B.V.",
+      "lei": "72450039GAIN4MNI4V12",
+      "head_office_country": "NL",
+      "commercial_name": "Aplauz",
+      "address": "Keizersgracht 555 - 1017DR Amsterdam",
+      "website": "https://weur.io",
+      "authorisation_date": null,
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://www.weur.io",
+          "start_date": "25/06/2026",
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "WEUR white paper",
+          "last_update": "26/05/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": null,
+      "exemption_48_5": null
     },
     {
       "id": "7aebbf897ec20791",

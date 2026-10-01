@@ -9195,5 +9195,372 @@
     "id": "7cd0c510f3b24472",
     "name": "Nextrize Invest",
     "timestamp": "2026-09-25T06:19:59+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "16c28369ae1ec072",
+    "name": "Gotchi Labs Ltd",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "869a409c4a705437",
+    "name": "Provable GmbH",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "0db99a3b71e9b7af",
+    "name": "Reasoon Limited",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "22c52ba83b342168",
+    "name": "Katana Token DeployCo Ltd",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "8ffa73dfaf7652c1",
+    "name": "Polygon Labs Services (Switzerland) AG",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "98907ca60ea1ac97",
+    "name": "HATX Technologies Kft.",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "8672e8d8fc775af9",
+    "name": "xMoney Labs AG",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "de6224e3ce99bcbd",
+    "name": "Haven Holding AG",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "a6e6a35f57c3e999",
+    "name": "SUN AG",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d6666eadca131fdd",
+    "name": "Fan Token Management AG",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "021a805c34a768f5",
+    "name": "CANOPY NETWORK CORP.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "c10fb5620d79b25a",
+    "name": "Asimov Ltd",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "9f5a28ee0750c885",
+    "name": "Saffron Finance Limited",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "emt",
+    "id": "516426671a34c183",
+    "name": "Aplauz NL B.V.",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "dc77df6275781a0b",
+    "name": "J2TX Ltd",
+    "detail": [
+      {
+        "kind": "service_removed",
+        "code": "h"
+      },
+      {
+        "kind": "service_removed",
+        "code": "i"
+      }
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ee7779d8025fed51",
+    "name": "TRIA BRIDGE LIMITED (ex Tokenomica Bridge Ltd)",
+    "detail": [
+      "website: https://triabridge.com/ → https://triabridge.com/\nhttps://thevault.inc/"
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "7cae664c8bab256d",
+    "name": "VR Bank zwischen den Meeren eG",
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "eff3fefb15695b02",
+    "name": "Floin AG",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "f",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "address: Am Schrägen Weg 2 - 9490 → Am Schrägen Weg 2 - 9490 Vaduz"
+    ],
+    "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "c54e3fb2bd762abc",
+    "name": "VS Digital Europe Ltd.",
+    "timestamp": "2026-10-01T06:22:13+00:00"
   }
 ]
