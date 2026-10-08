@@ -9562,5 +9562,782 @@
     "id": "c54e3fb2bd762abc",
     "name": "VS Digital Europe Ltd.",
     "timestamp": "2026-10-01T06:22:13+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "bf257d5234c9919f",
+    "name": "Axenor Holdings OÜ",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "8ffa73dfaf7652c1",
+    "name": "Polygon Labs Services (Switzerland) AG",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "3c316710734c6bf6",
+    "name": "COMPANY ZERO LLC",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "1b73972627782796",
+    "name": "Open Protocol Labs Ltd",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "364c30f997d45033",
+    "name": "Primary Creative Limited",
+    "detail": [
+      "competent authority: Commission de Surveillance du Secteur Financier → Central Bank of Ireland (CBI)",
+      "home member state: LU → IE",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "4b1f580fdaacd08c",
+    "name": "Axis Robotics Limited",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "2237908b0aa5da60",
+    "name": "Acurast Association",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "36099dfaae73519e",
+    "name": "EquationX Ltd.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "3151119d1ddbbb1f",
+    "name": "MYX Technology Limited",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "96b91ef35f3bf881",
+    "name": "Propy Inc",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "3e8c15fc18e62aae",
+    "name": "Not Multiverse Ltd",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "c5ee928dd978e9c3",
+    "name": "Zee World Association",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "506b9a77c4fe5ec6",
+    "name": "BlockBen SIA",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "afae56e2f1b9c025",
+    "name": "Comet Technologies Ltd.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "58c15e6afaf16b4c",
+    "name": "Gen6 USA LLC",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "778a0d4c5afccc84",
+    "name": "Linear Intent Technologies Ltd.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d483eef687beb4db",
+    "name": "Virtuals Protocol",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "ca24cf7b6cd4c8a6",
+    "name": "Pons Labs LLC",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "641d11034667dbf5",
+    "name": "NativeArc EOOD",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "365b3a7bceed7277",
+    "name": "Alaric Securities OOD",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "f",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "h",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "i",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "224e9171f6808a02",
+    "name": "Belayer ООD",
+    "detail": [
+      "address: Office 1, 3rd Floor, 7 Industrialna St., Serdika District, → Office 1, 3rd Floor, 7 Industrialna St., Serdika District, Sofia, Bulgaria"
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "efcaee8b920668ee",
+    "name": "Altcoins BG EООD",
+    "detail": [
+      "address: Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd.,\nVarna 9000, Bulgaria → Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd., Varna, Bulgaria"
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "8bcfffe68c1ac7b3",
+    "name": "FF Digital EOOD",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "b",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "i",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "CY",
+          "CZ",
+          "DE",
+          "GR",
+          "LT",
+          "NL"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "268721ffa663cf4d",
+    "name": "Raiffeisenbank im Fuldaer Land eG",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "e1bdb460ca70fade",
+    "name": "VR Bank Nord eG",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "1b69a63510714c79",
+    "name": "Raiffeisenbank Rehling eG",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "a98160b6e70046fa",
+    "name": "VR GenoBank DonauWald eG",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "c22340c0e3068c11",
+    "name": "Neverless SIA",
+    "detail": [
+      "address: Malduguòu iela 4, Mârupe, Mârupes nov., LV-2167 → Malduguņu iela 4, Mārupe, Mārupes nov., LV-2167"
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "d8b8df78bf894c7e",
+    "name": "\"Trek Technologies\" SIA",
+    "detail": [
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "HU"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "HU"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "d",
+        "countries": [
+          "HU"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "HU"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "HU"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "920722a2cb2be152",
+    "name": "Atrya Technologies SIA",
+    "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "6dcb5365e530f079",
+    "name": "Noah LV SIA",
+    "timestamp": "2026-10-08T06:22:42+00:00"
   }
 ]

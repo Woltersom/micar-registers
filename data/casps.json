@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-10-07T06:20:05+00:00",
+  "generated_at": "2026-10-08T06:22:42+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -1756,74 +1756,335 @@
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "f. placing of crypto-assets",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "h. providing advice on crypto-assets",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "i. providing portfolio management on crypto-assets",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         },
         {
           "service": "j. providing transfer services",
           "countries": [
-            "BG"
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "22/12/2025"
+          "last_update": "06/10/2026"
         }
       ],
       "source": "esma"
@@ -1836,7 +2097,7 @@
       "lei": "64882N0ABXS71817AI18",
       "head_office_country": "BG",
       "commercial_name": "Belayer",
-      "address": "Office 1, 3rd Floor, 7 Industrialna St., Serdika District,",
+      "address": "Office 1, 3rd Floor, 7 Industrialna St., Serdika District, Sofia, Bulgaria",
       "website": "https://www.belayer.bg/",
       "platform_website": null,
       "authorisation_date": "28/04/2026",
@@ -1878,7 +2139,7 @@
       "lei": "984500FBAE2EDEF1C317",
       "head_office_country": "BG",
       "commercial_name": "Altcoins",
-      "address": "Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd.,\nVarna 9000, Bulgaria",
+      "address": "Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd., Varna, Bulgaria",
       "website": "https://altcoins.bg/",
       "platform_website": null,
       "authorisation_date": "21/07/2026",
@@ -1917,7 +2178,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "21/07/2026"
+          "last_update": "17/09/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -1951,7 +2212,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "21/07/2026"
+          "last_update": "17/09/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
@@ -1985,7 +2246,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "21/07/2026"
+          "last_update": "17/09/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -2019,7 +2280,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "21/07/2026"
+          "last_update": "17/09/2026"
         }
       ],
       "source": "esma"
@@ -2068,66 +2329,114 @@
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "b.  operation of a trading platform for crypto-assets",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "d. exchange of crypto-assets",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "e. execution of orders for crypto¬assets on behalf of clients",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "i. providing portfolio management on crypto-assets",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
           "countries": [
-            "BG"
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "GR",
+            "LT",
+            "NL"
           ],
           "comments": null,
-          "last_update": "10/09/2026"
+          "last_update": "24/09/2026"
         }
       ],
       "source": "esma"
@@ -12384,6 +12693,110 @@
           ],
           "comments": null,
           "last_update": "24/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "268721ffa663cf4d",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Raiffeisenbank im Fuldaer Land eG",
+      "lei": "529900C0H5OM7TYSQK47",
+      "head_office_country": "DE",
+      "commercial_name": "Raiffeisenbank im Fuldaer Land eG",
+      "address": "Bahnhofstraße 2, 36137 Großenlüder",
+      "website": "www.rb-fuldaerland.de",
+      "platform_website": null,
+      "authorisation_date": "02/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "24/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "e1bdb460ca70fade",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "VR Bank Nord eG",
+      "lei": "52990089LBIKLBM8YB23",
+      "head_office_country": "DE",
+      "commercial_name": "VR Bank Nord eG",
+      "address": "Friedrich-Ebert-Straße 9, 24937 Flensburg",
+      "website": "www.vrbanknord.de",
+      "platform_website": null,
+      "authorisation_date": "30/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "30/09/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "1b69a63510714c79",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Raiffeisenbank Rehling eG",
+      "lei": "529900JONLIJEZUYT574",
+      "head_office_country": "DE",
+      "commercial_name": "Raiffeisenbank Rehling eG",
+      "address": "Hauptstraße 6a, 86508 Rehling",
+      "website": "www.raiba-rehling.de",
+      "platform_website": null,
+      "authorisation_date": "30/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "06/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "a98160b6e70046fa",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "VR GenoBank DonauWald eG",
+      "lei": "529900CNL32BATSBXF59",
+      "head_office_country": "DE",
+      "commercial_name": "VR GenoBank DonauWald eG",
+      "address": "Raiffeisenstraße 1, 94234 Viechtach",
+      "website": "www.vr-genobank.de",
+      "platform_website": null,
+      "authorisation_date": "06/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "06/10/2026"
         }
       ],
       "source": "esma"
@@ -26538,7 +26951,7 @@
       "lei": "9845008O5EQ5A4B63R72",
       "head_office_country": "LV",
       "commercial_name": "Neverless",
-      "address": "Malduguòu iela 4, Mârupe, Mârupes nov., LV-2167",
+      "address": "Malduguņu iela 4, Mārupe, Mārupes nov., LV-2167",
       "website": "https://neverless.com/",
       "platform_website": null,
       "authorisation_date": "20/05/2026",
@@ -26764,7 +27177,6 @@
             "FI",
             "FR",
             "HR",
-            "HU",
             "IE",
             "IS",
             "IT",
@@ -26783,7 +27195,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "28/05/2026"
+          "last_update": "27/06/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -26801,7 +27213,6 @@
             "FI",
             "FR",
             "HR",
-            "HU",
             "IE",
             "IS",
             "IT",
@@ -26820,7 +27231,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "28/05/2026"
+          "last_update": "27/06/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
@@ -26838,7 +27249,6 @@
             "FI",
             "FR",
             "HR",
-            "HU",
             "IE",
             "IS",
             "IT",
@@ -26857,7 +27267,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "28/05/2026"
+          "last_update": "27/06/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -26875,7 +27285,6 @@
             "FI",
             "FR",
             "HR",
-            "HU",
             "IE",
             "IS",
             "IT",
@@ -26894,7 +27303,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "28/05/2026"
+          "last_update": "27/06/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -26912,7 +27321,6 @@
             "FI",
             "FR",
             "HR",
-            "HU",
             "IE",
             "IS",
             "IT",
@@ -26931,7 +27339,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "28/05/2026"
+          "last_update": "27/06/2026"
         }
       ],
       "source": "esma"
@@ -27498,6 +27906,264 @@
           ],
           "comments": null,
           "last_update": "24/07/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "920722a2cb2be152",
+      "competent_authority": "Latvijas Banka",
+      "home_member_state": "LV",
+      "name": "Atrya Technologies SIA",
+      "lei": "648800CZ0UN5M4WVZ402",
+      "head_office_country": "LV",
+      "commercial_name": "Atrya Technologies SIA",
+      "address": "Marijas iela 2A, Riga, Latvia, LV-1050",
+      "website": "www.hansepay.de",
+      "platform_website": "www.hansepay.de",
+      "authorisation_date": "30/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "d. exchange of crypto-assets for other crypto-assets",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "6dcb5365e530f079",
+      "competent_authority": "Latvijas Banka",
+      "home_member_state": "LV",
+      "name": "Noah LV SIA",
+      "lei": "984500F4C47H19274320",
+      "head_office_country": "LV",
+      "commercial_name": "Noah",
+      "address": "Antonijas iela 21, Rīga, LV-1010",
+      "website": "https://noah.com/en/eu",
+      "platform_website": null,
+      "authorisation_date": "30/09/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
         }
       ],
       "source": "esma"

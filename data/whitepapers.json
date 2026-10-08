@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-10-07T06:20:05+00:00",
+  "generated_at": "2026-10-08T06:22:42+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -4817,6 +4817,170 @@
           "dti_ffg": "8HBMRV08Q",
           "comments": null,
           "last_update": "25/09/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/blue-chip-ffg-3bkz1tqdx/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "V38K7DG33",
+          "dti_ffg": "3BKZ1TQDX",
+          "comments": null,
+          "last_update": "05/10/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/researchcoin-ffg-fdqm0jpzp/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "S729RRDT4 | 770CZ1V2K",
+          "dti_ffg": "FDQM0JPZP",
+          "comments": null,
+          "last_update": "05/10/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/treehouse-ffg-7pq1242p3/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "FWVGR1J7J | C0WC4KNGX",
+          "dti_ffg": "7PQ1242P3",
+          "comments": null,
+          "last_update": "05/10/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/euler-ffg-bjsllnx42/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "DRDR79Z38",
+          "dti_ffg": "BJSLLNX42",
+          "comments": null,
+          "last_update": "05/10/2026"
         }
       ]
     },
@@ -5849,6 +6013,57 @@
           "dti_ffg": "J14L11WZK",
           "comments": null,
           "last_update": "10/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "bf257d5234c9919f",
+      "competent_authority": "Estonian Financial Supervision Authority (EFSA)",
+      "home_member_state": "EE",
+      "name": "Axenor Holdings OÜ",
+      "lei": "984500513804D9B6D886",
+      "head_office_country": "EE",
+      "whitepapers": [
+        {
+          "url": "https://crypto-holdings.io/",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "5FDGXH5LT",
+          "dti_ffg": "8BNQ17FHB",
+          "comments": null,
+          "last_update": "02/10/2026"
         }
       ]
     },
@@ -14168,6 +14383,97 @@
           "dti_ffg": "GB8DQ8DWN",
           "comments": null,
           "last_update": "25/09/2026"
+        },
+        {
+          "url": "https://polygon.technology/papers/pol-micar-whitepaper-v2.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "612RCQLCX",
+          "dti_ffg": "GB8DQ8DWN",
+          "comments": null,
+          "last_update": "25/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "3c316710734c6bf6",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "COMPANY ZERO LLC",
+      "lei": null,
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://decred.org/micar-whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "ZDVC2M4CH|6J87LJR41",
+          "dti_ffg": "F9SZWWB89",
+          "comments": null,
+          "last_update": "02/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "1b73972627782796",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Open Protocol Labs Ltd",
+      "lei": "984500FF7F674Q13D066",
+      "head_office_country": "VG",
+      "whitepapers": []
+    },
+    {
+      "id": "364c30f997d45033",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Primary Creative Limited",
+      "lei": "254900JDFQ2EAGJHU889",
+      "head_office_country": "VG",
+      "whitepapers": [
+        {
+          "url": "https://www.cityprotocol.co/mica_whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "5C8N1HG69",
+          "dti_ffg": "XVSSR7W9F",
+          "comments": null,
+          "last_update": "02/10/2026"
+        },
+        {
+          "url": "https://cityprotocol.co/mica_whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "LU"
+          ],
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "the current version of the white paper reflects an update to the issuing entity and no other substantive changes have been made",
+          "last_update": "12/11/2025"
+        }
+      ]
+    },
+    {
+      "id": "4b1f580fdaacd08c",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Axis Robotics Limited",
+      "lei": "254900O71GPRAB092V10",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://axisrobotics.ai/mica_whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "JK6K8X2NH",
+          "dti_ffg": "PXM7WKQWL",
+          "comments": null,
+          "last_update": "02/10/2026"
         }
       ]
     },
@@ -17034,28 +17340,6 @@
       ]
     },
     {
-      "id": "364c30f997d45033",
-      "competent_authority": "Commission de Surveillance du Secteur Financier",
-      "home_member_state": "LU",
-      "name": "Primary Creative Limited",
-      "lei": "254900JDFQ2EAGJHU889",
-      "head_office_country": "VG",
-      "whitepapers": [
-        {
-          "url": "https://cityprotocol.co/mica_whitepaper",
-          "casp_name": null,
-          "casp_lei": null,
-          "offer_countries": [
-            "LU"
-          ],
-          "dti": null,
-          "dti_ffg": null,
-          "comments": "the current version of the white paper reflects an update to the issuing entity and no other substantive changes have been made",
-          "last_update": "12/11/2025"
-        }
-      ]
-    },
-    {
       "id": "f832f844fb6b710a",
       "competent_authority": "Commission de Surveillance du Secteur Financier",
       "home_member_state": "LU",
@@ -17586,7 +17870,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "05.06.2025"
+          "last_update": "05/06/2025"
         }
       ]
     },
@@ -17637,7 +17921,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "13.05.2025"
+          "last_update": "13/05/2025"
         }
       ]
     },
@@ -17688,7 +17972,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "05.06.2025"
+          "last_update": "05/06/2025"
         }
       ]
     },
@@ -17739,7 +18023,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "20.08.2025"
+          "last_update": "20/08/2025"
         }
       ]
     },
@@ -17790,7 +18074,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "26.09.2025"
+          "last_update": "26/09/2025"
         }
       ]
     },
@@ -17841,7 +18125,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "20.10.2025"
+          "last_update": "20/10/2025"
         }
       ]
     },
@@ -17892,7 +18176,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "04.12.2025"
+          "last_update": "04/12/2025"
         },
         {
           "url": "https://data.blockben.com/whitepaper/docs.html",
@@ -17932,8 +18216,8 @@
           ],
           "dti": "CRV5Q842B",
           "dti_ffg": "P3X0N9DDQ",
-          "comments": "modification v.3 as of 17 August 2026",
-          "last_update": "17.08.2026"
+          "comments": "v.4 of white paper BlockStock (BSO) as of 14 September 2026 where the Offeror of the Token, BlockBen UAB, has changed its legal name to BlockStock UAB.",
+          "last_update": "14/09/2026"
         },
         {
           "url": "https://blockben.com/en/products/holoverz",
@@ -17974,7 +18258,7 @@
           "dti": "GM8G2QJDZ",
           "dti_ffg": "8PCKDKQQN",
           "comments": "modification v.2 as of 9 July 2026",
-          "last_update": "09.07.2026"
+          "last_update": "09/07/2026"
         },
         {
           "url": "https://vendomatiq.com/tico/whitepaper.pdf",
@@ -18015,7 +18299,7 @@
           "dti": "PLS8BD23K",
           "dti_ffg": "72WPCH3FG",
           "comments": null,
-          "last_update": "09.04.2026"
+          "last_update": "09/04/2026"
         }
       ]
     },
@@ -18063,7 +18347,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "05.11.2025"
+          "last_update": "05/11/2025"
         }
       ]
     },
@@ -18111,7 +18395,7 @@
           "dti": "GQWFR0JMD",
           "dti_ffg": "6847PC6BH",
           "comments": null,
-          "last_update": "15.04.2026"
+          "last_update": "15/04/2026"
         }
       ]
     },
@@ -18159,7 +18443,7 @@
           "dti": "MGQXRTKCZ",
           "dti_ffg": "NV91DW7TR",
           "comments": null,
-          "last_update": "23.09.2026"
+          "last_update": "23/09/2026"
         }
       ]
     },
@@ -19270,6 +19554,16 @@
           "dti_ffg": "7WMBV0R29",
           "comments": null,
           "last_update": "07/01/2026"
+        },
+        {
+          "url": "https://my.okx.com/whitepaper/aixbt-aixbt.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "7QSZW6RFQ, 1RNFH04Q7, 12M3MG1JR",
+          "dti_ffg": "8762TQWQ6",
+          "comments": "Modified",
+          "last_update": "02/10/2026"
         }
       ]
     },
@@ -20440,6 +20734,26 @@
           "dti_ffg": "WJ4T4F79V",
           "comments": null,
           "last_update": "16/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "ca24cf7b6cd4c8a6",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "Pons Labs LLC",
+      "lei": null,
+      "head_office_country": "US",
+      "whitepapers": [
+        {
+          "url": "https://www.ponsfamily.com/mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "HW5V1GSQ7",
+          "dti_ffg": "F5V1Z6TC2",
+          "comments": null,
+          "last_update": "06/10/2026"
         }
       ]
     },
@@ -23195,56 +23509,6 @@
       ]
     },
     {
-      "id": "641d11034667dbf5",
-      "competent_authority": "Financial Supervision Commission (FSC)",
-      "home_member_state": "BG",
-      "name": "NativeArc EOOD",
-      "lei": "8755007WQLHUW5M9SP74",
-      "head_office_country": "BG",
-      "whitepapers": [
-        {
-          "url": "https://nx0.ai",
-          "casp_name": null,
-          "casp_lei": null,
-          "offer_countries": [
-            "AT",
-            "BE",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GR",
-            "HR",
-            "HU",
-            "IE",
-            "IS",
-            "IT",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MT",
-            "NL",
-            "NO",
-            "PL",
-            "PT",
-            "RO",
-            "SE",
-            "SI",
-            "SK"
-          ],
-          "dti": null,
-          "dti_ffg": null,
-          "comments": null,
-          "last_update": "29/06/2026"
-        }
-      ]
-    },
-    {
       "id": "5be2d38162c27bef",
       "competent_authority": "Financial Supervision Commission (FSC)",
       "home_member_state": "BG",
@@ -23291,6 +23555,56 @@
           "dti_ffg": "M8VRWT0GF",
           "comments": null,
           "last_update": "07/07/2026"
+        }
+      ]
+    },
+    {
+      "id": "641d11034667dbf5",
+      "competent_authority": "Financial Supervision Commission (FSC)",
+      "home_member_state": "BG",
+      "name": "NativeArc EOOD",
+      "lei": "8755007WQLHUW5M9SP74",
+      "head_office_country": "BG",
+      "whitepapers": [
+        {
+          "url": "https://nx0.ai",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": null,
+          "dti_ffg": null,
+          "comments": null,
+          "last_update": "28/09/2026"
         }
       ]
     }
