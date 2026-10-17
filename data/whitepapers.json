@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-10-16T11:05:37+00:00",
+  "generated_at": "2026-10-17T10:25:33+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -455,7 +455,7 @@
       "head_office_country": null,
       "whitepapers": [
         {
-          "url": "https://abloxx.com/en/details",
+          "url": "https://abloxx.com/en",
           "casp_name": null,
           "casp_lei": null,
           "offer_countries": [],
@@ -475,7 +475,7 @@
       "head_office_country": null,
       "whitepapers": [
         {
-          "url": "https://xyo.network/papers/mica-white-paper",
+          "url": "https://xyo.network/papers/mica-white-paper]",
           "casp_name": null,
           "casp_lei": null,
           "offer_countries": [],
@@ -499,7 +499,7 @@
     {
       "id": "ea87ca510f69d171",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
-      "home_member_state": "CY",
+      "home_member_state": "CYPRUS",
       "name": "Planck Network ($PLANCK)",
       "lei": null,
       "head_office_country": null,
@@ -511,8 +511,8 @@
           "offer_countries": [],
           "dti": null,
           "dti_ffg": null,
-          "comments": null,
-          "last_update": "17/10/2025"
+          "comments": "withdrawn",
+          "last_update": "09/10/2026"
         }
       ]
     },
@@ -564,6 +564,53 @@
           "dti_ffg": null,
           "comments": null,
           "last_update": "29/05/2026"
+        }
+      ]
+    },
+    {
+      "id": "4f702e617baa841e",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "home_member_state": "CY",
+      "name": "Extended Ecosystem Limited",
+      "lei": "254900J8L1AH6UY4R469",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://token.extended.exchange/whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "VKW3279LN",
+          "dti_ffg": "11XZ8QS80",
+          "comments": null,
+          "last_update": "09/10/2026"
         }
       ]
     },
@@ -1112,16 +1159,6 @@
         },
         {
           "url": "https://crypto-risk-metrics.com/en/white-paper-mamo-ffg-4wxhprnh8/",
-          "casp_name": null,
-          "casp_lei": null,
-          "offer_countries": [],
-          "dti": null,
-          "dti_ffg": null,
-          "comments": null,
-          "last_update": "22/08/2025"
-        },
-        {
-          "url": "https://crypto-risk-metrics.com/en/white-paper-bankrcoin-ffg-6xspzjjtx/",
           "casp_name": null,
           "casp_lei": null,
           "offer_countries": [],
@@ -4981,6 +5018,47 @@
           "dti_ffg": "BJSLLNX42",
           "comments": null,
           "last_update": "05/10/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/bankrcoin-ffg-6xspzjjtx/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "KB5NRMDMX",
+          "dti_ffg": "6XSPZJJTX",
+          "comments": "Modification",
+          "last_update": "02/10/2026"
         }
       ]
     },
@@ -7050,6 +7128,170 @@
           "dti_ffg": "4KWQVDQ6P",
           "comments": null,
           "last_update": "10/07/2026"
+        },
+        {
+          "url": "https://www.tcg-vault.io/livre-blanc-mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "JXMNT9K0D | S99M448FG",
+          "dti_ffg": "4KWQVDQ6P",
+          "comments": "Modified crypto-asset white paper (v1.3.17, 16/09/2026) of the white paper initially notified on 23/06/2026 (v1.3.16). Changes: (1) starting date of the offer to the public postponed from 07/10/2026 to 07/11/2026 (fields E.21 and F.9), in order to finalise the operational preparation of the offer; (2) end of the subscription period postponed accordingly from 29/10/2026 to 29/11/2026 (field E.22); (3) opening of the Community Shop aligned on the new starting date, 07/11/2026; (4) publication date of the modified white paper: 29/09/2026 (field F.10); (5) type of submission: MODI. No other change to the terms of the offer, to the rights attached to the crypto-asset or to the risk factors.",
+          "last_update": "16/09/2026"
+        },
+        {
+          "url": "https://www.tcg-vault.io/livre-blanc-mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "JXMNT9K0D | S99M448FG",
+          "dti_ffg": "4KWQVDQ6P",
+          "comments": "Modified crypto-asset white paper (v1.3.18, 02/10/2026) of the white paper initially notified on 23/06/2026 (v1.3.16) and modified on 16/09/2026 (v1.3.17). Changes: (1) addition, in field F.3, of a paragraph describing the community benefits in kind (branded items, TCG-VAULT boosters) that may be attached to the holding of a NFT Founder Edition, granted free of charge, financed exclusively from the Structure & Marketing budget line, and constituting neither a financial consideration, nor a vested right, nor a component of the value of the NFT; (2) update of the reference to the Hacken smart contract audit (fields D.8 and H.9): final report dated 24/09/2026, final commit dd5b374, 35 findings (0 critical, 2 high, 8 medium, 13 low, 12 informational), 32 fixed, 2 accepted, 1 mitigated; (3) publication date of the modified white paper: 14/10/2026 (field F.10); (4) type of submission: MODI. No change to the starting date of the offer (07/11/2026), to the end of the subscription period (29/11/2026), to the terms of the offer, to the rights attached to the $TCGV token or to the risk factors.",
+          "last_update": "02/10/2026"
+        },
+        {
+          "url": "https://www.tcg-vault.io/livre-blanc-mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "JXMNT9K0D | S99M448FG",
+          "dti_ffg": "4KWQVDQ6P",
+          "comments": "Modified crypto-asset white paper (v1.3.19, 08/10/2026) of the white paper initially notified on 23/06/2026 (v1.3.16), modified on 16/09/2026 (v1.3.17) and on 02/10/2026 (v1.3.18, notified but not yet published). Version 1.3.19 supersedes version 1.3.18 and includes all of its changes: (1) field F.3, paragraph describing the community benefits in kind that may be attached to the holding of a NFT Founder Edition, granted free of charge, financed exclusively from the Structure & Marketing budget line, and constituting neither a financial consideration, nor a vested right, nor a component of the value of the NFT; (2) fields D.8 and H.9, Hacken smart contract audit final report dated 24/09/2026, final commit dd5b374, 35 findings (0 critical, 2 high, 8 medium, 13 low, 12 informational), 32 fixed, 2 accepted, 1 mitigated. Additional change in version 1.3.19: (3) Annex 2: the addresses published in the previous versions were simple addresses created provisionally during the preparation of the project, whereas the white paper provides that the operational wallets are Gnosis Safe multi-signature wallets (fields A.17, H.3 and I.6); these multi-signature wallets have now been deployed, which gave them new addresses. The nine public wallet addresses (Community Vault in transit, Structure & Marketing, Liquidity, LP tokens, Community Rewards, Structuring Reserve, Strategic Reserve, Presale post-release CASP, Founding Team) are replaced by the addresses of the Gnosis Safe multi-signature wallets; the CASP safeguarding address (GOin SAS) is unchanged. (4) Publication date of the modified white paper: 19/10/2026 (field F.10). (5) Type of submission: MODI. No change to the starting date of the offer (07/11/2026), to the end of the subscription period (29/11/2026), to the terms of the offer, to the rights attached to the $TCGV token or to the risk factors.",
+          "last_update": "08/10/2026"
+        },
+        {
+          "url": "https://www.tcg-vault.io/livre-blanc-mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "JXMNT9K0D | S99M448FG",
+          "dti_ffg": "4KWQVDQ6P",
+          "comments": "Modified crypto-asset white paper (v1.3.20, 16/10/2026) of the white paper initially notified on 23/06/2026 (v1.3.16), modified on 16/09/2026 (v1.3.17), on 02/10/2026 (v1.3.18, notified but not published) and on 08/10/2026 (v1.3.19, notified with a publication date of 19/10/2026, not published). Version 1.3.20 supersedes version 1.3.19 and includes all of its changes (field F.3 community benefits in kind; fields D.8 and H.9 Hacken final report of 24/09/2026, commit dd5b374; Annex 2 Gnosis Safe multi-signature wallet addresses). Single additional change in version 1.3.20: Annex 2 (public wallets and on-chain transparency) now also lists the address of the multi-signature wallet used for the administration functions of the smart contracts described in fields A.17, H.3 and I.6 (0x2B25688AEd4Ae2Ae35Ae45fD8d2583d7a15Aa13f), so that the published annex covers every wallet involved in the governance of the token. The nine operational wallet addresses and the CASP safeguarding address (GOin SAS) are unchanged. Publication date of the modified white paper: 27/10/2026 (field F.10). Type of submission: MODI. No change to the starting date of the offer (07/11/2026), to the end of the subscription period (29/11/2026), to the terms of the offer, to the rights attached to the $TCGV token or to the risk factors.",
+          "last_update": "16/10/2026"
         }
       ]
     },
@@ -7059,7 +7301,7 @@
       "home_member_state": "FR",
       "name": "Th QAIT Association",
       "lei": "5067001DQEI95H25MM62",
-      "head_office_country": "SWITZERLAND - CH",
+      "head_office_country": "CH",
       "whitepapers": [
         {
           "url": "https://www.qait.ch",
@@ -12841,6 +13083,16 @@
           "dti_ffg": null,
           "comments": null,
           "last_update": "10/04/2026"
+        },
+        {
+          "url": "https://www.beldex.io/BDX_MiCA_Whitepaper_V2.0.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "Z4M8H54NH",
+          "dti_ffg": "9DS7PNB51",
+          "comments": null,
+          "last_update": "09/10/2026"
         }
       ]
     },
@@ -14474,6 +14726,66 @@
           "dti_ffg": "PXM7WKQWL",
           "comments": null,
           "last_update": "02/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "4d36939b82dae055",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "OD3 (BVI) Ltd",
+      "lei": "9845004X5A96E0UDBE70",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "www.bluff.com/whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "MV9BZ6D3S",
+          "dti_ffg": "MRQ3G2QH9",
+          "comments": null,
+          "last_update": "09/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "ef30f3b4fe354f53",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Tria Labs Limited",
+      "lei": "9845005A43F0AD374216",
+      "head_office_country": "VG",
+      "whitepapers": [
+        {
+          "url": "https://www.tria.so/legal/micar",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "2QW9183PX",
+          "dti_ffg": "GNXLQVNDX",
+          "comments": null,
+          "last_update": "09/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "1ed698b939fe8e8a",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "AlloX Ltd",
+      "lei": "254900NW28GA8UJVLS02",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://www.allox.ai/micar-whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "4MQLVFR6N|MQWX04NJK|R6SH3FXSZ",
+          "dti_ffg": "76KSM9451",
+          "comments": null,
+          "last_update": "09/10/2026"
         }
       ]
     },
@@ -17786,40 +18098,6 @@
           "dti_ffg": "1XL95DVK1",
           "comments": "Note that the publication date for the white paper is 28/07/2026 at which point this record will be updated with the link.",
           "last_update": "06/07/2026"
-        }
-      ]
-    },
-    {
-      "id": "5b2952d2c968b0bd",
-      "competent_authority": "ae_competentAuthority",
-      "home_member_state": "ae_homeMemberState",
-      "name": "ae_lei_name",
-      "lei": null,
-      "head_office_country": "ae_lei_cou_code",
-      "whitepapers": [
-        {
-          "url": "wp_url",
-          "casp_name": "ae_lei_name_casp",
-          "casp_lei": "ae_lei_casp",
-          "offer_countries": [
-            "ae_offerCode_cou"
-          ],
-          "dti": "ae_DTI",
-          "dti_ffg": "ae_DTI_FFG",
-          "comments": "wp_comments",
-          "last_update": "wp_lastupdate"
-        },
-        {
-          "url": "wp_url",
-          "casp_name": "ae_lei_name_casp",
-          "casp_lei": "ae_lei_casp",
-          "offer_countries": [
-            "ae_offerCode_cou"
-          ],
-          "dti": "ae_DTI",
-          "dti_ffg": "ae_DTI_FFG",
-          "comments": "wp_comments",
-          "last_update": "wp_lastupdate"
         }
       ]
     },
@@ -23445,6 +23723,108 @@
           "dti_ffg": "NH9HMVXX5",
           "comments": "wp update",
           "last_update": "21/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "5dcf199111b665cd",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "NL",
+      "name": "Hibachi PTE Ltd",
+      "lei": null,
+      "head_office_country": "SG",
+      "whitepapers": [
+        {
+          "url": "https://hibachi.micarwhitepapers.eu",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "DW1NFTV5W",
+          "dti_ffg": "85HLVS8GD",
+          "comments": "wp update",
+          "last_update": "02/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "de4b044f90e1b212",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "NL",
+      "name": "Crispy Holdings Ltd",
+      "lei": "9845005881F46P90FA93",
+      "head_office_country": "VG",
+      "whitepapers": [
+        {
+          "url": "https://tendies.micarwhitepapers.eu",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "BKJ3VJ30M",
+          "dti_ffg": "GQPR5C507",
+          "comments": "wp update",
+          "last_update": "07/10/2026"
         }
       ]
     },

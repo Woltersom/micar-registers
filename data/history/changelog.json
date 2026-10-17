@@ -10339,5 +10339,1123 @@
     "id": "6dcb5365e530f079",
     "name": "Noah LV SIA",
     "timestamp": "2026-10-08T06:22:42+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "e52cee3d6d5076ff",
+    "name": "Abloxx Token Ltd.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d67d39f7687bf4b3",
+    "name": "Falu Brick Commerce Limited",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ea87ca510f69d171",
+    "name": "Planck Network ($PLANCK)",
+    "detail": [
+      "home member state: CY → CYPRUS",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "4f702e617baa841e",
+    "name": "Extended Ecosystem Limited",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "706824fe8abee15b",
+    "name": "TCG-VAULT",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "74787e35158c0910",
+    "name": "Th QAIT Association",
+    "detail": [
+      "head office country: SWITZERLAND - CH → CH"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d23a8576e1cfd633",
+    "name": "Beldex International Foundation",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "4d36939b82dae055",
+    "name": "OD3 (BVI) Ltd",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "ef30f3b4fe354f53",
+    "name": "Tria Labs Limited",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "1ed698b939fe8e8a",
+    "name": "AlloX Ltd",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "5dcf199111b665cd",
+    "name": "Hibachi PTE Ltd",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "de4b044f90e1b212",
+    "name": "Crispy Holdings Ltd",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "5b2952d2c968b0bd",
+    "name": "ae_lei_name",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "aa20156fc3aefad6",
+    "name": "Validvent Technology GmbH",
+    "detail": [
+      "address: Opernring 1/E/736, 1010 Wien, Austria → Opernring 1/E/736, 1010 Vienna, Austria"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "2fc85676a3e7b6b6",
+    "name": "MEGE zweite GmbH",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "aa331bf237d98459",
+    "name": "BNY SA/NV",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "8bcfffe68c1ac7b3",
+    "name": "FF Digital EOOD",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "b",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "i",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "authorisation date: 10/09/2026 → 15/10/2026"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9706d31d6bab47ee",
+    "name": "MipSoftware s.r.o.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "CZ"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "CZ"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "CZ"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "ccaef6cb5ccb9156",
+    "name": "Openbank Deutschland AG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "61f3ad8a180b3d73",
+    "name": "KSW Vermögensverwaltung AG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "9e0df51dca06aa6e",
+    "name": "VR-Bank Alb-Blau-Donau eG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "c23734bebe861269",
+    "name": "Volksbank eG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "a356704da36aba56",
+    "name": "VR Bank im südlichen Franken eG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "93276243dc8ec286",
+    "name": "VR Bank Lahn-Dill eG",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "ab89d0b59c9c8779",
+    "name": "PRAKMA MARKETS S.L.",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a19f2ab5d2412442",
+    "name": "REGULAR FINANCE SAS",
+    "detail": [
+      "authorisation date: 11/09/2028 → 11/09/2026"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "400fb683672f4cc6",
+    "name": "BCASH SOCIETE ANONYME",
+    "detail": [
+      "lei: onbekend → 984500C5A9YK55041179"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "bf71b87e14b3c8c6",
+    "name": "XENIOS BLOCKCHAIN GROUP S.A.",
+    "detail": [
+      "lei: onbekend → 2138009N1SHZPPM84705"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e957844af0865248",
+    "name": "CAPITAL WALLET GREECE S.A.",
+    "detail": [
+      "lei: onbekend → 213800VHQNZ72RU8CW51"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f0a2bba0d2b29992",
+    "name": "CHECKSIG S.R.L. SOCIETÀ BENEFIT",
+    "detail": [
+      "authorisation date: 06/05/2026 → 06-May"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9b5c5f252d50d5cd",
+    "name": "OLLIV ITALIA S.R.L.",
+    "detail": [
+      "authorisation date: 04/06/2026 → 04-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff11beaba3ec3a60",
+    "name": "RIV-DIGITAL S.R.L.",
+    "detail": [
+      "authorisation date: 10/06/2026 → 10-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "31b1e8fe345121ae",
+    "name": "CONIO S.R.L.",
+    "detail": [
+      "authorisation date: 16/06/2026 → 16-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "31ad2d71bb0b1396",
+    "name": "BANCA SELLA",
+    "detail": [
+      "authorisation date: 27/04/2026 → 27-Apr"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ca47d6507595eba4",
+    "name": "CRYPTOSMART S.P.A.",
+    "detail": [
+      "authorisation date: 24/06/2026 → 24-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ee952c2704ccb6db",
+    "name": "YOUNG PLATFORM S.P.A.",
+    "detail": [
+      "authorisation date: 30/06/2026 → 30-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ed0ae617c0b3e21d",
+    "name": "HODLIE S.R.L.",
+    "detail": [
+      "authorisation date: 30/06/2026 → 30-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "c3f55a82b73e36ba",
+    "name": "HERCLE S.R.L.",
+    "detail": [
+      "authorisation date: 30/06/2026 → 30-Jun"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "58dfd8fa180d4021",
+    "name": "YOUHODLER ITALY S.R.L.",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e57d21e5e9545b28",
+    "name": "WEB3 Technology B.V.",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "5851ed02452fae27",
+    "name": "Penning Financial Services ApS",
+    "detail": [
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "i",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "competent authority: Finanstilsynet → Netherlands Authority for the Financial Markets (AFM)",
+      "head office country: DK → onbekend",
+      "commercial name: Penning → Penning Financial Services ApS",
+      "address: Frederiksgaards Allé 16A, st. th, 2720 Vanlose → Frederiksaards Allé 16A, st. th, 2720 Vanlose, Denmark",
+      "website: www.penning.io → onbekend",
+      "authorisation date: 15/01/2026 → onbekend",
+      "authorisation type: onbekend → cross_border",
+      "eu passport direction: onbekend → incoming",
+      {
+        "kind": "field_changed",
+        "field": "eu_passport_countries"
+      },
+      "eu passport raw: onbekend → Incoming from DK:\nStarting date of the provision of the crypto-asset services: 01-03-2026"
+    ],
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "abaf320815a736f4",
+    "name": "ASWD78",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "6e5c617137e7fff7",
+    "name": "CDZG36",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "0e5d80660f07792f",
+    "name": "EZWQ66",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "f5f44a6deb3735a7",
+    "name": "HREE25",
+    "timestamp": "2026-10-17T10:25:33+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "cb2c9263aa1eb7f9",
+    "name": "K9C3Y",
+    "timestamp": "2026-10-17T10:25:33+00:00"
   }
 ]

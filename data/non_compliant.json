@@ -1,6 +1,6 @@
 {
   "register": "non_compliant",
-  "generated_at": "2026-10-16T11:05:37+00:00",
+  "generated_at": "2026-10-17T10:25:33+00:00",
   "records": [
     {
       "id": "a9d01e05b67008ae",
@@ -2395,6 +2395,76 @@
       "decision_date": "15/09/2026",
       "comments": null,
       "last_update": "16/09/2026"
+    },
+    {
+      "id": "abaf320815a736f4",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "ASWD78",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://aswd78.it",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "14/10/2026",
+      "comments": null,
+      "last_update": "15/10/2026"
+    },
+    {
+      "id": "6e5c617137e7fff7",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "CDZG36",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://cdzg36.it",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "14/10/2026",
+      "comments": null,
+      "last_update": "15/10/2026"
+    },
+    {
+      "id": "0e5d80660f07792f",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "EZWQ66",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://ezwq66.it",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "14/10/2026",
+      "comments": null,
+      "last_update": "15/10/2026"
+    },
+    {
+      "id": "f5f44a6deb3735a7",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "HREE25",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://hree25.it",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "14/10/2026",
+      "comments": null,
+      "last_update": "15/10/2026"
+    },
+    {
+      "id": "cb2c9263aa1eb7f9",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "K9C3Y",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://k9c3y.fr",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "14/10/2026",
+      "comments": null,
+      "last_update": "15/10/2026"
     },
     {
       "id": "e7ab003a0b775925",
