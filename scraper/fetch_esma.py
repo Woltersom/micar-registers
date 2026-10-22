@@ -72,6 +72,19 @@ ESMA_CSV_HEADERS = {
     "Referer": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
 }
 
+# 2026-10-22 incident, part 2: swapping to a browser-style User-Agent above
+# didn't help - a plain `curl` with the exact same headers, run from the
+# same GitHub Actions job, got the identical 403 straight from ESMA's
+# CloudFront/WAF (confirmed via a one-off debug step in scrape.yml). That
+# rules out anything about the request's *content* and points at the
+# runner's IP itself being blocked (GitHub-hosted runners live in well-known
+# Azure datacenter ranges) - no header or client-library change can fix an
+# IP-level block. SCRAPINGANT_API_KEY (optional repo secret) routes the
+# request through ScrapingAnt's residential proxy pool instead, which isn't
+# in that blocked range. Falls back to the direct request above when the
+# secret isn't set (local runs, tests, or if the block ever lifts).
+SCRAPINGANT_ENDPOINT = "https://api.scrapingant.com/v2/general"
+
 
 # --------------------------------------------------------------------------
 # Fetch + raw CSV parsing
@@ -79,7 +92,24 @@ ESMA_CSV_HEADERS = {
 
 def fetch_csv_text(register_code: str) -> str:
     url = BASE_URL.format(register_code)
-    resp = requests.get(url, timeout=TIMEOUT, headers=ESMA_CSV_HEADERS)
+    api_key = os.environ.get("SCRAPINGANT_API_KEY")
+    if api_key:
+        # browser=false: a plain HTTP fetch through ScrapingAnt's proxy, not
+        # their headless-Chrome rendering path - this is a CSV file, not a
+        # page to render, and it keeps the response byte-for-byte what
+        # ESMA's server sent (Chrome's own CSV viewer would otherwise wrap
+        # it in an HTML <pre> document). proxy_type=residential: their
+        # default "datacenter" pool is the same class of IP ESMA is already
+        # blocking (see the comment above SCRAPINGANT_ENDPOINT), so this has
+        # to be explicit. ~25 credits/request x 5 registers x 1 run/day is
+        # ~3,750/month - well inside ScrapingAnt's free monthly allowance.
+        resp = requests.get(
+            SCRAPINGANT_ENDPOINT,
+            params={"url": url, "x-api-key": api_key, "browser": "false", "proxy_type": "residential"},
+            timeout=TIMEOUT,
+        )
+    else:
+        resp = requests.get(url, timeout=TIMEOUT, headers=ESMA_CSV_HEADERS)
     resp.raise_for_status()
     # ESMA files are UTF-8 with a leading BOM
     return resp.content.decode("utf-8-sig")
