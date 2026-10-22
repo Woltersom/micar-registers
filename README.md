@@ -81,6 +81,29 @@ een geaccepteerde beperking, want cron kan geen "lokale kloktijd" uitdrukken.
 vaker). Dagelijks checken pikt een update dus ruim op tijd op zonder te wachten op de
 eerstvolgende geplande check.
 
+## ESMA-proxy (SCRAPINGANT_API_KEY)
+
+Sinds 22-10-2026 blokkeert ESMA's CloudFront/WAF elk verzoek vanaf een GitHub Actions-runner
+(bevestigd: zelfs een kale `curl` met browser-headers krijgt 403 — dit is dus een blokkade op
+het IP-adres van de runner zelf, niet op te lossen door headers/User-Agent aan te passen).
+`fetch_csv_text()` in `fetch_esma.py` routeert de 5 ESMA-downloads daarom via
+[ScrapingAnt](https://scrapingant.com)'s residential-proxypool (`browser=false` +
+`proxy_type=residential`, zodat de respons ongewijzigd blijft en geen onnodige
+browser-rendering-kosten maakt) wanneer het secret `SCRAPINGANT_API_KEY` is gezet.
+
+Eenmalige setup:
+
+1. Maak een gratis account op [scrapingant.com](https://scrapingant.com) (inloggen via GitHub of
+   Google kan, geen creditcard nodig) — 10.000 gratis credits per maand, ruim voldoende voor deze
+   5 bestanden × 1 keer per dag (~3.750 credits/maand bij 25 credits per request).
+2. Kopieer de API-key van het dashboard.
+3. Zet 'm als GitHub-repository-secret: **Settings → Secrets and variables → Actions → New
+   repository secret**, naam `SCRAPINGANT_API_KEY`.
+
+Zonder dit secret valt `fetch_csv_text()` terug op een rechtstreeks verzoek aan ESMA — wat werkt
+zodra/als ESMA de blokkade ooit weer opheft, maar tot die tijd faalt de "Run scraper"-stap dan
+weer met dezelfde 403 op alle 5 registers (zie `run()`'s "elk register mislukt"-gedrag hieronder).
+
 ## Slack-meldingen
 
 De workflow post een Slack-bericht zodra een run een échte wijziging vindt (nieuw/gewijzigd/
