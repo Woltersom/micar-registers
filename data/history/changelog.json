@@ -11724,5 +11724,302 @@
       "authorisation date: onbekend → 15/01/2026"
     ],
     "timestamp": "2026-10-20T11:14:43+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "dfea4f01709f83f8",
+    "name": "SKYGATE Network GmbH",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "6b37caf20948d85d",
+    "name": "DGRX Sales GmbH",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "40dfd4223c278525",
+    "name": "Bitpanda GmbH",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "a243ee430a546194",
+    "name": "ATEG Capital FlexCo",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "7375bbe6c2972114",
+    "name": "SC STEELCOIN GmbH",
+    "detail": [
+      "home member state: AT → Austria",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "b9707dd8c6c86dfa",
+    "name": "ELEVEN ELEVEN MANAGEMENT LIMITED",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "b8af1c1f7f8c0501",
+    "name": "ZKsync Association - Ein Verein zur Foerderung des digitalen Oekosystems ZKsync e.V.",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "4774564ecd3dbcfc",
+    "name": "StarkWare Industries Ltd",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d50c68ec3ae245e0",
+    "name": "Biogena GmbH & Co KG",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "3d64177fe4ecf00f",
+    "name": "MOJO Sales GmbH",
+    "detail": [
+      "home member state: AT → Austria"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "a9b8fbfee4a524aa",
+    "name": "Derive Subsidiary (BVI) Ltd",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "02f073221d0379c3",
+    "name": "Aeon 1731 LLC",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "61f3ad8a180b3d73",
+    "name": "KSW Vermögensverwaltung AG",
+    "detail": [
+      {
+        "kind": "service_added",
+        "code": "i"
+      }
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "c23734bebe861269",
+    "name": "Volksbank eG",
+    "detail": [
+      "address: Kennedydamm 10\n31134 Hildesheim → Kennedydamm 10, 31134 Hildesheim"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "84d71454a05fb2c8",
+    "name": "Volksbank in der Region eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "5538eb38f4f17225",
+    "name": "Volksbank Mittlerer Neckar eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "3eb1fc478ee0da82",
+    "name": "Sparda-Bank Baden-Württemberg eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "7992da708b10d514",
+    "name": "Raiffeisenbank Eifel eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "2c455bc03040f29d",
+    "name": "Volksbank Niederrhein eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "3df62b3147e947a7",
+    "name": "Volksbank in Ostwestfalen eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "ea73ccb49f5b82a7",
+    "name": "Volksbank Oberberg eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "45e1590b3390316a",
+    "name": "Volksbank in der Hohen Mark eG",
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f0a2bba0d2b29992",
+    "name": "CHECKSIG S.R.L. SOCIETÀ BENEFIT",
+    "detail": [
+      "authorisation date: 06-May → 06/05/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9b5c5f252d50d5cd",
+    "name": "OLLIV ITALIA S.R.L.",
+    "detail": [
+      "authorisation date: 04-Jun → 04/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff11beaba3ec3a60",
+    "name": "RIV-DIGITAL S.R.L.",
+    "detail": [
+      "authorisation date: 10-Jun → 10/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "31b1e8fe345121ae",
+    "name": "CONIO S.R.L.",
+    "detail": [
+      "authorisation date: 16-Jun → 16/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "31ad2d71bb0b1396",
+    "name": "BANCA SELLA",
+    "detail": [
+      "authorisation date: 27-Apr → 27/04/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ca47d6507595eba4",
+    "name": "CRYPTOSMART S.P.A.",
+    "detail": [
+      "authorisation date: 24-Jun → 24/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ee952c2704ccb6db",
+    "name": "YOUNG PLATFORM S.P.A.",
+    "detail": [
+      "authorisation date: 30-Jun → 30/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ed0ae617c0b3e21d",
+    "name": "HODLIE S.R.L.",
+    "detail": [
+      "authorisation date: 30-Jun → 30/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "c3f55a82b73e36ba",
+    "name": "HERCLE S.R.L.",
+    "detail": [
+      "authorisation date: 30-Jun → 30/06/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "58dfd8fa180d4021",
+    "name": "YOUHODLER ITALY S.R.L.",
+    "detail": [
+      "authorisation date: 08-Oct → 08/10/2026"
+    ],
+    "timestamp": "2026-10-22T19:01:35+00:00"
   }
 ]

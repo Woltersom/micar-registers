@@ -1,11 +1,11 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-10-21T11:31:02+00:00",
+  "generated_at": "2026-10-22T19:01:35+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "SKYGATE Network GmbH",
       "lei": "984500BBFE52FE449926",
       "head_office_country": "AT",
@@ -53,7 +53,7 @@
     {
       "id": "6b37caf20948d85d",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "DGRX Sales GmbH",
       "lei": "984500R35C7N1E698319",
       "head_office_country": "AT",
@@ -104,7 +104,7 @@
     {
       "id": "40dfd4223c278525",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "Bitpanda GmbH",
       "lei": "5493007WZ7IFULIL8G21",
       "head_office_country": "AT",
@@ -152,7 +152,7 @@
     {
       "id": "a243ee430a546194",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "ATEG Capital FlexCo",
       "lei": "529900B1HYZ5I6QQRL52",
       "head_office_country": "AT",
@@ -200,7 +200,7 @@
     {
       "id": "7375bbe6c2972114",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "SC STEELCOIN GmbH",
       "lei": "529900OX94239BUDFN51",
       "head_office_country": "AT",
@@ -241,17 +241,17 @@
             "ES",
             "SE"
           ],
-          "dti": null,
+          "dti": "XBL17BS2C",
           "dti_ffg": null,
           "comments": null,
-          "last_update": "27/06/2025"
+          "last_update": "20/10/2026"
         }
       ]
     },
     {
       "id": "b9707dd8c6c86dfa",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "ELEVEN ELEVEN MANAGEMENT LIMITED",
       "lei": "9845004D111EATCB5A62",
       "head_office_country": "GB",
@@ -302,7 +302,7 @@
     {
       "id": "b8af1c1f7f8c0501",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "ZKsync Association - Ein Verein zur Foerderung des digitalen Oekosystems ZKsync e.V.",
       "lei": "529900SV858GPLFCQK64",
       "head_office_country": "AT",
@@ -324,7 +324,7 @@
     {
       "id": "4774564ecd3dbcfc",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "StarkWare Industries Ltd",
       "lei": "254900OKK1G0RL5Q9B59",
       "head_office_country": "IL",
@@ -375,7 +375,7 @@
     {
       "id": "d50c68ec3ae245e0",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "Biogena GmbH & Co KG",
       "lei": "52990050KC7YUM8VD941",
       "head_office_country": "AT",
@@ -398,7 +398,7 @@
     {
       "id": "3d64177fe4ecf00f",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "home_member_state": "AT",
+      "home_member_state": "Austria",
       "name": "MOJO Sales GmbH",
       "lei": "875500LZF8VIDAKG7213",
       "head_office_country": "AT",
@@ -23825,6 +23825,108 @@
           "dti_ffg": "GQPR5C507",
           "comments": "wp update",
           "last_update": "07/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "a9b8fbfee4a524aa",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "NL",
+      "name": "Derive Subsidiary (BVI) Ltd",
+      "lei": "98450045BA9B5F0AF381",
+      "head_office_country": "VG",
+      "whitepapers": [
+        {
+          "url": "https://derive.micarwhitepapers.eu",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "BG7X45CD7 | PF1HMWS3X | 9QFFFVH7B | Z5SQPD19R | LBN9Z1RTX | B7R4SHNDL",
+          "dti_ffg": "MVFDDDSZZ",
+          "comments": "wp update",
+          "last_update": "13/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "02f073221d0379c3",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "NL",
+      "name": "Aeon 1731 LLC",
+      "lei": "9845005DDBB049C1B949",
+      "head_office_country": "US",
+      "whitepapers": [
+        {
+          "url": "https://chump.micarwhitepapers.eu",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "1GQ9L99SD",
+          "dti_ffg": "7LTS37L44",
+          "comments": "wp update",
+          "last_update": "19/10/2026"
         }
       ]
     },

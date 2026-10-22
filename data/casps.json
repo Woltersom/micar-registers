@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-10-21T11:31:02+00:00",
+  "generated_at": "2026-10-22T19:01:35+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -13335,7 +13335,15 @@
       "status": "active",
       "services": [
         {
-          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients\n\ni. providing portfolio management on crypto-assets",
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "07/10/2026"
+        },
+        {
+          "service": "i. providing portfolio management on crypto-assets",
           "countries": [
             "DE"
           ],
@@ -13379,7 +13387,7 @@
       "lei": "529900DCW7IO492RBC56",
       "head_office_country": "DE",
       "commercial_name": "Volksbank eG",
-      "address": "Kennedydamm 10\n31134 Hildesheim",
+      "address": "Kennedydamm 10, 31134 Hildesheim",
       "website": "https://www.vb-eg.de",
       "platform_website": null,
       "authorisation_date": "12/10/2026",
@@ -13445,6 +13453,214 @@
           ],
           "comments": null,
           "last_update": "13/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "84d71454a05fb2c8",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank in der Region eG",
+      "lei": "5299006E6UGNN6YEPU72",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank in der Region eG",
+      "address": "Herrenberger Straße 1-5, 72070 Tübingen",
+      "website": "www.vbidr.de",
+      "platform_website": null,
+      "authorisation_date": "27/08/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "16/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "5538eb38f4f17225",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank Mittlerer Neckar eG",
+      "lei": "529900HHCMGEXXJAGA76",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank Mittlerer Neckar eG",
+      "address": "Fabrikstraße 5, 73728 Esslingen",
+      "website": "www.v-mn.de",
+      "platform_website": null,
+      "authorisation_date": "27/08/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "16/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "3eb1fc478ee0da82",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Sparda-Bank Baden-Württemberg eG",
+      "lei": "5299004HBAECUACNWN98",
+      "head_office_country": "DE",
+      "commercial_name": "Sparda-Bank Baden-Württemberg eG",
+      "address": "Am Hauptbahnhof 3, 70173 Stuttgart",
+      "website": "www.sparda-bw.de",
+      "platform_website": null,
+      "authorisation_date": "19/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "19/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "7992da708b10d514",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Raiffeisenbank Eifel eG",
+      "lei": "5299007Y7UJE5QV9QD03",
+      "head_office_country": "DE",
+      "commercial_name": "Raiffeisenbank Eifel eG",
+      "address": "Hauptstraße 76, 52152 Simmerath",
+      "website": "www.rb-eifel.de",
+      "platform_website": null,
+      "authorisation_date": "19/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "19/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "2c455bc03040f29d",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank Niederrhein eG",
+      "lei": "529900SH7SAVJN3TFQ06",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank Niederrhein eG",
+      "address": "Lindenallee 11-15, 46519 Alpen",
+      "website": "www.Volksbank-niederrhein.de",
+      "platform_website": null,
+      "authorisation_date": "22/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "09/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "3df62b3147e947a7",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank in Ostwestfalen eG",
+      "lei": "529900PUK9IU39VCWK54",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank in Ostwestfalen eG",
+      "address": "Kesselbrink 1, 33602 Bielefeld",
+      "website": "www.volksbankinostwestfalen.de",
+      "platform_website": null,
+      "authorisation_date": "18/11/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "20/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "ea73ccb49f5b82a7",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank Oberberg eG",
+      "lei": "529900OSV01JOCMF4Z23",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank Oberberg eG",
+      "address": "Bahnhofstraße 3,  51674 Wiehl",
+      "website": "www.vb-oberberg.de",
+      "platform_website": null,
+      "authorisation_date": "19/11/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "20/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "45e1590b3390316a",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank in der Hohen Mark eG",
+      "lei": "529900NK7TIIGQEJ6L07",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank in der Hohen Mark eG",
+      "address": "Hauptstraße 13,  48734 Reken",
+      "website": "www.vb-hm.de",
+      "platform_website": null,
+      "authorisation_date": "30/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "20/10/2026"
         }
       ],
       "source": "esma"
@@ -22262,7 +22478,7 @@
       "address": "Piazza Del Liberty, 8, MILANO, 20121",
       "website": "WWW.CHECKSIG.COM",
       "platform_website": null,
-      "authorisation_date": "06-May",
+      "authorisation_date": "06/05/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22320,7 +22536,7 @@
       "address": "Via Giuseppe Marcora, 11, MILANO, 20121",
       "website": "https://coinflip.tech/it-IT",
       "platform_website": null,
-      "authorisation_date": "04-Jun",
+      "authorisation_date": "04/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22346,7 +22562,7 @@
       "address": "Via Luigi Dalla Via, 3b, SCHIO (VI), 36015",
       "website": "https://riv-digital.it",
       "platform_website": null,
-      "authorisation_date": "10-Jun",
+      "authorisation_date": "10/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22388,7 +22604,7 @@
       "address": "Via Agostino Bertani, 6, MILANO, 20154",
       "website": "www.conio.com",
       "platform_website": null,
-      "authorisation_date": "16-Jun",
+      "authorisation_date": "16/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22454,7 +22670,7 @@
       "address": "Piazza Gaudenzio Sella 1, BIELLA, 13900",
       "website": "www.sella.it",
       "platform_website": null,
-      "authorisation_date": "27-Apr",
+      "authorisation_date": "27/04/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22488,7 +22704,7 @@
       "address": "Via Bruno Simonucci, 18, PERUGIA, 06135",
       "website": "https://cryptosmart.it/",
       "platform_website": null,
-      "authorisation_date": "24-Jun",
+      "authorisation_date": "24/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22554,7 +22770,7 @@
       "address": "Via Cigna, 96/17, TORINO, 10155",
       "website": "https://youngplatform.com",
       "platform_website": null,
-      "authorisation_date": "30-Jun",
+      "authorisation_date": "30/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22644,7 +22860,7 @@
       "address": "Via della Posta, 7, MILANO, 20123",
       "website": "https://hodli.com",
       "platform_website": null,
-      "authorisation_date": "30-Jun",
+      "authorisation_date": "30/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22710,7 +22926,7 @@
       "address": "Via Andrea Solari, 19, MILANO, 20144",
       "website": "https://www.hercle.financial",
       "platform_website": null,
-      "authorisation_date": "30-Jun",
+      "authorisation_date": "30/06/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -22864,7 +23080,7 @@
       "address": "Via del Commercio 32, 00154, Roma",
       "website": "www.youhodler.eu",
       "platform_website": null,
-      "authorisation_date": "08-Oct",
+      "authorisation_date": "08/10/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
