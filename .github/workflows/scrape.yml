@@ -43,40 +43,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: TEMP debug - ESMA access from this runner
-        # Diagnostic only, remove once the 2026-10-22 "403 Forbidden on every
-        # register" incident is understood. Sending the request with curl
-        # (a different HTTP/TLS stack than Python's requests/urllib3) with
-        # the same browser-style headers fetch_esma.py now sends, and
-        # printing the full response headers + this runner's own public IP,
-        # tells us which kind of block this is:
-        #   - curl ALSO gets 403 here -> ESMA/europa.eu is blocking GitHub
-        #     Actions' IP range itself, not anything about the Python client
-        #     specifically (headers won't fix this; needs a different runner
-        #     origin, e.g. self-hosted, or an alternate data source).
-        #   - curl gets 200 here -> the block is keyed off something
-        #     specific to Python's requests/urllib3 (most likely its TLS
-        #     fingerprint), fixable by switching fetch_esma.py's HTTP client.
-        # continue-on-error so this never blocks the real scrape step below.
-        continue-on-error: true
-        run: |
-          echo "--- This runner's public IP ---"
-          curl -s https://api.ipify.org || true
-          echo ""
-          echo "--- curl GET with browser headers ---"
-          curl -sS -D - -o /tmp/esma_resp.bin \
-            "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv" \
-            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" \
-            -H "Accept: text/csv,application/csv,text/plain,*/*" \
-            -H "Accept-Language: en-US,en;q=0.9,nl;q=0.8" \
-            -H "Referer: https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica" \
-            || true
-          echo ""
-          echo "--- First 300 bytes of body (whatever curl got back) ---"
-          head -c 300 /tmp/esma_resp.bin || true
-
       - name: Run scraper
         id: scrape
+        env:
+          # Optional - see SCRAPINGANT_ENDPOINT's comment in fetch_esma.py.
+          # Without this secret set, fetch_csv_text() falls back to a direct
+          # request (which, as of the 2026-10-22 incident, ESMA's CloudFront/
+          # WAF blocks for every register when it comes from a GitHub Actions
+          # runner - see README.md for how to get a free ScrapingAnt API key
+          # and add it as a repository secret).
+          SCRAPINGANT_API_KEY: ${{ secrets.SCRAPINGANT_API_KEY }}
         run: python scraper/fetch_esma.py
 
       - name: Commit data changes (if any)
