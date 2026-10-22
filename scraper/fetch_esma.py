@@ -49,7 +49,28 @@ DATA_DIR = ROOT / "data"
 HISTORY_DIR = DATA_DIR / "history"
 
 TIMEOUT = 30
-USER_AGENT = "BTCDirect-ESMA-MiCAR-Tracker/1.0 (compliance monitoring; contact: compliance@btcdirect.eu)"
+# A descriptive custom User-Agent ("BTCDirect-ESMA-MiCAR-Tracker/1.0 ...")
+# worked fine for ESMA's CSV endpoints for the life of this project, until
+# every run from 2026-10-22 onward started getting "403 Client Error:
+# Forbidden" for all 5 registers at once - while the exact same URLs loaded
+# fine (200 OK, real CSV content) from a plain browser request the same day.
+# That points at europa.eu's bot-mitigation WAF starting to block traffic
+# that doesn't look like a browser, not the files having moved or ESMA's
+# register changing - so this now sends a standard Chrome User-Agent, the
+# way any browser opening this public, non-authenticated file would.
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+# fetch_csv_text() additionally sends these - the Accept/Accept-Language/
+# Referer a browser would normally carry after landing on ESMA's MiCA
+# register page and clicking through to one of its CSV exports. Kept
+# separate from AFM's fetch (still just USER_AGENT) since AFM's xlsx
+# endpoint isn't the one that started blocking requests.
+ESMA_CSV_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/csv,application/csv,text/plain,*/*",
+    "Accept-Language": "en-US,en;q=0.9,nl;q=0.8",
+    "Referer": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+}
 
 
 # --------------------------------------------------------------------------
@@ -58,7 +79,7 @@ USER_AGENT = "BTCDirect-ESMA-MiCAR-Tracker/1.0 (compliance monitoring; contact: 
 
 def fetch_csv_text(register_code: str) -> str:
     url = BASE_URL.format(register_code)
-    resp = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": USER_AGENT})
+    resp = requests.get(url, timeout=TIMEOUT, headers=ESMA_CSV_HEADERS)
     resp.raise_for_status()
     # ESMA files are UTF-8 with a leading BOM
     return resp.content.decode("utf-8-sig")
