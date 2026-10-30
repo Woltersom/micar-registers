@@ -1,6 +1,6 @@
 {
   "register": "emt",
-  "generated_at": "2026-10-29T12:40:33+00:00",
+  "generated_at": "2026-10-30T12:32:02+00:00",
   "records": [
     {
       "id": "0673627ac8c1d954",
@@ -832,18 +832,18 @@
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-EUB-White-Paper_20260312-1.pdf",
           "start_date": "12/03/2026",
-          "dti": null,
-          "dti_ffg": null,
+          "dti": "H5MHNTQW9",
+          "dti_ffg": "JQNWG6VL5",
           "comments": null,
-          "last_update": "12/03/2026"
+          "last_update": "21/10/2026"
         },
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
           "start_date": "12/03/2026",
-          "dti": null,
-          "dti_ffg": null,
+          "dti": "F6CCFFX18",
+          "dti_ffg": "5HSDQW767",
           "comments": null,
-          "last_update": "12/03/2026"
+          "last_update": "21/10/2026"
         }
       ],
       "institution_type": "Credit institution",

@@ -12021,5 +12021,1131 @@
       "authorisation date: 08-Oct → 08/10/2026"
     ],
     "timestamp": "2026-10-22T19:01:35+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "dfea4f01709f83f8",
+    "name": "SKYGATE Network GmbH",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "6b37caf20948d85d",
+    "name": "DGRX Sales GmbH",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "40dfd4223c278525",
+    "name": "Bitpanda GmbH",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "a243ee430a546194",
+    "name": "ATEG Capital FlexCo",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "7375bbe6c2972114",
+    "name": "SC STEELCOIN GmbH",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "b9707dd8c6c86dfa",
+    "name": "ELEVEN ELEVEN MANAGEMENT LIMITED",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "b8af1c1f7f8c0501",
+    "name": "ZKsync Association - Ein Verein zur Foerderung des digitalen Oekosystems ZKsync e.V.",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "4774564ecd3dbcfc",
+    "name": "StarkWare Industries Ltd",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d50c68ec3ae245e0",
+    "name": "Biogena GmbH & Co KG",
+    "detail": [
+      "home member state: Austria → AT",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "3d64177fe4ecf00f",
+    "name": "MOJO Sales GmbH",
+    "detail": [
+      "home member state: Austria → AT"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ea87ca510f69d171",
+    "name": "Planck Network ($PLANCK)",
+    "detail": [
+      "home member state: CYPRUS → CY"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "ba0f5b0edcdda752",
+    "name": "AmericanFortress Ltd.",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ac8d0fc8a989e577",
+    "name": "Bitstamp Europe S.A.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "87067a0021378a79",
+    "name": "ProtoWardo Ltd",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d212938b18f2d90c",
+    "name": "Cetus Technology Limited",
+    "detail": [
+      "head office country: onbekend → VG"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "eaa1c025d744922d",
+    "name": "Zebec Holdings",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "50dc02ae1a214a41",
+    "name": "Aggro Axe Ltd.",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "758385c27eb02ec7",
+    "name": "Saturn Holdings (BVI) Limited",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "e13a1c4088320411",
+    "name": "Dog Planet AS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d86c562a47b66d1a",
+    "name": "PALM Token",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "922a9bd572d4b464",
+    "name": "Aprikos Venture AS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "1deb65ecd28ac072",
+    "name": "Bright Signal Invest AS",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "8d2449fa2ceddf37",
+    "name": "BISON BANK, S.A.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b6a2c95a002f6e6d",
+    "name": "AMINA (Austria) AG",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "d",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "i",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "i",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "SL"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "aeeeeb9ce65d192d",
+    "name": "FIOR Digital GmbH",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "c",
+        "countries": [
+          "SL"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "SI"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "SL"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "2fc85676a3e7b6b6",
+    "name": "MEGE zweite GmbH",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "ES"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "ES"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "ES"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "ES"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b46251eb22bdcf05",
+    "name": "Deutsche Bank Aktiengesellschaft",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "93276243dc8ec286",
+    "name": "VR Bank Lahn-Dill eG",
+    "detail": [
+      "address: Hauptstraße 65; 35683 Dillenburg → Hauptstraße 65, 35683 Dillenburg"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "4536d39e4500ab1d",
+    "name": "Raiffeisen-Volksbank Ebersberg eG",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "8a7f89feeb99ecf1",
+    "name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "cfd805f976c6b069",
+    "name": "Raiffeisenbank Wittelsbacher Land eG",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "b182315014e999e5",
+    "name": "Raiffeisenbank Kirchweihtal eG",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "8d38996039316387",
+    "name": "VR Bank Neuburg-Rain eG",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "83d64a5a68151566",
+    "name": "DEBLOCK SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "761dc27eb47e2827",
+    "name": "GOin SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "0734869a3c375d29",
+    "name": "CACEIS BANK",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a19db4d38a3ba834",
+    "name": "BITSTACK DIGITAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7e60f4fd86b96c85",
+    "name": "METAL GEAR SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e39d5c815a836ec9",
+    "name": "COINSHARES ASSET MANAGEMENT",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7f1deadb3b394ef6",
+    "name": "FINCTEK UE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "6634e135a1a5aa02",
+    "name": "RELAI EU SASU",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a3fd7add68fb25b7",
+    "name": "SOCIETE GENERALE - FORGE",
+    "detail": [
+      {
+        "kind": "service_added",
+        "code": "e"
+      },
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e5470d042ac6999a",
+    "name": "BANQUE DELUBAC ET CIE",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a063fe75fa732105",
+    "name": "COMETH SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f7c0283253787412",
+    "name": "FIPTO PI SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "57a2bbeb418be326",
+    "name": "HEXARQ SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4306f45bf9da57b2",
+    "name": "BLOCKNODES SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "af3e2696483c29fe",
+    "name": "CIRCLE INTERNET FINANCIAL EUROPE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "39e08360d18af95e",
+    "name": "DESKOIN SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "686886ab27de5fcc",
+    "name": "COINHOUSE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "bb7b73dacc791469",
+    "name": "QWARKS SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4b56037f323f4bd7",
+    "name": "PAYTOP SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "5919ed516939d765",
+    "name": "RUFIJI CAPITAL SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "374f889bdc2a220d",
+    "name": "KEYROCK FR SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b8c37855ec3144d9",
+    "name": "Bpifrance Investissement",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "544721f571b3756d",
+    "name": "RCUBE ASSET MANAGEMENT",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7a82a04c3380ab08",
+    "name": "PAYMIUM SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff9d6840d2e984c5",
+    "name": "LEONOD SARL",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "fca6eddf642afa3d",
+    "name": "MERIA SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "091643a8ba0b5785",
+    "name": "ALPHACAP DIGITAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "1c409b077e680754",
+    "name": "FLOWDESK EUROPE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "46b9520dc2735d54",
+    "name": "APLO SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f7bfa74a2c5ac9ca",
+    "name": "ICEBLOCK SAS",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "69b07eea9b588331",
+    "name": "MEREAU FINANCE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "61be0725d8007b5c",
+    "name": "FINARY SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b611a37ed7c13850",
+    "name": "WOORTON SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9ff4d24d88909d68",
+    "name": "BLOCKCHAIN PROCESS SECURITY (B.P.S.) SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "de6289f8c9af1031",
+    "name": "SHARES FINANCIAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a19f2ab5d2412442",
+    "name": "REGULAR FINANCE SAS",
+    "detail": [
+      "withdrawal date: onbekend → 0",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7064e2b79f7a5d4c",
+    "name": "STOKR S.A.",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "412e59af91ad9d15",
+    "name": "OKX Europe Limited",
+    "detail": [
+      "address: Piazzetta Business Plaza, Office Number 4, Floor 2,\nTriq Ghar il-Lembi,\nSliema, SLM 1562,\nMalta → Piazzetta Business Plaza, Office Number 4, Floor 2,\r\nTriq Ghar il-Lembi,\r\nSliema, SLM 1562,\r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "3b4ffa8924dd7087",
+    "name": "Payhound Limited",
+    "detail": [
+      "address: Level 0A, Centris Business Gateway II,\nTriq is-Salib tal-Imriehel, Zone 3, Central Business District,\nBirkirkara, CBD 3020,\nMalta → Level 0A, Centris Business Gateway II,\r\nTriq is-Salib tal-Imriehel, Zone 3, Central Business District,\r\nBirkirkara, CBD 3020,\r\nMalta",
+      "withdrawal date: onbekend → Payhound Limited",
+      "status: active → withdrawn"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "5ff938dfa893dd65",
+    "name": "Damex Digital LTD",
+    "detail": [
+      "address: MK Business Centre 115,\nTriq Il- Wied Mt-04\nFloor 2 \nBKR 9022\nMalta → MK Business Centre 115,\r\nTriq Il- Wied Mt-04\r\nFloor 2 \r\nBKR 9022\r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "0aa2e9b5868c6db9",
+    "name": "System Pay Services (Malta) Limited",
+    "detail": [
+      "address: Ruby Workspaces Office 3 Pendergardens, \nTriq Sant' Andrija, \nSan Giljan, \nSTJ 9023, \nMalta → Ruby Workspaces Office 3 Pendergardens, \r\nTriq Sant' Andrija, \r\nSan Giljan, \r\nSTJ 9023, \r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ca1adadad7206d4d",
+    "name": "Stable Mint Ltd.",
+    "detail": [
+      "address: Stable mint Ltd\nLevel 2, The 'Fort', Hardrocks Business Park,\nBurmarrad Road, \nNaxxar, NXR 6345, \nMalta → Stable mint Ltd\r\nLevel 2, The 'Fort', Hardrocks Business Park,\r\nBurmarrad Road, \r\nNaxxar, NXR 6345, \r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9b960f1ac5a6e163",
+    "name": "Zap (Strike) Europe Limited",
+    "detail": [
+      "address: 171, \nTriq il-Fran, \nValletta, \nVLT1455,\nMalta → 171, \r\nTriq il-Fran, \r\nValletta, \r\nVLT1455,\r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a76795b6d1e29e93",
+    "name": "Legion Malta Limited",
+    "detail": [
+      "address: ELITE BUSINESS CENTRE \nTREJQA TA' BOX BOX \nMSIDA \nMSD 1840 \nMalta → ELITE BUSINESS CENTRE \r\nTREJQA TA' BOX BOX \r\nMSIDA \r\nMSD 1840 \r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7949e180d2f1303e",
+    "name": "FalconX Limited",
+    "detail": [
+      "address: Trident Park, Notabile Gardens, Nos. 6, Level 4, \nMdina Road, Zone 2, \nCentral Business District, \nBirkirkara, CBD 2010, \nMalta → Trident Park, Notabile Gardens, Nos. 6, Level 4, \r\nMdina Road, Zone 2, \r\nCentral Business District, \r\nBirkirkara, CBD 2010, \r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4fb17f535653453e",
+    "name": "CF Technologies Ltd",
+    "detail": [
+      "address: Progetta House Level 0, \n62-64 Triq it-Torri, \nBirkirkara, BKR 4011, \nMalta → Progetta House Level 0, \r\n62-64 Triq it-Torri, \r\nBirkirkara, BKR 4011, \r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e123e13ceb80031e",
+    "name": "Everest Network Limited",
+    "detail": [
+      "address: c/o Regus Tower Business Centre 2nd floor\nTRIQ IT- TORRI\nSWATAR BIRKIRKARA\nBKR 4013\nMalta → c/o Regus Tower Business Centre 2nd floor\r\nTRIQ IT- TORRI\r\nSWATAR BIRKIRKARA\r\nBKR 4013\r\nMalta"
+    ],
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "e38f1ad631783471",
+    "name": "Brelliozo IA",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "5bf9a72c46d4d98b",
+    "name": "IncomeMax",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "7da550834fb1c302",
+    "name": "Tesorvenza",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "c24ed95af3d172bd",
+    "name": "Solvexpulse53ai",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "857e8fbf75cfaec6",
+    "name": "Valutixitalia",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "c7338523af5864c2",
+    "name": "Dashaxid400",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "02045ce1c6176ef4",
+    "name": "Sovriapro",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "c0e08aa418d04adf",
+    "name": "Chainexelonfin",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "9e27ee9416da7446",
+    "name": "Cardinemodevo",
+    "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "48112b9322c3bf8e",
+    "name": "Smartbitboost",
+    "timestamp": "2026-10-30T12:32:02+00:00"
   }
 ]
