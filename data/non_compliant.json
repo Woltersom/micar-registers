@@ -1,6 +1,6 @@
 {
   "register": "non_compliant",
-  "generated_at": "2026-11-03T14:45:36+00:00",
+  "generated_at": "2026-11-05T15:03:41+00:00",
   "records": [
     {
       "id": "a9d01e05b67008ae",
@@ -2605,6 +2605,20 @@
       "decision_date": "28/10/2026",
       "comments": null,
       "last_update": "29/10/2026"
+    },
+    {
+      "id": "1933f11c0280b243",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "Renditanzia",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://renditanziait.com|https://renditanzia-it.com|https://renditanziaai.com|https://renditanziaaibot.com|https://renditanziabot.com|https://renditanzia.xyz| https://renditanziaofficial.com|https://renditanzia.online|https://renditanzia.sbs|https://renditanzia.it",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "04/11/2026",
+      "comments": null,
+      "last_update": "05/11/2026"
     },
     {
       "id": "e7ab003a0b775925",

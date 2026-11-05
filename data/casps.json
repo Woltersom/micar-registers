@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-11-04T14:58:05+00:00",
+  "generated_at": "2026-11-05T15:03:41+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -9374,7 +9374,7 @@
             "SI",
             "SK"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when EUWAX AG commenced the provision of exchange services (of crypto-assets for funds or for other crypto-assets).  These exchange services are also provided cross-border in other Member States.",
           "last_update": "01/04/2026"
         },
         {
@@ -9411,15 +9411,37 @@
             "SI",
             "SK"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when EUWAX AG commenced the provision of exchange services (of crypto-assets for funds or for other crypto-assets).  These exchange services are also provided cross-border in other Member States.",
           "last_update": "01/04/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
           "countries": [
-            "DE"
+            "DE",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "FI",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE"
           ],
-          "comments": null,
+          "comments": "This is not a duplicate record; please note the notification date corresponds to when EUWAX AG commenced the provision of execution service after a subsequent Article 60 notification to Bafin.",
           "last_update": "21/11/2025"
         }
       ],
@@ -10751,7 +10773,11 @@
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
-            "DE"
+            "DE",
+            "BE",
+            "ES",
+            "FR",
+            "NL"
           ],
           "comments": null,
           "last_update": "27/10/2025"
@@ -10893,7 +10919,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when Deutsche WertpapierService Bank AG (dwpbank) commenced the provision of execution service.",
           "last_update": "01/09/2026"
         },
         {
@@ -10901,7 +10927,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "This is not a duplicate record; please note the notification date corresponds to when Deutsche WertpapierService Bank AG (dwpbank) commenced the provision of custody and administration as well as transfer services after a subsequent Article 60 notification to Bafin.",
           "last_update": "30/07/2026"
         },
         {
@@ -10909,7 +10935,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "This is not a duplicate record; please note the notification date corresponds to when Deutsche WertpapierService Bank AG (dwpbank) commenced the provision of custody and administration as well as transfer services after a subsequent Article 60 notification to Bafin.",
           "last_update": "30/07/2026"
         }
       ],
@@ -10935,7 +10961,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when DekaBank Deutsche Girozentrale commenced the provision of custody and administration, execution as well as transfer services.",
           "last_update": "01/12/2025"
         },
         {
@@ -10943,7 +10969,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when DekaBank Deutsche Girozentrale commenced the provision of custody and administration, execution as well as transfer services.",
           "last_update": "01/12/2025"
         },
         {
@@ -10951,7 +10977,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "Please note the notification date corresponds to when DekaBank Deutsche Girozentrale commenced the provision of custody and administration, execution as well as transfer services.",
           "last_update": "01/12/2025"
         },
         {
@@ -10959,7 +10985,7 @@
           "countries": [
             "DE"
           ],
-          "comments": null,
+          "comments": "This is not a duplicate record; please note the notification date corresponds to when DekaBank Deutsche Girozentrale commenced the provision of exchange service after a subsequent Article 60 notification to Bafin.",
           "last_update": "25/06/2026"
         }
       ],
@@ -13296,6 +13322,32 @@
       "source": "esma"
     },
     {
+      "id": "16d202abd7a44638",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "VR Bank Amberg-Sulzbach eG",
+      "lei": "529900LZDW2COOVSK824",
+      "head_office_country": "DE",
+      "commercial_name": "VR Bank Amberg-Sulzbach eG",
+      "address": "Neustadt 17, 92237 Sulzbach-Rosenberg",
+      "website": "www.vr-as.de",
+      "platform_website": null,
+      "authorisation_date": "02/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "02/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
       "id": "1b69a63510714c79",
       "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
       "home_member_state": "DE",
@@ -13853,6 +13905,66 @@
           ],
           "comments": null,
           "last_update": "28/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "52defdc6d1a98b95",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "VR-Bank Ostalb eG",
+      "lei": "5299009EELDZG8AZOX61",
+      "head_office_country": "DE",
+      "commercial_name": "VR-Bank Ostalb eG",
+      "address": "Wilhelm-Zapf-Straße 2, 73430 Aalen",
+      "website": "www.vrbank-ostalb.de",
+      "platform_website": null,
+      "authorisation_date": "02/11/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "02/11/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "2d2b5788e128469d",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Capricorn Capital GmbH & Co. KG",
+      "lei": "529900V2CC4NGZDBFK67",
+      "head_office_country": "DE",
+      "commercial_name": "Capricorn Capital GmbH & Co. KG",
+      "address": "Poststraße 37, 20354 Hamburg",
+      "website": "www.capricorn-capital.de",
+      "platform_website": null,
+      "authorisation_date": "23/02/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "h. providing advice on crypto-assets",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "23/02/2026"
+        },
+        {
+          "service": "i.providing portfolio management on crypto-assets",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "23/02/2026"
         }
       ],
       "source": "esma"
@@ -16051,10 +16163,39 @@
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
-            "ES"
+            "ES",
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "GR",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
           ],
           "comments": null,
-          "last_update": "17/08/2026"
+          "last_update": "03/11/2026"
         }
       ],
       "source": "esma"
@@ -16362,8 +16503,8 @@
       "website": "https://deblock.com/",
       "platform_website": "https://deblock.com/",
       "authorisation_date": "23/05/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -16398,7 +16539,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/05/2025"
         },
         {
@@ -16434,7 +16575,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/05/2025"
         },
         {
@@ -16470,7 +16611,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/05/2025"
         }
       ],
@@ -16488,8 +16629,8 @@
       "website": "https://goin-invest.com",
       "platform_website": "https://goin-invest.com",
       "authorisation_date": "19/06/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -16521,7 +16662,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16554,7 +16695,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16587,7 +16728,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16620,7 +16761,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16653,7 +16794,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16686,7 +16827,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         },
         {
@@ -16719,7 +16860,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "19/06/2025"
         }
       ],
@@ -16737,8 +16878,8 @@
       "website": "http://www.caceis.com",
       "platform_website": "http://www.caceis.com",
       "authorisation_date": "23/06/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -16751,7 +16892,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/06/2025"
         },
         {
@@ -16765,7 +16906,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/06/2025"
         },
         {
@@ -16779,7 +16920,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/06/2025"
         }
       ],
@@ -16797,8 +16938,8 @@
       "website": "https://bitstack-app.com/",
       "platform_website": "https://bitstack-app.com/",
       "authorisation_date": "30/06/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -16830,7 +16971,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2025"
         },
         {
@@ -16863,7 +17004,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2025"
         },
         {
@@ -16896,7 +17037,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2025"
         },
         {
@@ -16929,7 +17070,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2025"
         },
         {
@@ -16962,7 +17103,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2025"
         }
       ],
@@ -16980,8 +17121,8 @@
       "website": "https://metalgear.xyz/",
       "platform_website": "https://metalgear.xyz/",
       "authorisation_date": "04/07/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17013,7 +17154,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/07/2025"
         },
         {
@@ -17046,7 +17187,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/07/2025"
         },
         {
@@ -17079,7 +17220,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/07/2025"
         },
         {
@@ -17112,7 +17253,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/07/2025"
         }
       ],
@@ -17130,8 +17271,8 @@
       "website": "https://coinshares.com/",
       "platform_website": "https://coinshares.com/",
       "authorisation_date": "17/07/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "h. providing advice on crypto-assets",
@@ -17144,7 +17285,7 @@
             "MT",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "17/07/2025"
         },
         {
@@ -17158,7 +17299,7 @@
             "MT",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "17/07/2025"
         }
       ],
@@ -17176,8 +17317,8 @@
       "website": "https://finctek.com",
       "platform_website": "https://finctek.com",
       "authorisation_date": "11/09/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17190,7 +17331,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         },
         {
@@ -17204,7 +17345,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         },
         {
@@ -17218,7 +17359,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         },
         {
@@ -17232,7 +17373,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         },
         {
@@ -17246,7 +17387,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         },
         {
@@ -17260,7 +17401,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2025"
         }
       ],
@@ -17278,8 +17419,8 @@
       "website": "https://relai.app/",
       "platform_website": "https://relai.app/",
       "authorisation_date": "23/10/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -17311,7 +17452,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         }
       ],
@@ -17329,8 +17470,8 @@
       "website": "https://www.sgforge.com/",
       "platform_website": "https://www.sgforge.com/",
       "authorisation_date": "23/10/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17365,8 +17506,8 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
-          "last_update": "29/10/2026"
+          "comments": null,
+          "last_update": "23/10/2025"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -17401,8 +17542,8 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
-          "last_update": "29/10/2026"
+          "comments": null,
+          "last_update": "23/10/2025"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -17437,8 +17578,8 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
-          "last_update": "29/10/2026"
+          "comments": null,
+          "last_update": "23/10/2025"
         }
       ],
       "source": "esma"
@@ -17455,8 +17596,8 @@
       "website": "https://www.delubac.com/",
       "platform_website": "https://www.delubac.com/",
       "authorisation_date": "23/10/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17491,7 +17632,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17527,7 +17668,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17563,7 +17704,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17599,7 +17740,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17635,7 +17776,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17671,7 +17812,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         },
         {
@@ -17707,7 +17848,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/10/2025"
         }
       ],
@@ -17725,8 +17866,8 @@
       "website": "https://cometh.io/",
       "platform_website": "https://cometh.io/",
       "authorisation_date": "04/12/2025",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17752,7 +17893,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/12/2025"
         },
         {
@@ -17779,7 +17920,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/12/2025"
         },
         {
@@ -17806,7 +17947,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "04/12/2025"
         }
       ],
@@ -17824,8 +17965,8 @@
       "website": "https://www.fipto.com/",
       "platform_website": "https://www.fipto.com/",
       "authorisation_date": "23/01/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -17860,7 +18001,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/01/2026"
         },
         {
@@ -17896,7 +18037,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/01/2026"
         },
         {
@@ -17932,7 +18073,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/01/2026"
         },
         {
@@ -17968,7 +18109,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/01/2026"
         },
         {
@@ -18004,7 +18145,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/01/2026"
         }
       ],
@@ -18022,8 +18163,8 @@
       "website": "https://www.hexarq.com/",
       "platform_website": "https://www.hexarq.com/",
       "authorisation_date": "05/02/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18031,7 +18172,7 @@
             "BE",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/02/2026"
         },
         {
@@ -18040,7 +18181,7 @@
             "BE",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/02/2026"
         },
         {
@@ -18049,7 +18190,7 @@
             "BE",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/02/2026"
         },
         {
@@ -18058,7 +18199,7 @@
             "BE",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/02/2026"
         },
         {
@@ -18067,7 +18208,7 @@
             "BE",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/02/2026"
         }
       ],
@@ -18085,8 +18226,8 @@
       "website": "https://swissborg.com/",
       "platform_website": "https://swissborg.com/",
       "authorisation_date": "05/03/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18121,7 +18262,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         },
         {
@@ -18157,7 +18298,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         },
         {
@@ -18193,7 +18334,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         },
         {
@@ -18229,7 +18370,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         },
         {
@@ -18265,7 +18406,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         },
         {
@@ -18301,7 +18442,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "05/03/2026"
         }
       ],
@@ -18319,8 +18460,8 @@
       "website": "https://www.circle.com/en/",
       "platform_website": "https://www.circle.com/en/",
       "authorisation_date": "23/04/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18355,7 +18496,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/04/2026"
         },
         {
@@ -18391,7 +18532,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/04/2026"
         }
       ],
@@ -18409,8 +18550,8 @@
       "website": "https://www.deskoin.com/",
       "platform_website": "https://www.deskoin.com/",
       "authorisation_date": "28/04/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18423,7 +18564,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         },
         {
@@ -18437,7 +18578,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         },
         {
@@ -18451,7 +18592,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         },
         {
@@ -18465,7 +18606,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         },
         {
@@ -18479,7 +18620,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         },
         {
@@ -18493,7 +18634,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/04/2026"
         }
       ],
@@ -18511,8 +18652,8 @@
       "website": "https://www.coinhouse.com/",
       "platform_website": "https://www.coinhouse.com/",
       "authorisation_date": "07/05/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18521,7 +18662,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18531,7 +18672,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18541,7 +18682,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18551,7 +18692,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18561,7 +18702,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18571,7 +18712,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         },
         {
@@ -18581,7 +18722,7 @@
             "ES",
             "LU"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "07/05/2026"
         }
       ],
@@ -18599,15 +18740,15 @@
       "website": "https://www.qwarks.fr/",
       "platform_website": "https://www.qwarks.fr/",
       "authorisation_date": "21/05/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18615,7 +18756,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18623,7 +18764,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18631,7 +18772,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18639,7 +18780,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18647,7 +18788,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         }
       ],
@@ -18665,8 +18806,8 @@
       "website": "https://www.paytop.com/",
       "platform_website": "https://www.paytop.com/",
       "authorisation_date": "21/05/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18701,7 +18842,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18737,7 +18878,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         },
         {
@@ -18773,7 +18914,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "21/05/2026"
         }
       ],
@@ -18791,8 +18932,8 @@
       "website": "https://www.rufiji.capital/",
       "platform_website": "https://www.rufiji.capital/",
       "authorisation_date": "12/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18807,7 +18948,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18823,7 +18964,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18839,7 +18980,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18855,7 +18996,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18871,7 +19012,7 @@
             "NL",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         }
       ],
@@ -18889,8 +19030,8 @@
       "website": "https://keyrock.com/",
       "platform_website": "https://keyrock.com/",
       "authorisation_date": "12/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -18925,7 +19066,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18961,7 +19102,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -18997,7 +19138,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -19033,7 +19174,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         },
         {
@@ -19069,7 +19210,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "12/06/2026"
         }
       ],
@@ -19087,15 +19228,15 @@
       "website": "https://www.bpifrance.fr/",
       "platform_website": "https://www.bpifrance.fr/",
       "authorisation_date": "18/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "h. providing advice on crypto-assets",
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "18/06/2026"
         }
       ],
@@ -19113,8 +19254,8 @@
       "website": "https://rcube.com/",
       "platform_website": "https://rcube.com/",
       "authorisation_date": "18/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "h. providing advice on crypto-assets",
@@ -19126,7 +19267,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "18/06/2026"
         },
         {
@@ -19139,7 +19280,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "18/06/2026"
         }
       ],
@@ -19157,8 +19298,8 @@
       "website": "https://www.paymium.com/",
       "platform_website": "https://www.paymium.com/",
       "authorisation_date": "22/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -19193,7 +19334,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19229,7 +19370,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19265,7 +19406,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19301,7 +19442,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19337,7 +19478,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19373,7 +19514,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         }
       ],
@@ -19391,8 +19532,8 @@
       "website": "https://app.bullbitcoin.com/",
       "platform_website": "https://app.bullbitcoin.com/",
       "authorisation_date": "22/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -19426,7 +19567,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         }
       ],
@@ -19444,8 +19585,8 @@
       "website": "https://www.meria.com/",
       "platform_website": "https://www.meria.com/",
       "authorisation_date": "22/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -19459,7 +19600,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19474,7 +19615,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19489,7 +19630,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19504,7 +19645,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19519,7 +19660,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         },
         {
@@ -19534,7 +19675,7 @@
             "NO",
             "PT"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "22/06/2026"
         }
       ],
@@ -19552,15 +19693,15 @@
       "website": "https://alphacap.fr/",
       "platform_website": "https://alphacap.fr/",
       "authorisation_date": "25/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19568,7 +19709,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19576,7 +19717,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19584,7 +19725,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         }
       ],
@@ -19602,8 +19743,8 @@
       "website": "https://www.flowdesk.co/",
       "platform_website": "https://www.flowdesk.co/",
       "authorisation_date": "25/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -19619,7 +19760,7 @@
             "PT",
             "SE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19636,7 +19777,7 @@
             "PT",
             "SE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19653,7 +19794,7 @@
             "PT",
             "SE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19670,7 +19811,7 @@
             "PT",
             "SE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         },
         {
@@ -19687,7 +19828,7 @@
             "PT",
             "SE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "25/06/2026"
         }
       ],
@@ -19705,8 +19846,8 @@
       "website": "https://www.aplo.io/",
       "platform_website": "https://www.aplo.io/",
       "authorisation_date": "30/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -19719,7 +19860,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19733,7 +19874,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19747,7 +19888,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19761,7 +19902,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19775,7 +19916,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         }
       ],
@@ -19801,7 +19942,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19809,7 +19950,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19817,7 +19958,7 @@
           "countries": [
             "FR"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         }
       ],
@@ -19835,8 +19976,8 @@
       "website": "https://crypto-assets-management.com/",
       "platform_website": "https://crypto-assets-management.com/",
       "authorisation_date": "30/06/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "h. providing advice on crypto-assets",
@@ -19848,7 +19989,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         },
         {
@@ -19861,7 +20002,7 @@
             "LU",
             "NL"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "30/06/2026"
         }
       ],
@@ -19879,8 +20020,8 @@
       "website": "https://finary.com/en",
       "platform_website": "https://finary.com/en",
       "authorisation_date": "06/07/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -19912,7 +20053,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "06/07/2026"
         },
         {
@@ -19945,7 +20086,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "06/07/2026"
         },
         {
@@ -19978,7 +20119,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "06/07/2026"
         }
       ],
@@ -19996,8 +20137,8 @@
       "website": "https://www.woorton.com/",
       "platform_website": "https://www.woorton.com/",
       "authorisation_date": "23/07/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -20029,7 +20170,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/07/2026"
         },
         {
@@ -20062,7 +20203,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/07/2026"
         },
         {
@@ -20095,7 +20236,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "23/07/2026"
         }
       ],
@@ -20113,15 +20254,15 @@
       "website": "https://feel-mining.com/",
       "platform_website": "https://wigl.fr/",
       "authorisation_date": "24/07/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         },
         {
@@ -20129,7 +20270,7 @@
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         },
         {
@@ -20137,7 +20278,7 @@
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         },
         {
@@ -20145,7 +20286,7 @@
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         },
         {
@@ -20153,7 +20294,7 @@
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         },
         {
@@ -20161,7 +20302,7 @@
           "countries": [
             "BE"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "24/07/2026"
         }
       ],
@@ -20179,8 +20320,8 @@
       "website": "https://www.shares.io/",
       "platform_website": "https://www.shares.io/",
       "authorisation_date": "28/07/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -20200,7 +20341,7 @@
             "SE",
             "SI"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/07/2026"
         },
         {
@@ -20221,7 +20362,7 @@
             "SE",
             "SI"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/07/2026"
         },
         {
@@ -20242,7 +20383,7 @@
             "SE",
             "SI"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "28/07/2026"
         }
       ],
@@ -20260,8 +20401,8 @@
       "website": "https://www.regular.eu/",
       "platform_website": "https://www.regular.eu/",
       "authorisation_date": "11/09/2026",
-      "withdrawal_date": "0",
-      "status": "withdrawn",
+      "withdrawal_date": null,
+      "status": "active",
       "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
@@ -20296,7 +20437,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2026"
         },
         {
@@ -20332,7 +20473,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2026"
         },
         {
@@ -20368,7 +20509,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2026"
         },
         {
@@ -20404,7 +20545,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2026"
         },
         {
@@ -20440,7 +20581,7 @@
             "SI",
             "SK"
           ],
-          "comments": "0",
+          "comments": null,
           "last_update": "11/09/2026"
         }
       ],
@@ -33403,6 +33544,48 @@
       "source": "esma"
     },
     {
+      "id": "1d68438559dea541",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "Sparkasse Bank Malta Plc",
+      "lei": "21380099RT73NFBYS559",
+      "head_office_country": "MT",
+      "commercial_name": "Sparkasse Bank Malta Plc",
+      "address": "101 Townsquare Ix-Xatt ta’ Qui-si-Sana, Sliema, SLM3112",
+      "website": "https://sbm.bank/",
+      "platform_website": null,
+      "authorisation_date": "02/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "MT"
+          ],
+          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "MT"
+          ],
+          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
+          "last_update": "02/10/2026"
+        },
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "MT"
+          ],
+          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
+          "last_update": "02/10/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
       "id": "ebe4728b43e0390a",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "home_member_state": "NL",
@@ -34512,7 +34695,7 @@
       "name": "Amdax B.V.",
       "lei": "724500T7PFN30PF3ZQ87",
       "head_office_country": "NL",
-      "commercial_name": "Amdax B.V., Amdax Group, Novelist",
+      "commercial_name": "Amdax B.V., Amdax Group",
       "address": "Gustav Mahlerplein 45 - 1082MS Amsterdam - The Netherlands",
       "website": "https://www.amdax.com/nl | https://www.getnovelist.nl/en",
       "platform_website": null,
@@ -34555,7 +34738,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/06/2025"
+          "last_update": "02/11/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -34592,7 +34775,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/06/2025"
+          "last_update": "02/11/2026"
         },
         {
           "service": "i. providing portfolio management on crypto-assets",
@@ -34629,7 +34812,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/06/2025"
+          "last_update": "02/11/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -34666,7 +34849,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/06/2025"
+          "last_update": "02/11/2026"
         }
       ],
       "source": "esma"
@@ -35194,7 +35377,7 @@
       "name": "EU Internet Ventures B.V.",
       "lei": "6994000HAL9ODW3IMO22",
       "head_office_country": "NL",
-      "commercial_name": "EU Internet Ventures, EUIV, BNXA, OSL Pay, WisPay",
+      "commercial_name": "EU Internet Ventures, OSL Pay, WisPay",
       "address": "Piet Heinkade 93B - 1019 GM Amsterdam - The Netherlands",
       "website": "https://banxa.com\nhttps://www.osl-pay.com/",
       "platform_website": null,
@@ -35237,7 +35420,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "17/07/2026"
+          "last_update": "02/11/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
@@ -35274,7 +35457,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "17/07/2026"
+          "last_update": "02/11/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -35311,7 +35494,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "17/07/2026"
+          "last_update": "02/11/2026"
         }
       ],
       "source": "esma"
@@ -35982,7 +36165,7 @@
       "name": "Monflo B.V.",
       "lei": "724500BUG93MDFGYQG03",
       "head_office_country": "NL",
-      "commercial_name": "Monflo",
+      "commercial_name": "Monflo, Monflow B.V.",
       "address": "Prins Willem-Alexandarlaan 301 - 7311SW Apeldoorn - The Netherlands",
       "website": "https://www.monflo.com",
       "platform_website": null,
@@ -35999,7 +36182,7 @@
             "LU"
           ],
           "comments": null,
-          "last_update": "04/12/2025"
+          "last_update": "02/11/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -36010,7 +36193,7 @@
             "LU"
           ],
           "comments": null,
-          "last_update": "04/12/2025"
+          "last_update": "02/11/2026"
         },
         {
           "service": "j. providing transfer services for crypto-assets on behalf of clients",
@@ -36021,7 +36204,7 @@
             "LU"
           ],
           "comments": null,
-          "last_update": "04/12/2025"
+          "last_update": "02/11/2026"
         }
       ],
       "source": "esma"
@@ -36199,7 +36382,7 @@
       "name": "D2X Group N.V.",
       "lei": "7245002DD3GNFXPGPP93",
       "head_office_country": "NL",
-      "commercial_name": "D2X",
+      "commercial_name": "D2X Group N.V.",
       "address": "Ijsbaanpad 2 - 1076CV Amsterdam - The Netherlands",
       "website": "https://d2x.com/",
       "platform_website": null,
@@ -36213,7 +36396,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "26/03/2026"
+          "last_update": "02/11/2026"
         }
       ],
       "source": "esma"
@@ -36331,7 +36514,7 @@
       "lei": "7245009PUAT6U71IXZ51",
       "head_office_country": "NL",
       "commercial_name": "Change, Change Invest, getchange.com, ChangePro, changeinvest.com, AgenaTrader, agenatrader.com, TradersYard, tradersyard.com",
-      "address": "Westeinde 89 - 2211XS Noordwijkerhout - The Netherlands",
+      "address": "Barbara Strozzilaan 101 - 1083 HN Amsterdam - The Netherlands",
       "website": "https://www.changeinvest.com/",
       "platform_website": null,
       "authorisation_date": "20/04/2026",
@@ -36344,7 +36527,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "20/04/2026"
+          "last_update": "02/11/2026"
         },
         {
           "service": "c. exchange of crypto-assets for funds",
@@ -36352,7 +36535,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "20/04/2026"
+          "last_update": "02/11/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -36360,7 +36543,7 @@
             "NL"
           ],
           "comments": null,
-          "last_update": "20/04/2026"
+          "last_update": "02/11/2026"
         }
       ],
       "source": "esma"
@@ -36372,7 +36555,7 @@
       "name": "Digital Currency Services B.V.",
       "lei": "724500QZRWKCU8D2L569",
       "head_office_country": "NL",
-      "commercial_name": "DCS, HappyCoins",
+      "commercial_name": "Digital Currency Services, HappyCoins",
       "address": "Europalaan 100 - 3526 KS Utrecht - The Netherlands",
       "website": "https://happycoins.com/",
       "platform_website": null,
@@ -38641,7 +38824,7 @@
       "id": "11ed288d5fe5423a",
       "competent_authority": "National Bank of Slovakia (NBS)",
       "home_member_state": "SK",
-      "name": "Firefish Europe s.r.o",
+      "name": "Firefish Europe s.r.o.",
       "lei": "9845004E55FCFA069549",
       "head_office_country": "SK",
       "commercial_name": "Firefish",
@@ -39002,6 +39185,32 @@
           ],
           "comments": null,
           "last_update": "16/01/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "ea96f4f0153ac366",
+      "competent_authority": "National Bank of Slovakia (NBS)",
+      "home_member_state": "SK",
+      "name": "Tatra banka, a.s.",
+      "lei": "3157002JBFAI478MD587",
+      "head_office_country": "SK",
+      "commercial_name": "Tatra banka",
+      "address": "Hodžovo námestie 3, 81106 Bratislava, Slovakia",
+      "website": "https://www.tatrabanka.sk/",
+      "platform_website": null,
+      "authorisation_date": "31/08/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "03/11/2026"
         }
       ],
       "source": "esma"

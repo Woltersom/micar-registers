@@ -1,13 +1,11 @@
 {
-  "last_checked": "2026-11-04T14:58:05+00:00",
+  "last_checked": "2026-11-05T15:03:41+00:00",
   "record_counts": {
-    "whitepapers": 664,
+    "whitepapers": 668,
     "art": 0,
     "emt": 25,
-    "casps": 391
+    "casps": 396,
+    "non_compliant": 189
   },
-  "last_change_at": "2026-10-30T12:32:02+00:00",
-  "last_errors": {
-    "non_compliant": "404 Client Error: Not Found for url: https://api.scrapingant.com/v2/general?url=https%3A%2F%2Fwww.esma.europa.eu%2Fsites%2Fdefault%2Ffiles%2F2024-12%2FNCASP.csv&x-api-key=c04aaa5c2bef4c84a555b8e9424dcc5a&browser=false&proxy_type=residential"
-  }
+  "last_change_at": "2026-11-05T15:03:41+00:00"
 }

@@ -13147,5 +13147,814 @@
     "id": "48112b9322c3bf8e",
     "name": "Smartbitboost",
     "timestamp": "2026-10-30T12:32:02+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "80666d5481159ebf",
+    "name": "HSTW PTE. LTD.",
+    "detail": [
+      "head office country: 0 → SG"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "c89e765e35d9b41e",
+    "name": "TX Issuer Ltd",
+    "detail": [
+      "head office country: 0 → VG",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "30890464396a33ad",
+    "name": "Layer3 Fintech Ltd.",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "82de60171fde9c7b",
+    "name": "Sport.Fun Panama Corp",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "71140261ea4b50b4",
+    "name": "GOAT Foundation",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "d6be21edb352fbba",
+    "name": "Keeta Token Genesis LLC",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "3d51a174a0a32b6d",
+    "name": "MetaBlox Technologies inc.",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ad1dbe6405a1d0c5",
+    "name": "Aethir Network Foundation Company",
+    "detail": [
+      "head office country: AE → KY",
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "a4be06a42edb68ec",
+    "name": "Theo Research Ltd",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "ebb291f064a08b1e",
+    "name": "The AntSeed Foundation",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "7028ab5292154126",
+    "name": "Anoma Foundation",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "9eb9d2d221e38bcb",
+    "name": "Pairo Foundation",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "cdf8733ac2e2b865",
+    "name": "PVP Group Limited",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "1deb65ecd28ac072",
+    "name": "Bright Signal Invest AS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "1816c52042277f2c",
+    "name": "Yellow Token",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "545d4f0e405aa90a",
+    "name": "FUN",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "ab11afa727ab4cce",
+    "name": "GOATED",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "38301701d22ed317",
+    "name": "Keeta",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "09d4bc99f6dae170",
+    "name": "$ROAM",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "1e3260fc659afc87",
+    "name": "ATH",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "da39cf7a14b6dfb9",
+    "name": "EUWAX AG",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "84e29d1310a7e8f4",
+    "name": "DonauCapital Wertpapier GmbH",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "BE",
+          "ES",
+          "FR",
+          "NL"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "d5b223adcc1a4866",
+    "name": "Deutsche WertpapierService Bank AG",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "8c0bcc2524cb2dc0",
+    "name": "DekaBank Deutsche Girozentrale",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "16d202abd7a44638",
+    "name": "VR Bank Amberg-Sulzbach eG",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "52defdc6d1a98b95",
+    "name": "VR-Bank Ostalb eG",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "2d2b5788e128469d",
+    "name": "Capricorn Capital GmbH & Co. KG",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b4e171ff781da02d",
+    "name": "BASQUE PAY S.L.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "83d64a5a68151566",
+    "name": "DEBLOCK SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "761dc27eb47e2827",
+    "name": "GOin SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "0734869a3c375d29",
+    "name": "CACEIS BANK",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a19db4d38a3ba834",
+    "name": "BITSTACK DIGITAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7e60f4fd86b96c85",
+    "name": "METAL GEAR SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e39d5c815a836ec9",
+    "name": "COINSHARES ASSET MANAGEMENT",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7f1deadb3b394ef6",
+    "name": "FINCTEK UE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "6634e135a1a5aa02",
+    "name": "RELAI EU SASU",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a3fd7add68fb25b7",
+    "name": "SOCIETE GENERALE - FORGE",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e5470d042ac6999a",
+    "name": "BANQUE DELUBAC ET CIE",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a063fe75fa732105",
+    "name": "COMETH SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f7c0283253787412",
+    "name": "FIPTO PI SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "57a2bbeb418be326",
+    "name": "HEXARQ SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4306f45bf9da57b2",
+    "name": "BLOCKNODES SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "af3e2696483c29fe",
+    "name": "CIRCLE INTERNET FINANCIAL EUROPE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "39e08360d18af95e",
+    "name": "DESKOIN SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "686886ab27de5fcc",
+    "name": "COINHOUSE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "bb7b73dacc791469",
+    "name": "QWARKS SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4b56037f323f4bd7",
+    "name": "PAYTOP SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "5919ed516939d765",
+    "name": "RUFIJI CAPITAL SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "374f889bdc2a220d",
+    "name": "KEYROCK FR SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b8c37855ec3144d9",
+    "name": "Bpifrance Investissement",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "544721f571b3756d",
+    "name": "RCUBE ASSET MANAGEMENT",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7a82a04c3380ab08",
+    "name": "PAYMIUM SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff9d6840d2e984c5",
+    "name": "LEONOD SARL",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "fca6eddf642afa3d",
+    "name": "MERIA SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "091643a8ba0b5785",
+    "name": "ALPHACAP DIGITAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "1c409b077e680754",
+    "name": "FLOWDESK EUROPE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "46b9520dc2735d54",
+    "name": "APLO SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "f7bfa74a2c5ac9ca",
+    "name": "ICEBLOCK SAS",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "69b07eea9b588331",
+    "name": "MEREAU FINANCE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "61be0725d8007b5c",
+    "name": "FINARY SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b611a37ed7c13850",
+    "name": "WOORTON SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9ff4d24d88909d68",
+    "name": "BLOCKCHAIN PROCESS SECURITY (B.P.S.) SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "de6289f8c9af1031",
+    "name": "SHARES FINANCIAL ASSETS SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a19f2ab5d2412442",
+    "name": "REGULAR FINANCE SAS",
+    "detail": [
+      "withdrawal date: 0 → onbekend",
+      "status: withdrawn → active"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "1d68438559dea541",
+    "name": "Sparkasse Bank Malta Plc",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a9686143956716ca",
+    "name": "Amdax B.V.",
+    "detail": [
+      "commercial name: Amdax B.V., Amdax Group, Novelist → Amdax B.V., Amdax Group"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9a5775f408658608",
+    "name": "EU Internet Ventures B.V.",
+    "detail": [
+      "commercial name: EU Internet Ventures, EUIV, BNXA, OSL Pay, WisPay → EU Internet Ventures, OSL Pay, WisPay"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "93e9176b89bd8a02",
+    "name": "Monflo B.V.",
+    "detail": [
+      "commercial name: Monflo → Monflo, Monflow B.V."
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "19b7e0d9dd3562d4",
+    "name": "D2X Group N.V.",
+    "detail": [
+      "commercial name: D2X → D2X Group N.V."
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "282577d519e9730a",
+    "name": "Change Securities B.V.",
+    "detail": [
+      "address: Westeinde 89 - 2211XS Noordwijkerhout - The Netherlands → Barbara Strozzilaan 101 - 1083 HN Amsterdam - The Netherlands"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ddad2db13c297260",
+    "name": "Digital Currency Services B.V.",
+    "detail": [
+      "commercial name: DCS, HappyCoins → Digital Currency Services, HappyCoins"
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "11ed288d5fe5423a",
+    "name": "Firefish Europe s.r.o.",
+    "detail": [
+      "name: Firefish Europe s.r.o → Firefish Europe s.r.o."
+    ],
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "ea96f4f0153ac366",
+    "name": "Tatra banka, a.s.",
+    "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "1933f11c0280b243",
+    "name": "Renditanzia",
+    "timestamp": "2026-11-05T15:03:41+00:00"
   }
 ]
