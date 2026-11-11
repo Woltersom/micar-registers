@@ -1,6 +1,6 @@
 {
   "register": "emt",
-  "generated_at": "2026-11-10T15:19:32+00:00",
+  "generated_at": "2026-11-11T14:49:41+00:00",
   "records": [
     {
       "id": "0673627ac8c1d954",
@@ -242,18 +242,18 @@
         {
           "url": "https://www.sgforge.com/wp-content/uploads/2025/10/EURCV-WP-Ethereum-Solana_XRPL_Stellar_2025.10.14.pdf",
           "start_date": "01/07/2024",
-          "dti": "HF8RCHVWW|3NG1PDSJM|LTJP3BH2R|24QFRJ6Q9",
+          "dti": "HF8RCHVWW|3NG1PDSJM|LTJP3BH2R|24QFRJ6Q9 | BWFR5658W",
           "dti_ffg": "9W5C49FJV",
           "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
-          "last_update": "14/10/2025"
+          "last_update": "30/09/2026"
         },
         {
           "url": "https://www.sgforge.com/wp-content/uploads/2025/08/SG-Forge-USDCV-White-Paper_V2.0_Ethereum_Solana_11082025.pdf",
           "start_date": "16/07/2024",
-          "dti": "9XDHG5RZQ|8TF1FZX7H",
+          "dti": "9XDHG5RZQ|8TF1FZX7H| 7MV60JJTP",
           "dti_ffg": "LD6JM2JN2",
           "comments": "No comment. Ongoing additional review of the qualitative information provided in each WP item, in accordance with MiCA/ESMA ITS provisionand other MiCA compliant WP\"",
-          "last_update": "11/08/2025"
+          "last_update": "30/09/2026"
         }
       ],
       "institution_type": "Electronic money institution",
@@ -657,11 +657,11 @@
       "home_member_state": "NL",
       "name": "Fiat Republic Netherlands",
       "lei": "724500GVWT7QULV8CR59",
-      "head_office_country": null,
+      "head_office_country": "NL",
       "commercial_name": "Fiat Republic",
       "address": "Strawinskylaan 4117 - room 05-116 - 1077 ZX - Amsterdam",
-      "website": "https://fiatrepublic.com/",
-      "authorisation_date": "29/11/2021",
+      "website": "https://fiatrepublic.com",
+      "authorisation_date": null,
       "withdrawal_date": null,
       "status": "active",
       "whitepapers": [
@@ -691,8 +691,8 @@
         }
       ],
       "institution_type": "Electronic money Institution",
-      "exemption_48_4": "No",
-      "exemption_48_5": "No"
+      "exemption_48_4": null,
+      "exemption_48_5": null
     },
     {
       "id": "3aa01ec113d5c65b",
@@ -700,11 +700,11 @@
       "home_member_state": "NL",
       "name": "Quantoz Payments B.V",
       "lei": "7245008P1HPUPVM7XL94",
-      "head_office_country": null,
+      "head_office_country": "NL",
       "commercial_name": "Quantoz Payments",
       "address": "Europalaan 100 - 3526 KS Utrecht",
       "website": "https://quantoz.com",
-      "authorisation_date": "13/10/2023",
+      "authorisation_date": null,
       "withdrawal_date": null,
       "status": "active",
       "whitepapers": [
@@ -758,8 +758,8 @@
         }
       ],
       "institution_type": "Electronic money Institution",
-      "exemption_48_4": "No",
-      "exemption_48_5": "No"
+      "exemption_48_4": null,
+      "exemption_48_5": null
     },
     {
       "id": "516426671a34c183",
@@ -770,7 +770,7 @@
       "head_office_country": "NL",
       "commercial_name": "Aplauz",
       "address": "Keizersgracht 555 - 1017DR Amsterdam",
-      "website": "https://weur.io",
+      "website": "https://aplauz.com",
       "authorisation_date": null,
       "withdrawal_date": null,
       "status": "active",
@@ -782,6 +782,33 @@
           "dti_ffg": null,
           "comments": "WEUR white paper",
           "last_update": "26/05/2026"
+        }
+      ],
+      "institution_type": "Electronic money institution",
+      "exemption_48_4": null,
+      "exemption_48_5": null
+    },
+    {
+      "id": "4725b41f73ef8094",
+      "competent_authority": "De Nederlansche Bank (DNB)",
+      "home_member_state": "NL",
+      "name": "Qivalis B.V.\nQivalis B.V.\nQivalis B.V.",
+      "lei": "724500LOOWQMIDXTS391",
+      "head_office_country": "NL",
+      "commercial_name": "Qivalis B.V.",
+      "address": "Strawinskylaan 1457 - 1077XX Amsterdam",
+      "website": "https://qivalis.eu/",
+      "authorisation_date": null,
+      "withdrawal_date": null,
+      "status": "active",
+      "whitepapers": [
+        {
+          "url": "https://qivalis.eu/trust-center/white-paper",
+          "start_date": "21/10/2026",
+          "dti": "V456JNMB3",
+          "dti_ffg": "NL71R0228",
+          "comments": "EURqi white paper",
+          "last_update": "21/10/2026"
         }
       ],
       "institution_type": "Electronic money institution",

@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-11-10T15:19:32+00:00",
+  "generated_at": "2026-11-11T14:49:41+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -447,10 +447,10 @@
       ]
     },
     {
-      "id": "e52cee3d6d5076ff",
+      "id": "28a414e16665d0be",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
       "home_member_state": "CY",
-      "name": "Abloxx Token Ltd.",
+      "name": "Teroxx Rewards Ltd",
       "lei": null,
       "head_office_country": null,
       "whitepapers": [
@@ -462,7 +462,7 @@
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "25/03/2025"
+          "last_update": "06/11/2026"
         }
       ]
     },
@@ -493,26 +493,6 @@
           "dti_ffg": null,
           "comments": null,
           "last_update": "21/08/2025"
-        }
-      ]
-    },
-    {
-      "id": "ea87ca510f69d171",
-      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
-      "home_member_state": "CY",
-      "name": "Planck Network ($PLANCK)",
-      "lei": null,
-      "head_office_country": null,
-      "whitepapers": [
-        {
-          "url": "https://plancknetwork.com/whitepaper.pdf",
-          "casp_name": null,
-          "casp_lei": null,
-          "offer_countries": [],
-          "dti": null,
-          "dti_ffg": null,
-          "comments": "withdrawn",
-          "last_update": "09/10/2026"
         }
       ]
     },
@@ -6606,7 +6586,38 @@
           "url": "https://www.ngut.eu/whitepapers/SWAN.html",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
           "dti": null,
           "dti_ffg": null,
           "comments": null,
@@ -6615,18 +6626,49 @@
       ]
     },
     {
-      "id": "73b0f0131be47d8a",
+      "id": "01d00a11a811b7de",
       "competent_authority": "Finanssivalvonta (FIN-FSA)",
       "home_member_state": "FI",
-      "name": "Punta Parana Foundation",
+      "name": "IBRL BVI Ltd",
       "lei": null,
       "head_office_country": "FI",
       "whitepapers": [
         {
-          "url": "https://doublezero.xyz/whitepaper-mica.pdf",
+          "url": "https://doublezero.xyz/whitepaper-mica.pdfac",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
           "dti": null,
           "dti_ffg": null,
           "comments": null,
@@ -6646,7 +6688,38 @@
           "url": "https://zkcloud.com/whitepaper",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
           "dti": null,
           "dti_ffg": null,
           "comments": "The token has been renamed. New name is Zenith and the new ticker $ZTH . Previous name ZkCloud and previous ticker $PROOF.",
@@ -6663,14 +6736,42 @@
       "head_office_country": "FI",
       "whitepapers": [
         {
-          "url": "https://twlgf.com/twlgf-kryptovaran-kuvaus-twlgf-crypto-asset-description/",
+          "url": "https://twlgf.com/twlgf-crypto-asset-description/",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "HR",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "FI",
+            "FR",
+            "DE",
+            "GR",
+            "HU",
+            "IE",
+            "IT",
+            "LV",
+            "LT",
+            "LU",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SK",
+            "SI",
+            "ES",
+            "SE"
+          ],
           "dti": null,
           "dti_ffg": null,
           "comments": null,
-          "last_update": "19/08/2025"
+          "last_update": "28/08/2026"
         }
       ]
     },
@@ -6686,7 +6787,35 @@
           "url": "https://www.litiumlic.com/litiumlic-kryptovaran-kuvaus-litiumlic-crypto-asset-description/",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "HR",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "FI",
+            "FR",
+            "DE",
+            "GR",
+            "HU",
+            "IE",
+            "IT",
+            "LV",
+            "LT",
+            "LU",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SK",
+            "SI",
+            "ES",
+            "SE"
+          ],
           "dti": null,
           "dti_ffg": null,
           "comments": null,
@@ -7634,6 +7763,57 @@
       ]
     },
     {
+      "id": "d6b7bf8f4565b046",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "home_member_state": "FR",
+      "name": "Knowledge Process SA",
+      "lei": "984500483FC4701CH604",
+      "head_office_country": "SWITZERLAND - CH",
+      "whitepapers": [
+        {
+          "url": "https://kno.academy/whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": null,
+          "dti_ffg": "4XHW2QBF4",
+          "comments": "The Crypto-Asset White Paper has not yet been published. It will be made publicly available only after expiry of the notification period in accordance with Article 8 of Regulation (EU) 2023/1114",
+          "last_update": "10/11/2026"
+        }
+      ]
+    },
+    {
       "id": "286a1120fadf41cd",
       "competent_authority": "Croatian Financial Services Supervisory Agency (HANFA)",
       "home_member_state": "HR",
@@ -8308,6 +8488,16 @@
           "dti_ffg": "L7XQXLN44",
           "comments": null,
           "last_update": "07/01/2026"
+        },
+        {
+          "url": "https://my.okx.com/whitepaper/berachain-bera.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "C75S6N2RJ",
+          "dti_ffg": "L7XQXLN44",
+          "comments": "Modified",
+          "last_update": "10/11/2026"
         }
       ]
     },
@@ -15187,6 +15377,66 @@
       ]
     },
     {
+      "id": "fc815f9efa39b259",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "SELF Technology Limited",
+      "lei": null,
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://docs.self.app/micawhitepaper",
+          "casp_name": "Payward Global Solutions Limited",
+          "casp_lei": "9845003D98SCC2851458",
+          "offer_countries": [],
+          "dti": "CKTHNVM6Z",
+          "dti_ffg": "CKTHNVM6Z",
+          "comments": null,
+          "last_update": "06/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "7a1eea37b4360a5b",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "BitUtility S.A.",
+      "lei": "9845004BE14DFCFB9516",
+      "head_office_country": "PA",
+      "whitepapers": [
+        {
+          "url": "bitutility.micarwhitepapers.eu",
+          "casp_name": "Payward Global Solutions LTD",
+          "casp_lei": "9845003D98SCC2851458",
+          "offer_countries": [],
+          "dti": "M9CQ06K3F",
+          "dti_ffg": "R5XBJBLKG",
+          "comments": null,
+          "last_update": "06/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "986400a31ff2e8e5",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Strato Foundation",
+      "lei": "2549005ICRB8P6S7T350",
+      "head_office_country": "KY",
+      "whitepapers": [
+        {
+          "url": "https://strato.nexus/mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "N085LHV79 | 5CCCH8ZG4",
+          "dti_ffg": "CMQ8JCV3S",
+          "comments": null,
+          "last_update": "06/11/2026"
+        }
+      ]
+    },
+    {
       "id": "1d468e8800be3896",
       "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "home_member_state": "IT",
@@ -21461,6 +21711,16 @@
           "dti_ffg": "LL5HTKTB5",
           "comments": null,
           "last_update": "27/08/2026"
+        },
+        {
+          "url": "https://www.korprotocol.io/mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "XPZVV3NDT",
+          "dti_ffg": "LL5HTKTB5",
+          "comments": "Modified",
+          "last_update": "10/11/2026"
         }
       ]
     },
@@ -21521,6 +21781,26 @@
           "dti_ffg": "F5V1Z6TC2",
           "comments": null,
           "last_update": "06/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "5d857a0f37257633",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "Layer 69 Inc.",
+      "lei": null,
+      "head_office_country": "PA",
+      "whitepapers": [
+        {
+          "url": "https://docs.dogeos.com/token",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "6RLXXXSP5",
+          "dti_ffg": "DBGXX7PNT",
+          "comments": null,
+          "last_update": "10/11/2026"
         }
       ]
     },
@@ -24608,13 +24888,13 @@
       "head_office_country": "NO",
       "whitepapers": [
         {
-          "url": "https://brightsignal.no",
+          "url": "https://disclosuretoken.com",
           "casp_name": null,
           "casp_lei": null,
           "offer_countries": [],
-          "dti": "Pending",
+          "dti": "1QJFB8JZ1",
           "dti_ffg": "G1QGQ14R6",
-          "comments": null,
+          "comments": "Updated WP November 2026",
           "last_update": "02/11/2026"
         }
       ]

@@ -13956,5 +13956,897 @@
     "id": "1933f11c0280b243",
     "name": "Renditanzia",
     "timestamp": "2026-11-05T15:03:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "28a414e16665d0be",
+    "name": "Teroxx Rewards Ltd",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "348a55a13cc807f2",
+    "name": "Number Go Up Technologies",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "01d00a11a811b7de",
+    "name": "IBRL BVI Ltd",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d9e76fd1e6995f8a",
+    "name": "Gevulot Oy",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "ec29bb25db651a74",
+    "name": "InvestTWLGF Oy",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "3461311a7eb7c528",
+    "name": "Investlitiumlic Oy",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "d6b7bf8f4565b046",
+    "name": "Knowledge Process SA",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "1174f346d9173e0a",
+    "name": "Bera Chain Foundation",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "fc815f9efa39b259",
+    "name": "SELF Technology Limited",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "7a1eea37b4360a5b",
+    "name": "BitUtility S.A.",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "986400a31ff2e8e5",
+    "name": "Strato Foundation",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "57345a585eb82327",
+    "name": "Kor Technologies Issuer Inc.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "5d857a0f37257633",
+    "name": "Layer 69 Inc.",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "1deb65ecd28ac072",
+    "name": "Bright Signal Invest AS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "e52cee3d6d5076ff",
+    "name": "Abloxx Token Ltd.",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "ea87ca510f69d171",
+    "name": "Planck Network ($PLANCK)",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "73b0f0131be47d8a",
+    "name": "Punta Parana Foundation",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "9f28b41e36b82f63",
+    "name": "Société Générale - Forge",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "2b96c94a46defa9a",
+    "name": "Fiat Republic Netherlands",
+    "detail": [
+      "head office country: onbekend → NL",
+      "website: https://fiatrepublic.com/ → https://fiatrepublic.com",
+      "authorisation date: 29/11/2021 → onbekend",
+      "exemption 48 4: No → onbekend",
+      "exemption 48 5: No → onbekend"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "3aa01ec113d5c65b",
+    "name": "Quantoz Payments B.V",
+    "detail": [
+      "head office country: onbekend → NL",
+      "authorisation date: 13/10/2023 → onbekend",
+      "exemption 48 4: No → onbekend",
+      "exemption 48 5: No → onbekend"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "516426671a34c183",
+    "name": "Aplauz NL B.V.",
+    "detail": [
+      "website: https://weur.io → https://aplauz.com"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "emt",
+    "id": "4725b41f73ef8094",
+    "name": "Qivalis B.V.\nQivalis B.V.\nQivalis B.V.",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "92ecf654f3d72120",
+    "name": "KuCoin EU Exchange GmbH",
+    "detail": [
+      "address: Am Grünen Prater 2/3. Stock, 1020 Vienna, Austria → Stella-Klein-Löw-Weg 13/4.02, 1020 Vienna, Austria"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "3943d00ce41a7d80",
+    "name": "Transak GmbH",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "256e5b0e4df585f6",
+    "name": "CAPITAL VAULT LTD",
+    "detail": [
+      "address: Vasileiou Makedonos 8, KINNIS BUSINESS CENTER, 3rd floor, 3040 Limassol, Cyprus → Christaki Kranou 66, City Tower, Floor 1, 4042 Germasogeia, Limassol, Cyprus"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "3fbf232b481a3161",
+    "name": "Cloverum Finance (CY) Limited",
+    "detail": [
+      "address: Kypranoros 13, Evi Building, Floor 2, Office 201, 1061 Nicosia, Cyprus → Themistokli Dervi 48, Athienitis Centennial Building, Flat/Office 402, 1066 Nicosia, Cyprus"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "c68cab91efa92392",
+    "name": "VSMARKETS LTD",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "be62a4cb3b7055ab",
+    "name": "Raiffeisenbank Landshuter Land eG",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "314dee19a4c6b9ab",
+    "name": "VR-Bank Passau eG",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "03eca2e5e77a8ae0",
+    "name": "Volksbank Erft eG",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "6f14461b889d773d",
+    "name": "Volksbank Ettlingen eG",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "bcefa974a81f242f",
+    "name": "Raiffeisenbank Aresing-Gerolsbach eG",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "d28fce9708a85cbb",
+    "name": "CAIXABANK S.A.",
+    "detail": [
+      "address: Pintor Sorolla 2-4. 46002 Valencia → Pintor Sorolla 2-4. 46002 Valencia."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "4abcd82855efca05",
+    "name": "DUE NETWORK S.L.",
+    "detail": [
+      "address: Paseo de la Castellana 257 Torre Sur 1.  28046  Madrid → Paseo de la Castellana 257 Torre Sur 1.  28046  Madrid."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b97e82a6356e292f",
+    "name": "CROSSMINT EUROPE S.L.",
+    "detail": [
+      "address: Calle Villalar 7. Bajo Izda 28001 Madrid → Calle Villalar 7. Bajo Izda 28001 Madrid."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "cec2211ff55f15a8",
+    "name": "CRIPTAN TRADE S.L.",
+    "detail": [
+      "address: Calle Almirante Cadarso 26 46005 Valencia → Calle Almirante Cadarso 26 46005 Valencia."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7873ee3266fd48c6",
+    "name": "MINOS GLOBAL S.L.",
+    "detail": [
+      "address: Calle Maudes 51 planta 8 28003 Madrid → Calle Maudes 51 planta 8 28003 Madrid."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7b98e4fa6b5a267c",
+    "name": "PROSEGUR CUSTODIA DE ACTIVOS DIGITALES S.L.U.",
+    "detail": [
+      "address: Calle Herberto Gut 12 Madrid 28007 → Calle Herberto Gut 12 Madrid 28007."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b483a73b16f8d567",
+    "name": "FINTECH PAYMENTS PSC S.L.",
+    "detail": [
+      "address: Calle San Juan de Ortega num. 10 esc 1 puerta B local Correoslabs. 28050 Madrid → Calle San Juan de Ortega num. 10 esc 1 puerta B local Correoslabs. 28050 Madrid."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ab89d0b59c9c8779",
+    "name": "PRAKMA MARKETS S.L.",
+    "detail": [
+      "address: Carrer de Joan d Austria 126  5º 2ª. 08018 Barcelona → Carrer de Joan d Austria 126  5º 2ª. 08018 Barcelona."
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "86bc68816e8fe060",
+    "name": "ABANCA CORPORACION BANCARIA, S.A.",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "9f91869191599534",
+    "name": "Tiwala Solutions Korlátolt Felelősségű Társaság",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "9f251c253258c323",
+    "name": "Robinhood Europe, UAB",
+    "detail": [
+      "name: Robinhood Europe UAB → Robinhood Europe, UAB",
+      "address: Konstitucijos st. 21A, 08130, Vilnius, Lithuania → Konstitucijos pr. 21A, 08130, Vilnius, Lithuania"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "40b1d63ca48ea393",
+    "name": "UAB \"Decentralized\"",
+    "detail": [
+      "name: UAB Decentralized → UAB \"Decentralized\"",
+      "address: Lvivo g. 37, Vilnius, 09307, Lithuania → Lvivo g. 37, 09307, Vilnius, Lithuania"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ae37e1c9eb1443cc",
+    "name": "Nuvei Liquidity UAB",
+    "detail": [
+      "commercial name: Simplex → Simplex / Nuvei",
+      "address: Lvivo g. 37, Vilnius, 09307, Lithuania → Lvivo g. 37, 09307, Vilnius, Lithuania"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ff1295ef5d4f76b4",
+    "name": "UAB Micar assets",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "commercial name: Myriad Capital → Micar Assets",
+      "address: J. Savickio g. 4-7, Vilnius, 01108, Lithuania → J. Savickio g. 4-7,  01108, Vilnius, Lithuania",
+      "website: https://myriadcapital.lt → https://micarassets.com"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "3c7b9c0ea16dddd9",
+    "name": "UAB BLUE EMI LT",
+    "detail": [
+      "commercial name: BLUE EMI → BLUE EMI / Checkout.com"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "614b9d7341901f95",
+    "name": "UAB DriveWealth Europe",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "8c186d0aaa331cfb",
+    "name": "FINTECH SK s. r. o.",
+    "detail": [
+      "address: Gen. Svobodu 1, 911 08 Trenčín, Slovakia → Cez ohrady 738/33 911 05 Trenčín, Slovakia"
+    ],
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "4440053c81c08410",
+    "name": "TONWEX UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "882e9c2984d926ae",
+    "name": "Blocknet Finance UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "e31db9363964fbb2",
+    "name": "UAB SwiftHorizon",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "1f22cffc278db7ae",
+    "name": "Flipchain UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "0084aa1a6ca7b4e8",
+    "name": "UAB \"E-gates\"",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "06b621637e01c000",
+    "name": "Coailray UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "76dd5e9c555c9b67",
+    "name": "Bitstore Europe UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "c3f1804248a6ad8f",
+    "name": "UAB Veetrblox",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "b40dd1a13fc40a47",
+    "name": "MultiExchange UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "1967cea833b44bf0",
+    "name": "UAB \"Sapion Solution\"",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "02c8d85754822d72",
+    "name": "UAB \"Coincierge holdings\"",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "9272398f83244992",
+    "name": "Liq Finance UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "97404d12898ea233",
+    "name": "UAB IO Ready",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "d43f2ebdc8a99e79",
+    "name": "Orange stream UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "f94e7ad64e17503e",
+    "name": "FundFy Investment Club UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "82dcd54555a4ef0e",
+    "name": "UAB \"Unich Global\"",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "c5a81f957ceed680",
+    "name": "HUMB UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "36890a0009900291",
+    "name": "Cvetpay UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "36b676e464ed43ab",
+    "name": "Wct pay UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "961b7f9ec3f09369",
+    "name": "GoFin Technology UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "316fa66088db92bf",
+    "name": "Euchanges UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "dac1c38599903ee5",
+    "name": "Beaver Dealer UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "d8d472eddb5e6cf9",
+    "name": "BlackFort Pay UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "04902abff15e0509",
+    "name": "POD Europe UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "41f3b449cc717e63",
+    "name": "Europe Exchange UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "65685b5401467d8b",
+    "name": "Xpay Global UAB",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "e946a083cfefa9d2",
+    "name": "UAB ROQQU TECHNOLOGIES",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "e8189c47d07757ac",
+    "name": "MEXC Global",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "2451cd5dbf146778",
+    "name": "LWEX",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "non_compliant",
+    "id": "e7ab003a0b775925",
+    "name": "MEXC Global",
+    "registered_on": "16/09/2025",
+    "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "non_compliant",
+    "id": "31243c81b366db78",
+    "name": "LWEX",
+    "registered_on": "10/02/2025",
+    "timestamp": "2026-11-11T14:49:41+00:00"
   }
 ]
