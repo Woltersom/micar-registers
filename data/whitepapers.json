@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-11-17T16:35:22+00:00",
+  "generated_at": "2026-11-18T16:03:56+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -5326,6 +5326,88 @@
           "dti_ffg": "SZX7TVDD",
           "comments": null,
           "last_update": "19/10/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/de/awe-network-ffg-l305txrs8/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "B9DMCJKDP",
+          "dti_ffg": "L305TXRS8",
+          "comments": null,
+          "last_update": "10/11/2026"
+        },
+        {
+          "url": "https://white-paper.crypto-risk-metrics.com/en/caldera-ffg-fbj51gpw2/index.html",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": "F4TC42BTF| 7KRNK7QGT| H8NXH418P| K668C4VFX",
+          "dti_ffg": "FBJ51GPW2",
+          "comments": null,
+          "last_update": "10/11/2026"
         }
       ]
     },
@@ -5863,6 +5945,44 @@
           "dti_ffg": null,
           "comments": "note that the publication date for the white paper is 17.04.2026 at which point this record will be updated with the link",
           "last_update": "17/03/2026"
+        },
+        {
+          "url": "https://www.heldfor.com/whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "dti": null,
+          "dti_ffg": null,
+          "comments": "Modification",
+          "last_update": "13/11/2026"
         }
       ]
     },
@@ -23232,7 +23352,7 @@
           "dti": "336JRW20K",
           "dti_ffg": "40KCBQWB3",
           "comments": "wp update",
-          "last_update": "16/03/2026"
+          "last_update": "02/11/2026"
         }
       ]
     },
@@ -24186,7 +24306,7 @@
           "dti": "5CTP69VT4",
           "dti_ffg": "K5RP3DVVV",
           "comments": "wp update",
-          "last_update": "18/09/2026"
+          "last_update": "13/11/2026"
         }
       ]
     },
@@ -24389,7 +24509,7 @@
           "dti": "4XJWG2GDV",
           "dti_ffg": "MGPFSP2TG",
           "comments": "wp update",
-          "last_update": "19/09/2026"
+          "last_update": "20/11/2026"
         }
       ]
     },
@@ -24880,22 +25000,52 @@
       ]
     },
     {
-      "id": "1deb65ecd28ac072",
+      "id": "0bbf4343b55271b5",
       "competent_authority": "Norwegian Financial Supervisory Authority (Finanstilsynet)",
       "home_member_state": "NO",
       "name": "Bright Signal Invest AS",
-      "lei": null,
+      "lei": "984500145VDDDBXOE128",
       "head_office_country": "NO",
       "whitepapers": [
         {
           "url": "https://disclosuretoken.com",
           "casp_name": null,
           "casp_lei": null,
-          "offer_countries": [],
+          "offer_countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
           "dti": "1QJFB8JZ1",
           "dti_ffg": "G1QGQ14R6",
           "comments": "Updated WP November 2026",
-          "last_update": "02/11/2026"
+          "last_update": "12/11/2026"
         }
       ]
     },

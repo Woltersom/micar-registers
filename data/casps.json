@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-11-17T16:35:22+00:00",
+  "generated_at": "2026-11-18T16:03:56+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -1306,7 +1306,7 @@
       "lei": "254900ERDZ4CZ5IF7P56",
       "head_office_country": "AT",
       "commercial_name": "WhiteBIT EU",
-      "address": "Stella-Klein-Löw-Weg 8\n1020 Vienna, Austria",
+      "address": "Stella-Klein-Löw-Weg 8 1020 Vienna, Austria",
       "website": "https://whitebit.eu",
       "platform_website": null,
       "authorisation_date": "18/06/2026",
@@ -14216,6 +14216,32 @@
           ],
           "comments": null,
           "last_update": "09/11/2026"
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "5bc9905385ca5519",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "home_member_state": "DE",
+      "name": "Volksbank Magdeburg eG",
+      "lei": "529900U2YWMWH2WVJA75",
+      "head_office_country": "DE",
+      "commercial_name": "Volksbank Magdeburg eG",
+      "address": "Breiter Weg 212, 39104 Magdeburg",
+      "website": "www.volksbank-magdeburg.de",
+      "platform_website": null,
+      "authorisation_date": "23/10/2026",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": [
+            "DE"
+          ],
+          "comments": null,
+          "last_update": "23/10/2026"
         }
       ],
       "source": "esma"
@@ -34228,24 +34254,24 @@
           "countries": [
             "MT"
           ],
-          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
-          "last_update": "02/10/2026"
+          "comments": null,
+          "last_update": "18/11/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
           "countries": [
             "MT"
           ],
-          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
-          "last_update": "02/10/2026"
+          "comments": null,
+          "last_update": "18/11/2026"
         },
         {
           "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
             "MT"
           ],
-          "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
-          "last_update": "02/10/2026"
+          "comments": null,
+          "last_update": "18/11/2026"
         }
       ],
       "source": "esma"
@@ -34541,7 +34567,7 @@
       "name": "Hidden Road Partners CIV NL B.V.",
       "lei": "549300OOZDNZ3F2XJW21",
       "head_office_country": "NL",
-      "commercial_name": "Hidden Road Partners CIV NL B.V.",
+      "commercial_name": "Hidden Road Partners CIV NL B.V., Ripple Prime",
       "address": "Gustav Mahlerplein 28 - Unit 7.13 - 1082 MA Amsterdam - The Netherlands",
       "website": "https://hiddenroad.com/",
       "platform_website": null,
@@ -34584,7 +34610,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/12/2024"
+          "last_update": "17/11/2026"
         },
         {
           "service": "d. exchange of crypto-assets for other crypto-assets",
@@ -34621,7 +34647,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/12/2024"
+          "last_update": "17/11/2026"
         },
         {
           "service": "e. execution of orders for crypto-assets on behalf of clients",
@@ -34658,7 +34684,7 @@
             "SE"
           ],
           "comments": null,
-          "last_update": "30/12/2024"
+          "last_update": "17/11/2026"
         }
       ],
       "source": "esma"
@@ -38185,17 +38211,17 @@
       "source": "esma"
     },
     {
-      "id": "7d5ad2d1998d546d",
-      "competent_authority": "Securities Market Agency (ATVP)",
-      "home_member_state": "SI",
-      "name": "ILIRIKA borzno posredniška hiša d.d.",
-      "lei": "529900OSVFQK3XISEQ85",
-      "head_office_country": "SI",
-      "commercial_name": "Ilirika",
-      "address": "Slovenska cesta 54A 1000 Ljubljana Slovenia",
-      "website": "https://www.ilirika.si/",
+      "id": "190755df581177e2",
+      "competent_authority": "Banco de Portugal",
+      "home_member_state": "PT",
+      "name": "Uphold Digital Assets Europe, Unipessoal Lda",
+      "lei": "254900QWGNL1STBZDC19",
+      "head_office_country": "PT",
+      "commercial_name": null,
+      "address": "Praça Conde Agrolongo, Nº27, 1º 4700-312 Braga",
+      "website": "http://uphold.com/",
       "platform_website": null,
-      "authorisation_date": "04/10/2025",
+      "authorisation_date": "11/11/2026",
       "withdrawal_date": null,
       "status": "active",
       "services": [
@@ -38210,10 +38236,10 @@
             "DE",
             "DK",
             "EE",
-            "EL",
             "ES",
             "FI",
             "FR",
+            "GR",
             "HR",
             "HU",
             "IE",
@@ -38234,10 +38260,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "25/08/2026"
+          "last_update": "11/11/2026"
         },
         {
-          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "service": "c. exchange of crypto-assets for funds",
           "countries": [
             "AT",
             "BE",
@@ -38247,10 +38273,10 @@
             "DE",
             "DK",
             "EE",
-            "EL",
             "ES",
             "FI",
             "FR",
+            "GR",
             "HR",
             "HU",
             "IE",
@@ -38271,10 +38297,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "25/08/2026"
+          "last_update": "11/11/2026"
         },
         {
-          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "service": "d. exchange of crypto-assets for other crypto-assets",
           "countries": [
             "AT",
             "BE",
@@ -38284,10 +38310,10 @@
             "DE",
             "DK",
             "EE",
-            "EL",
             "ES",
             "FI",
             "FR",
+            "GR",
             "HR",
             "HU",
             "IE",
@@ -38308,10 +38334,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "25/08/2026"
+          "last_update": "11/11/2026"
         },
         {
-          "service": "i. providing portfolio management on crypto-assets",
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
           "countries": [
             "AT",
             "BE",
@@ -38321,10 +38347,10 @@
             "DE",
             "DK",
             "EE",
-            "EL",
             "ES",
             "FI",
             "FR",
+            "GR",
             "HR",
             "HU",
             "IE",
@@ -38345,7 +38371,155 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "25/08/2026"
+          "last_update": "11/11/2026"
+        },
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/11/2026"
+        },
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/11/2026"
+        },
+        {
+          "service": "d. exchange of crypto-assets for other crypto-assets",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/11/2026"
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ],
+          "comments": null,
+          "last_update": "11/11/2026"
         }
       ],
       "source": "esma"
@@ -39879,6 +40053,49 @@
         }
       ],
       "source": "esma"
+    },
+    {
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "SI",
+      "name": "ILIRIKA borzno posredniška hiša d.d., Ljubljana",
+      "lei": "529900OSVFQK3XISEQ85",
+      "head_office_country": null,
+      "commercial_name": "Ilirika",
+      "address": "Slovenska cesta 54A, 1000 Ljubljana, Slovenia",
+      "website": null,
+      "platform_website": null,
+      "authorisation_date": null,
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
+          "countries": []
+        },
+        {
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
+          "countries": []
+        },
+        {
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
+          "countries": []
+        },
+        {
+          "service": "i. providing portfolio management on crypto-assets",
+          "countries": []
+        }
+      ],
+      "authorisation_number": null,
+      "authorisation_type": "cross_border",
+      "suspension_periods": null,
+      "eu_passport_direction": "incoming",
+      "eu_passport_countries": [
+        "SI"
+      ],
+      "eu_passport_raw": "Incoming from SI:\nStarting date of the provision of the crypto-asset services: 1-11-2025",
+      "equivalent_services": null,
+      "id": "7d5ad2d1998d546d",
+      "source": "afm"
     },
     {
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",

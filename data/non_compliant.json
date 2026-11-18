@@ -1,6 +1,6 @@
 {
   "register": "non_compliant",
-  "generated_at": "2026-11-17T16:35:22+00:00",
+  "generated_at": "2026-11-18T16:03:56+00:00",
   "records": [
     {
       "id": "a9d01e05b67008ae",
@@ -99,6 +99,20 @@
       "decision_date": "25/08/2026",
       "comments": "The CNB issued a public warning.",
       "last_update": "14/09/2026"
+    },
+    {
+      "id": "bdacc7f8fa815dd0",
+      "competent_authority": "Estonian Financial Supervision Authority (EFSA)",
+      "home_member_state": "EE",
+      "name": "Swipelux OÜ",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://www.swipelux.com/",
+      "article_17_infringement": "No",
+      "reason": "Swipelux OÜ’s website indicates that it may provide crypto-asset services which, pursuant to Regulation (EU) 2023/1114 of the European Parliament and Council and the Market in Crypto-Assets Act, require authorisation from Finantsinspektsioon. Finantsinspektsioon has not granted Swipelux OÜ such authorisation.",
+      "decision_date": "18/11/2026",
+      "comments": null,
+      "last_update": "18/11/2026"
     },
     {
       "id": "2ea3967c7748611f",

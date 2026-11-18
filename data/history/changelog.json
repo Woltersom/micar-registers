@@ -14848,5 +14848,303 @@
     "name": "LWEX",
     "registered_on": "10/02/2025",
     "timestamp": "2026-11-11T14:49:41+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "f1d8927264ff54ce",
+    "name": "Crypto Risk Metrics GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "c3f4f043512c74d2",
+    "name": "Heldfor GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "e0c028367ba6409c",
+    "name": "infinifi Foundation",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "021a805c34a768f5",
+    "name": "CANOPY NETWORK CORP.",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "c10fb5620d79b25a",
+    "name": "Asimov Ltd",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "0bbf4343b55271b5",
+    "name": "Bright Signal Invest AS",
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "removed",
+    "register": "whitepapers",
+    "id": "1deb65ecd28ac072",
+    "name": "Bright Signal Invest AS",
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e7d92e9113ab3634",
+    "name": "WB-Shields Innovations GmbH",
+    "detail": [
+      "address: Stella-Klein-Löw-Weg 8\n1020 Vienna, Austria → Stella-Klein-Löw-Weg 8 1020 Vienna, Austria"
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "5bc9905385ca5519",
+    "name": "Volksbank Magdeburg eG",
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "1d68438559dea541",
+    "name": "Sparkasse Bank Malta Plc",
+    "detail": [
+      {
+        "kind": "no_meaningful_change"
+      }
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "bc08e8e60a05402e",
+    "name": "Hidden Road Partners CIV NL B.V.",
+    "detail": [
+      "commercial name: Hidden Road Partners CIV NL B.V. → Hidden Road Partners CIV NL B.V., Ripple Prime"
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "190755df581177e2",
+    "name": "Uphold Digital Assets Europe, Unipessoal Lda",
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "7d5ad2d1998d546d",
+    "name": "ILIRIKA borzno posredniška hiša d.d., Ljubljana",
+    "detail": [
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "i",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "EL",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "competent authority: Securities Market Agency (ATVP) → Netherlands Authority for the Financial Markets (AFM)",
+      "name: ILIRIKA borzno posredniška hiša d.d. → ILIRIKA borzno posredniška hiša d.d., Ljubljana",
+      "head office country: SI → onbekend",
+      "address: Slovenska cesta 54A 1000 Ljubljana Slovenia → Slovenska cesta 54A, 1000 Ljubljana, Slovenia",
+      "website: https://www.ilirika.si/ → onbekend",
+      "authorisation date: 04/10/2025 → onbekend",
+      "authorisation type: onbekend → cross_border",
+      "eu passport direction: onbekend → incoming",
+      {
+        "kind": "field_changed",
+        "field": "eu_passport_countries"
+      },
+      "eu passport raw: onbekend → Incoming from SI:\nStarting date of the provision of the crypto-asset services: 1-11-2025"
+    ],
+    "timestamp": "2026-11-18T16:03:56+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "bdacc7f8fa815dd0",
+    "name": "Swipelux OÜ",
+    "timestamp": "2026-11-18T16:03:56+00:00"
   }
 ]
