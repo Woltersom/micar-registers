@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-11-19T16:11:01+00:00",
+  "generated_at": "2026-11-20T15:51:03+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -38372,7 +38372,25 @@
           ],
           "comments": null,
           "last_update": "11/11/2026"
-        },
+        }
+      ],
+      "source": "esma"
+    },
+    {
+      "id": "7d5ad2d1998d546d",
+      "competent_authority": "Securities Market Agency (ATVP)",
+      "home_member_state": "SI",
+      "name": "ILIRIKA borzno posredniška hiša d.d.",
+      "lei": "529900OSVFQK3XISEQ85",
+      "head_office_country": "SI",
+      "commercial_name": "Ilirika",
+      "address": "Slovenska cesta 54A 1000 Ljubljana Slovenia",
+      "website": "https://www.ilirika.si/",
+      "platform_website": null,
+      "authorisation_date": "04/10/2025",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
         {
           "service": "a. providing custody and administration of crypto-assets on behalf of clients",
           "countries": [
@@ -38384,10 +38402,10 @@
             "DE",
             "DK",
             "EE",
+            "EL",
             "ES",
             "FI",
             "FR",
-            "GR",
             "HR",
             "HU",
             "IE",
@@ -38408,10 +38426,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "11/11/2026"
+          "last_update": "25/08/2026"
         },
         {
-          "service": "c. exchange of crypto-assets for funds",
+          "service": "e. execution of orders for crypto-assets on behalf of clients",
           "countries": [
             "AT",
             "BE",
@@ -38421,10 +38439,10 @@
             "DE",
             "DK",
             "EE",
+            "EL",
             "ES",
             "FI",
             "FR",
-            "GR",
             "HR",
             "HU",
             "IE",
@@ -38445,10 +38463,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "11/11/2026"
+          "last_update": "25/08/2026"
         },
         {
-          "service": "d. exchange of crypto-assets for other crypto-assets",
+          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
           "countries": [
             "AT",
             "BE",
@@ -38458,10 +38476,10 @@
             "DE",
             "DK",
             "EE",
+            "EL",
             "ES",
             "FI",
             "FR",
-            "GR",
             "HR",
             "HU",
             "IE",
@@ -38482,10 +38500,10 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "11/11/2026"
+          "last_update": "25/08/2026"
         },
         {
-          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "service": "i. providing portfolio management on crypto-assets",
           "countries": [
             "AT",
             "BE",
@@ -38495,10 +38513,10 @@
             "DE",
             "DK",
             "EE",
+            "EL",
             "ES",
             "FI",
             "FR",
-            "GR",
             "HR",
             "HU",
             "IE",
@@ -38519,7 +38537,7 @@
             "SK"
           ],
           "comments": null,
-          "last_update": "11/11/2026"
+          "last_update": "25/08/2026"
         }
       ],
       "source": "esma"
@@ -40053,49 +40071,6 @@
         }
       ],
       "source": "esma"
-    },
-    {
-      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
-      "home_member_state": "SI",
-      "name": "ILIRIKA borzno posredniška hiša d.d., Ljubljana",
-      "lei": "529900OSVFQK3XISEQ85",
-      "head_office_country": null,
-      "commercial_name": "Ilirika",
-      "address": "Slovenska cesta 54A, 1000 Ljubljana, Slovenia",
-      "website": null,
-      "platform_website": null,
-      "authorisation_date": null,
-      "withdrawal_date": null,
-      "status": "active",
-      "services": [
-        {
-          "service": "a. providing custody and administration of crypto-assets on behalf of clients",
-          "countries": []
-        },
-        {
-          "service": "e. execution of orders for crypto-assets on behalf of clients",
-          "countries": []
-        },
-        {
-          "service": "g. reception and transmission of orders for crypto-assets on behalf of clients",
-          "countries": []
-        },
-        {
-          "service": "i. providing portfolio management on crypto-assets",
-          "countries": []
-        }
-      ],
-      "authorisation_number": null,
-      "authorisation_type": "cross_border",
-      "suspension_periods": null,
-      "eu_passport_direction": "incoming",
-      "eu_passport_countries": [
-        "SI"
-      ],
-      "eu_passport_raw": "Incoming from SI:\nStarting date of the provision of the crypto-asset services: 1-11-2025",
-      "equivalent_services": null,
-      "id": "7d5ad2d1998d546d",
-      "source": "afm"
     },
     {
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
