@@ -15317,5 +15317,12 @@
       "authorisation date: onbekend → 04/10/2025"
     ],
     "timestamp": "2026-11-20T15:51:03+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "d8308e5f4c0b6164",
+    "name": "Altery Connect EU B.V.",
+    "timestamp": "2026-11-23T18:52:38+00:00"
   }
 ]

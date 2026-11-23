@@ -1,6 +1,6 @@
 {
   "register": "casps",
-  "generated_at": "2026-11-22T14:58:27+00:00",
+  "generated_at": "2026-11-23T18:52:38+00:00",
   "records": [
     {
       "id": "67737a1e35f92605",
@@ -40168,6 +40168,43 @@
       "eu_passport_raw": "Incoming from LT:\nStarting date of the provision of the crypto-asset services: 16-12-2025",
       "equivalent_services": null,
       "id": "ed909cf6fe4eff8b",
+      "source": "afm"
+    },
+    {
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "home_member_state": "NL",
+      "name": "Altery Connect EU B.V.",
+      "lei": "984500503M8DF9A49333",
+      "head_office_country": null,
+      "commercial_name": "Altery Connect EU B.V.",
+      "address": "Keizersgracht 264, 1016 EV Amsterdam, The Netherlands",
+      "website": "www.altery.com",
+      "platform_website": null,
+      "authorisation_date": "2026-11-23",
+      "withdrawal_date": null,
+      "status": "active",
+      "services": [
+        {
+          "service": "c. exchange of crypto-assets for funds",
+          "countries": []
+        },
+        {
+          "service": "d. exchange of crypto-assets for other crypto-assets",
+          "countries": []
+        },
+        {
+          "service": "j. providing transfer services for crypto-assets on behalf of clients",
+          "countries": []
+        }
+      ],
+      "authorisation_number": "41000084",
+      "authorisation_type": "authorisation",
+      "suspension_periods": null,
+      "eu_passport_direction": null,
+      "eu_passport_countries": [],
+      "eu_passport_raw": null,
+      "equivalent_services": null,
+      "id": "d8308e5f4c0b6164",
       "source": "afm"
     }
   ]
