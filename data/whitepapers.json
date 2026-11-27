@@ -1,6 +1,6 @@
 {
   "register": "whitepapers",
-  "generated_at": "2026-11-26T17:26:24+00:00",
+  "generated_at": "2026-11-27T17:05:15+00:00",
   "records": [
     {
       "id": "dfea4f01709f83f8",
@@ -97,7 +97,7 @@
           "dti": "D0TGQ87MM",
           "dti_ffg": "9791F79LM",
           "comments": null,
-          "last_update": "01/04/2026"
+          "last_update": "30/11/2026"
         }
       ]
     },
@@ -15172,6 +15172,16 @@
           "dti_ffg": "C735RW6MD",
           "comments": null,
           "last_update": "25/09/2026"
+        },
+        {
+          "url": "https://dash.eunice.ai/mica_whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "M5D76SHV5, J7WG2WKPP",
+          "dti_ffg": "PPDH6B273",
+          "comments": null,
+          "last_update": "20/11/2026"
         }
       ]
     },
@@ -15313,6 +15323,16 @@
           "dti_ffg": "PXM7WKQWL",
           "comments": null,
           "last_update": "02/10/2026"
+        },
+        {
+          "url": "https://axisrobotics.ai/mica_whitepaper/",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "JK6K8X2NH",
+          "dti_ffg": "PXM7WKQWL",
+          "comments": "Art.12 Mod",
+          "last_update": "20/11/2026"
         }
       ]
     },
@@ -15553,6 +15573,106 @@
           "dti_ffg": "CMQ8JCV3S",
           "comments": null,
           "last_update": "06/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "6dee4532a10f7117",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "K2 Digital Assets LLC",
+      "lei": null,
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://www.k2powerblock.com/whitepaper",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "RM2ZQQKHW",
+          "dti_ffg": "J61XZ1CW6",
+          "comments": null,
+          "last_update": "20/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "6b8b0e4a5c285bce",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "MINI LABS CORP.",
+      "lei": null,
+      "head_office_country": "PA",
+      "whitepapers": [
+        {
+          "url": "https://minicoin.xyz/whitepaper-mica",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "P6GSVTXB3",
+          "dti_ffg": "T3SNF59JM",
+          "comments": "Art.12 Mod",
+          "last_update": "20/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "b7c536042f04d2d5",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Xsolla ZK, Inc.",
+      "lei": null,
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://xsolla.org/mica-whitepaper.html",
+          "casp_name": "Payward Global Solutions Limited (Kraken); Bitvavo B.V.",
+          "casp_lei": "254900641D8KNHUZYX24; 724500MX2WBKDJP9HE56",
+          "offer_countries": [],
+          "dti": "Ethereum: DGZVR1P69 / Xsolla ZK: XD7S4RNB7",
+          "dti_ffg": "MC9P0SP20",
+          "comments": null,
+          "last_update": "20/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "a1a3d18949630538",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Metaco Intelligence Foundation",
+      "lei": "984500067FABE8B3C405",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://www.zoth.io/",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "VN366CT6J",
+          "dti_ffg": "2ZLFKQFVN",
+          "comments": null,
+          "last_update": "20/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "c45a6291eb3294cf",
+      "competent_authority": "Central Bank of Ireland (CBI)",
+      "home_member_state": "IE",
+      "name": "Ultima Liquiditas JE Ltd.",
+      "lei": "984500E0LJ1003E4C014",
+      "head_office_country": null,
+      "whitepapers": [
+        {
+          "url": "https://jumper.xyz/it",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "ZMNSCV4GS",
+          "dti_ffg": "7ZT7NZ5DW",
+          "comments": null,
+          "last_update": "20/11/2026"
         }
       ]
     },
@@ -19961,6 +20081,16 @@
           "dti_ffg": null,
           "comments": null,
           "last_update": "13/08/2025"
+        },
+        {
+          "url": "https://aero.xyz/documents/legal-disclosures.pdf",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "J77TSRV4V",
+          "dti_ffg": null,
+          "comments": "Modified",
+          "last_update": "27/11/2026"
         }
       ]
     },
@@ -21301,6 +21431,16 @@
           "dti_ffg": "XCDVP53WR",
           "comments": null,
           "last_update": "07/01/2026"
+        },
+        {
+          "url": "https://my.okx.com/whitepaper/sei-sei.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "P4JBC8R50",
+          "dti_ffg": "XCDVP53WR",
+          "comments": "Modified",
+          "last_update": "27/11/2026"
         }
       ]
     },
@@ -21921,6 +22061,26 @@
           "dti_ffg": "DBGXX7PNT",
           "comments": null,
           "last_update": "10/11/2026"
+        }
+      ]
+    },
+    {
+      "id": "5ecacd65d8a61bf1",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "home_member_state": "MT",
+      "name": "GLMall Marketplace Ltd",
+      "lei": null,
+      "head_office_country": "MT",
+      "whitepapers": [
+        {
+          "url": "https://www.glbrain.com/download/WhitePaper-%7BToken%20id%7D-%7BEntity%20id%7D-%7BCountry%20code%7D-261117083250-en.xhtml",
+          "casp_name": null,
+          "casp_lei": null,
+          "offer_countries": [],
+          "dti": "N2ZNWDDLX",
+          "dti_ffg": "FWXS3CN04",
+          "comments": null,
+          "last_update": "27/11/2026"
         }
       ]
     },

@@ -15324,5 +15324,697 @@
     "id": "d8308e5f4c0b6164",
     "name": "Altery Connect EU B.V.",
     "timestamp": "2026-11-23T18:52:38+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "6b37caf20948d85d",
+    "name": "DGRX Sales GmbH",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "0db99a3b71e9b7af",
+    "name": "Reasoon Limited",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "4b1f580fdaacd08c",
+    "name": "Axis Robotics Limited",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "6dee4532a10f7117",
+    "name": "K2 Digital Assets LLC",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "6b8b0e4a5c285bce",
+    "name": "MINI LABS CORP.",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "b7c536042f04d2d5",
+    "name": "Xsolla ZK, Inc.",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "a1a3d18949630538",
+    "name": "Metaco Intelligence Foundation",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "c45a6291eb3294cf",
+    "name": "Ultima Liquiditas JE Ltd.",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "eea9784a373595e2",
+    "name": "Aerodrome Foundation",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "whitepapers",
+    "id": "d93f35ee216d04f3",
+    "name": "Sei Foundation",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "whitepapers",
+    "id": "5ecacd65d8a61bf1",
+    "name": "GLMall Marketplace Ltd",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "emt",
+    "id": "1030d6e051422b84",
+    "name": "Circle Internet Financial Europe SAS",
+    "detail": [
+      {
+        "kind": "field_changed",
+        "field": "whitepapers"
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "aa20156fc3aefad6",
+    "name": "Validvent Technology GmbH",
+    "detail": [
+      "address: Opernring 1/E/736, 1010 Vienna, Austria → Stella-Klein-Löw-Weg 8/2.03, 1020 Vienna, Austria"
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "e7d92e9113ab3634",
+    "name": "WB-Shields Innovations GmbH",
+    "detail": [
+      "address: Stella-Klein-Löw-Weg 8 1020 Vienna, Austria → Stella-Klein-Löw-Weg 8\n1020 Vienna, Austria"
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "863bbfd02617c20b",
+    "name": "Krypto Knight Ltd",
+    "detail": [
+      "address: Vasilissis Freiderikis 20, El Greco House, 2nd Floor, 1066, Nicosia, Cyprus → Athalassas 62, MEZZANINE Strovolos, 2012, Nicosia, Cyprus"
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "a1333bf847b2d5b2",
+    "name": "DLT Securities GmbH",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "GR",
+          "LV"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "d",
+        "countries": [
+          "GR",
+          "LV"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "GR",
+          "LV"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "f",
+        "countries": [
+          "GR",
+          "LV"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "41e05860d75b8865",
+    "name": "meine Volksbank Raiffeisenbank eG",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "17286bad2c38149f",
+    "name": "Volksbank Vechta eG",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "71511f09728d8ac1",
+    "name": "Volksbank Plochingen eG",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "24340dcb8fec2933",
+    "name": "VR-Bank Ismaning Hallbergmoos Neufahrn eG",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ab89d0b59c9c8779",
+    "name": "PRAKMA MARKETS S.L.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "casps",
+    "id": "633484e79f6daf5b",
+    "name": "VENGA EUROPE, S.L.",
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "93e9176b89bd8a02",
+    "name": "Monflo B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "a",
+        "countries": [
+          "BE"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "e",
+        "countries": [
+          "BE"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_removed",
+        "code": "j",
+        "countries": [
+          "BE"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "282577d519e9730a",
+    "name": "Change Securities B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "e",
+        "countries": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "ddad2db13c297260",
+    "name": "Digital Currency Services B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "FI",
+          "NO"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "c",
+        "countries": [
+          "FI",
+          "NO"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "j",
+        "countries": [
+          "FI",
+          "NO"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "b59d66688bf2ceb8",
+    "name": "Webull Securities (Europe) B.V.",
+    "detail": [
+      {
+        "kind": "service_countries_added",
+        "code": "a",
+        "countries": [
+          "AT",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "kind": "service_countries_added",
+        "code": "g",
+        "countries": [
+          "AT",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "d8308e5f4c0b6164",
+    "name": "Altery Connect EU B.V.",
+    "detail": [
+      "head office country: onbekend → NL",
+      "address: Keizersgracht 264, 1016 EV Amsterdam, The Netherlands → Keizersgracht 264 - 1016 EV Amsterdam - The Netherlands",
+      "website: www.altery.com → https://www.altery.com/",
+      "authorisation date: 2026-11-23 → 23/11/2026"
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "changed",
+    "register": "casps",
+    "id": "190755df581177e2",
+    "name": "Uphold Digital Assets Europe, Unipessoal Lda",
+    "detail": [
+      "commercial name: onbekend → UDAE\nUphold\nUphold Portugal\nUphold Europe"
+    ],
+    "timestamp": "2026-11-27T17:05:15+00:00"
+  },
+  {
+    "type": "added",
+    "register": "non_compliant",
+    "id": "e0a988a3baed5501",
+    "name": "Maturesorio",
+    "timestamp": "2026-11-27T17:05:15+00:00"
   }
 ]

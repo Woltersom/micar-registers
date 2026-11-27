@@ -1,6 +1,6 @@
 {
   "register": "non_compliant",
-  "generated_at": "2026-11-26T17:26:24+00:00",
+  "generated_at": "2026-11-27T17:05:15+00:00",
   "records": [
     {
       "id": "a9d01e05b67008ae",
@@ -2633,6 +2633,20 @@
       "decision_date": "04/11/2026",
       "comments": null,
       "last_update": "05/11/2026"
+    },
+    {
+      "id": "e0a988a3baed5501",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "home_member_state": "IT",
+      "name": "Maturesorio",
+      "lei": null,
+      "head_office_country": null,
+      "website": "https://maturesorio.com|https://maturesorio-ai.com|https://maturesorio-it.net|https://maturesorio.it|https://maturesorio-ia.com|https://maturesorio.org|https://maturesorio.net|https://finzy0-id97.sbs|",
+      "article_17_infringement": "No",
+      "reason": "None",
+      "decision_date": "19/11/2026",
+      "comments": null,
+      "last_update": "23/11/2026"
     },
     {
       "id": "4440053c81c08410",
